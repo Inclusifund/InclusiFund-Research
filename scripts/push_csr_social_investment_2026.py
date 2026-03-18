@@ -518,6 +518,8 @@ def main():
             "supportsScale": opp["supportsScale"],
             "website": opp["website"],
             "description": opp["description"],
+            "opportunityType": opp.get("opportunityType", "grant"),
+            "eligibility": opp.get("eligibility", ""),
         }
 
         try:

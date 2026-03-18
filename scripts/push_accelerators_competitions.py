@@ -549,6 +549,8 @@ for opp in all_opportunities:
         "supportsGrowth": opp["supportsGrowth"],
         "supportsScale": opp["supportsScale"],
         "website": opp["website"],
+        "opportunityType": opp.get("opportunityType", "grant"),
+        "eligibility": opp.get("eligibility", ""),
     }
 
     payload = json.dumps({

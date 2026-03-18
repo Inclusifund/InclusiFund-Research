@@ -34,6 +34,10 @@ from quantum_grants.convex_integration.client import ConvexClient
 from quantum_grants.config import DATA_DIR
 from quantum_grants.data.grant_enricher import enrich_grant_list
 from quantum_grants.data.intel_labels import is_funder_blocked
+from quantum_grants.scoring.multi_dimensional import (
+    MultiDimensionalScorer,
+    MultiDimensionalScore,
+)
 
 
 # --- Grant normaliser (handles both Convex schemas) ---
@@ -114,13 +118,14 @@ class PipelineResult:
     run_timestamp: str
     model_version: str
     output_path: str
+    multi_dimensional_scores: Optional[dict[str, MultiDimensionalScore]] = None
 
     @property
     def recommended_count(self) -> int:
         return len(self.recommended)
 
     def to_dict(self) -> dict:
-        return {
+        d = {
             "org_id": self.org_id,
             "org_name": self.org_name,
             "total_grants_scored": self.total_grants_scored,
@@ -132,6 +137,12 @@ class PipelineResult:
             "matches": [asdict(m) for m in self.matches],
             "recommended": [asdict(m) for m in self.recommended],
         }
+        if self.multi_dimensional_scores:
+            d["multi_dimensional_scores"] = {
+                grant_id: score.to_dict()
+                for grant_id, score in self.multi_dimensional_scores.items()
+            }
+        return d
 
     def for_deadline_agent(self) -> list[dict]:
         """Structured output for Agent 2 (Deadline Tracker)."""
@@ -270,6 +281,7 @@ class QuantumPipeline:
         top_k: Optional[int] = None,
         include_closed: bool = False,
         min_score: Optional[float] = None,
+        multi_dimensional: bool = False,
     ) -> PipelineResult:
         """
         Run the full quantum matching pipeline for an organisation.
@@ -279,9 +291,13 @@ class QuantumPipeline:
             top_k: Max matches to return (default: self.top_k).
             include_closed: Include closed/paused grants.
             min_score: Minimum quantum score filter.
+            multi_dimensional: If True, compute 5-dimension scores alongside
+                the existing quantum score. Opt-in enhancement — does not
+                affect the existing single-score pipeline.
 
         Returns:
             PipelineResult with matches, recommendations, and agent outputs.
+            If multi_dimensional=True, also includes multi_dimensional_scores.
         """
         cic = get_client(client)
         k = top_k or self.top_k
@@ -325,6 +341,11 @@ class QuantumPipeline:
         for i, m in enumerate(matches, 1):
             m.rank = i
 
+        # Step 3e: Multi-dimensional scoring (opt-in)
+        md_scores = None
+        if multi_dimensional:
+            md_scores = self._compute_multi_dimensional(grants, matches, cic)
+
         # Step 4: Stage results for Convex sync
         manifest = self.matcher.stage_results(matches, cic)
 
@@ -346,12 +367,45 @@ class QuantumPipeline:
             run_timestamp=timestamp,
             model_version=self.matcher.get_params().get("model_version", "0.1.0-alpha"),
             output_path=str(output_path),
+            multi_dimensional_scores=md_scores,
         )
 
         with open(output_path, "w") as f:
             json.dump(result.to_dict(), f, indent=2)
 
         return result
+
+    def _compute_multi_dimensional(
+        self,
+        grants: list[dict],
+        matches: list[GrantMatch],
+        cic: CICProfile,
+    ) -> dict[str, MultiDimensionalScore]:
+        """
+        Compute multi-dimensional scores for matched grants.
+
+        Looks up the original grant dict for each match and runs
+        the 5-dimension scorer against the org profile.
+        """
+        scorer = MultiDimensionalScorer()
+
+        # Build a lookup from grant ID/name to grant dict
+        grant_lookup: dict[str, dict] = {}
+        for g in grants:
+            gid = g.get("_id", "")
+            gname = g.get("name", "")
+            if gid:
+                grant_lookup[gid] = g
+            if gname:
+                grant_lookup[gname] = g
+
+        md_scores: dict[str, MultiDimensionalScore] = {}
+        for m in matches:
+            grant_dict = grant_lookup.get(m.grant_id) or grant_lookup.get(m.grant_name)
+            if grant_dict:
+                md_scores[m.grant_id or m.grant_name] = scorer.score(grant_dict, cic)
+
+        return md_scores
 
     def run_with_agents(
         self,
@@ -417,6 +471,21 @@ class QuantumPipeline:
                 f"£{m.min_amount:,.0f}-£{m.max_amount:,.0f}  "
                 f"{m.grant_name[:42]:<42s}{tag}"
             )
+
+            # Append multi-dimensional breakdown if available
+            if result.multi_dimensional_scores:
+                key = m.grant_id or m.grant_name
+                mds = result.multi_dimensional_scores.get(key)
+                if mds:
+                    lines.append(
+                        f"        Tech:{mds.technical_fit:4.0f}  "
+                        f"Social:{mds.social_value_alignment:4.0f}  "
+                        f"Evidence:{mds.evidence_strength:4.0f}  "
+                        f"Win:{mds.win_probability:4.0f}  "
+                        f"Comp:{mds.competition_intensity:4.0f}  "
+                        f"=> {mds.composite:4.0f}"
+                    )
+
         lines.append("=" * 65)
         lines.append(f"Output: {result.output_path}")
         return "\n".join(lines)

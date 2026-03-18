@@ -440,11 +440,12 @@ procurement = [
 
 # ─── PUSH TO CONVEX ──────────────────────────────────────────────────────────
 
-def push_grant(grant_data):
+def push_grant(grant_data, opportunity_type="grant"):
     """Push a single grant/opportunity to Convex via the addGrant mutation."""
+    args = {**grant_data, "opportunityType": opportunity_type}
     payload = json.dumps({
         "path": "adminGrants:addGrant",
-        "args": grant_data,
+        "args": args,
     })
     req = urllib.request.Request(
         CONVEX_URL,
@@ -494,7 +495,7 @@ def main():
 
     print(f"\n--- CONTRACTS ({len(contracts)} total) ---")
     for i, c in enumerate(contracts, 1):
-        ok = push_grant(c)
+        ok = push_grant(c, "contract")
         status_str = "OK" if ok else "FAIL"
         print(f"  [{status_str}] {i}. {c['name']}")
         if ok:
@@ -504,7 +505,7 @@ def main():
 
     print(f"\n--- PROCUREMENT ({len(procurement)} total) ---")
     for i, p in enumerate(procurement, 1):
-        ok = push_grant(p)
+        ok = push_grant(p, "procurement")
         status_str = "OK" if ok else "FAIL"
         print(f"  [{status_str}] {i}. {p['name']}")
         if ok:

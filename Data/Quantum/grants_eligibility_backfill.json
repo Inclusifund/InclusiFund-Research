@@ -1,0 +1,1413 @@
+[
+  {
+    "id": "j978dn7fw44pwz12s2gbtxrz5x82s193",
+    "name": "National Lottery Community Fund - Climate Action",
+    "funder": "National Lottery Community Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Climate action, Community. Funding: \u00a310,000\u2013\u00a3500,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Climate action, Community. Funding: \u00a310,000\u2013\u00a3500,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970nza1fchxvx3y8cadtkv26h82sagr",
+    "name": "Power to Change - Energy Resilience Fund",
+    "funder": "Power to Change Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Energy, Community ownership, Sustainability. Region: England. Funding: \u00a350,000\u2013\u00a3250,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Energy, Community ownership, Sustainability. Region: England. Funding: \u00a350,000\u2013\u00a3250,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j975g9zkmtm590hwmhas50yrp982shjf",
+    "name": "Esm\u00e9e Fairbairn Foundation - Environment Programme",
+    "funder": "Esm\u00e9e Fairbairn Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Nature conservation, Biodiversity. Funding: \u00a320,000\u2013\u00a3150,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Nature conservation, Biodiversity. Funding: \u00a320,000\u2013\u00a3150,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97bhrjvpgsc2w66wk1vqzdvh182sm2z",
+    "name": "Postcode Earth Trust",
+    "funder": "Postcode Earth Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Environment, Conservation, Sustainability. Region: Great Britain. Funding: \u00a35,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Environment, Conservation, Sustainability. Region: Great Britain. Funding: \u00a35,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9702pmcctt4jxg3a4ew8ggfbh82szhs",
+    "name": "Garfield Weston Foundation - Environment",
+    "funder": "Garfield Weston Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Conservation, Heritage. Funding: \u00a310,000\u2013\u00a3200,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Conservation, Heritage. Funding: \u00a310,000\u2013\u00a3200,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9712t58dcrn1ev4n7p1w2zvn182st8y",
+    "name": "Woodland Trust - Community Tree Planting",
+    "funder": "Woodland Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Forestry, Community. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Forestry, Community. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9788zvam41n79g2gzv2kch9jd82rz7a",
+    "name": "Marine Conservation Society Grants",
+    "funder": "Marine Conservation Society",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Marine conservation, Environment, Community. Region: UK coastal areas. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Marine conservation, Environment, Community. Region: UK coastal areas. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97a5a9agzr3277hf2yawas25d82sr1g",
+    "name": "Great British Energy Community Fund",
+    "funder": "Great British Energy",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Community energy, Solar, Wind. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Community energy, Solar, Wind. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97dbztgvk09qmtpwv5v4y1gwx82smne",
+    "name": "CARES Development Fund (Scotland)",
+    "funder": "Scottish Government",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Community energy, Development. Region: Scotland. Funding: \u00a35,000\u2013\u00a330,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Community energy, Development. Region: Scotland. Funding: \u00a35,000\u2013\u00a330,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97czykqw51awkb3j1m4cjma0n82rd3q",
+    "name": "CARES Community Buildings Fund (Scotland)",
+    "funder": "Scottish Government",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Energy efficiency, Community buildings. Region: Scotland. Funding: \u00a35,000\u2013\u00a325,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Renewable energy, Energy efficiency, Community buildings. Region: Scotland. Funding: \u00a35,000\u2013\u00a325,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97727jtt1r26vvda0qve4q33s82skeb",
+    "name": "Baring Foundation - Strengthening the Voluntary Sector",
+    "funder": "Baring Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Social care, Voluntary sector, Capacity building. Funding: \u00a310,000\u2013\u00a360,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Social care, Voluntary sector, Capacity building. Funding: \u00a310,000\u2013\u00a360,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ddt1pxb1p4vyrr6x3k6rsqh82sjk7",
+    "name": "Masonic Charitable Foundation - Health and Wellbeing",
+    "funder": "Masonic Charitable Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Health, Wellbeing, Social care. Region: England and Wales. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Health, Wellbeing, Social care. Region: England and Wales. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979qpfgd2dbqepf9mdhyx4mm982rdsj",
+    "name": "Dunhill Medical Trust",
+    "funder": "Dunhill Medical Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Elderly care, Health, Medical research. Funding: \u00a310,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Elderly care, Health, Medical research. Funding: \u00a310,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97bczzs9ejatcvsxgtqrctjyx82sty1",
+    "name": "The Sasha Foundation",
+    "funder": "The Sasha Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Mental health, Youth, Depression. Funding: \u00a32,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Mental health, Youth, Depression. Funding: \u00a32,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97463vsc4cg58jdnf8pyqch5x82s6kg",
+    "name": "The Fore - Unrestricted Grants",
+    "funder": "The Fore",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Social welfare, Community, Capacity building. Funding: \u00a315,000\u2013\u00a345,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Social welfare, Community, Capacity building. Funding: \u00a315,000\u2013\u00a345,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97309h46gh4nssa24ejbm5cb982sc2s",
+    "name": "James Tudor Foundation - Mental Health Support",
+    "funder": "James Tudor Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Mental health, Trauma, ACEs. Funding: \u00a310,000\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Mental health, Trauma, ACEs. Funding: \u00a310,000\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9744pkq8w6vt0vtd3g2pvey6x82swm4",
+    "name": "Grocers Charity - Disability Support",
+    "funder": "Grocers Charity",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Disability, Social welfare, Community. Funding: \u00a31,000\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Disability, Social welfare, Community. Funding: \u00a31,000\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ctgpqh12h916bmx23e0c9rx82ssen",
+    "name": "Paul Hamlyn Foundation - Migration and Integration",
+    "funder": "Paul Hamlyn Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Migration, Integration, Social justice. Funding: \u00a320,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Migration, Integration, Social justice. Funding: \u00a320,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97eejcjdadgry6g2rt27mv6bh82ryem",
+    "name": "Unbound Philanthropy - UK Programme",
+    "funder": "Unbound Philanthropy",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Migration, Refugee support, Integration. Funding: \u00a325,000\u2013\u00a3150,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Migration, Refugee support, Integration. Funding: \u00a325,000\u2013\u00a3150,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ef17s87dqahr1vhgfgdngs582rz78",
+    "name": "Yorkshire & Humber Community Foundation",
+    "funder": "Yorkshire & Humber Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community development, Social welfare, Education. Region: Yorkshire & Humber. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community development, Social welfare, Education. Region: Yorkshire & Humber. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j975kgh2gqnknrw50dgs1655gd82rqra",
+    "name": "Lancashire Community Foundation",
+    "funder": "Lancashire Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Youth. Region: Lancashire. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Youth. Region: Lancashire. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97c0cywynr3wyxxs3z225dhw182s4yp",
+    "name": "Kent Community Foundation",
+    "funder": "Kent Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Voluntary sector, Social welfare. Region: Kent. Funding: \u00a3250\u2013\u00a32,500",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Voluntary sector, Social welfare. Region: Kent. Funding: \u00a3250\u2013\u00a32,500",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j974kgg6nddkzp3s4w1xa9pdfn82rwmd",
+    "name": "Norfolk Community Foundation",
+    "funder": "Norfolk Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Rural development, Social inclusion. Region: Norfolk. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Rural development, Social inclusion. Region: Norfolk. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970e2k1mvg1kpb3mhmedtjkvx82sdtz",
+    "name": "Cornwall Community Foundation",
+    "funder": "Cornwall Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Community, Social welfare, Environment. Region: Cornwall. Funding: \u00a3250\u2013\u00a33,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Community, Social welfare, Environment. Region: Cornwall. Funding: \u00a3250\u2013\u00a33,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97bbtdb5xwrcwc83jpppgmpcd82revt",
+    "name": "Essex Community Foundation",
+    "funder": "Essex Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Youth, Social welfare. Region: Essex, Southend, Thurrock. Funding: \u00a3500\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Youth, Social welfare. Region: Essex, Southend, Thurrock. Funding: \u00a3500\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97d2dzyb9pnychpg4msvfdbwx82s1qf",
+    "name": "Devon Community Foundation - Small Grants",
+    "funder": "Devon Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social inclusion, Poverty. Region: Devon. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social inclusion, Poverty. Region: Devon. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979anng53x301adp4j2xt4e5582rfe2",
+    "name": "Cumbria Community Foundation",
+    "funder": "Cumbria Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Health. Region: Cumbria. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Health. Region: Cumbria. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970cyfz9309xkfsrmwybrjs3982rzgd",
+    "name": "South Gloucestershire Community Lottery Fund",
+    "funder": "South Gloucestershire Council",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Sport, Arts. Region: South Gloucestershire. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Sport, Arts. Region: South Gloucestershire. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j975f6ha15ye8w2hqnzmga2r7982sqsh",
+    "name": "Hertfordshire Community Foundation",
+    "funder": "Hertfordshire Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Disadvantage. Region: Hertfordshire. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Disadvantage. Region: Hertfordshire. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9715xm2epjfjz823t06vz0vxd82s123",
+    "name": "Forever Notts (Nottinghamshire CF)",
+    "funder": "Forever Notts",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Arts, Social welfare. Region: Nottinghamshire. Funding: \u00a3350\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Arts, Social welfare. Region: Nottinghamshire. Funding: \u00a3350\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977t9jmgx2rjyxna5pwk2q1s182s4pc",
+    "name": "Heart of England CF - Coventry, Solihull & Warwickshire",
+    "funder": "Heart of England Community Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Disadvantage. Region: Coventry, Solihull, Warwickshire. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Disadvantage. Region: Coventry, Solihull, Warwickshire. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9775bbhq52j738ctpzaxyswxn82r2tb",
+    "name": "Stratford Town Trust",
+    "funder": "Stratford Town Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Local support. Region: Stratford-upon-Avon. Funding: \u00a3500\u2013\u00a32,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Social welfare, Local support. Region: Stratford-upon-Avon. Funding: \u00a3500\u2013\u00a32,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j973rw400gp1grf3kmx20tvk5582r4hv",
+    "name": "Warwickshire Youth Council Project Grant",
+    "funder": "Warwickshire County Council",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Youth, Crime prevention, Mental health. Region: Warwickshire. Funding: \u00a31,000\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Youth, Crime prevention, Mental health. Region: Warwickshire. Funding: \u00a31,000\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97c07rsd5asfhcj8rbg3qwcth82s7fd",
+    "name": "Groundwork Grassroots Grants",
+    "funder": "Groundwork UK",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Environment, Social welfare. Region: England. Funding: \u00a3500\u2013\u00a32,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Environment, Social welfare. Region: England. Funding: \u00a3500\u2013\u00a32,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9709wysb2ah1hnxk0bva6ed6s82rb0g",
+    "name": "Comic Relief Community Fund - England",
+    "funder": "Comic Relief",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Poverty, Community, Social justice. Region: England. Funding: \u00a31,000\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Poverty, Community, Social justice. Region: England. Funding: \u00a31,000\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j972exeq8zbcdqjhqgw28b57td82s7s6",
+    "name": "Lloyds Bank Foundation - Housing Programme",
+    "funder": "Lloyds Bank Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Housing, Social issues, Community. Region: England and Wales. Funding: \u00a310,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Housing, Social issues, Community. Region: England and Wales. Funding: \u00a310,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979eev38t4nfag87e6ybddn5d82sarz",
+    "name": "Matrix Causes Fund",
+    "funder": "City Bridge Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Mental health, Vulnerable groups, Social welfare. Funding: \u00a34,500\u2013\u00a36,500",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Mental health, Vulnerable groups, Social welfare. Funding: \u00a34,500\u2013\u00a36,500",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j975xxw82xwqbq757269dh1s5h82s0py",
+    "name": "Dogger Bank Wind Farm Operator Fund",
+    "funder": "Dogger Bank Wind Farm",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Environment, Local projects. Region: South Tyneside, East Riding, Redcar & Cleveland. Funding: \u00a3100\u2013\u00a31,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Environment, Local projects. Region: South Tyneside, East Riding, Redcar & Cleveland. Funding: \u00a3100\u2013\u00a31,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97bf2jqf8mx2tddx0dddq9sk982r1pb",
+    "name": "Tedder Hill Wind Farm Community Fund",
+    "funder": "Tedder Hill Wind Farm",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Education, Environment, Energy efficiency, Community. Region: Within 5km of Roos Post Office (HU12 0HP). Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Education, Environment, Energy efficiency, Community. Region: Within 5km of Roos Post Office (HU12 0HP). Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97a86y65g2v60vs0tan17zqkd82rqat",
+    "name": "Wingates Wind Farm Community Grants",
+    "funder": "Wingates Wind Farm",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community, Energy efficiency, Local projects. Region: Near Wingates Wind Farm. Funding: \u00a3250\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community, Energy efficiency, Local projects. Region: Near Wingates Wind Farm. Funding: \u00a3250\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97841vn6q6s87qxxqh1pfc7b182r4bm",
+    "name": "King Charles III Charitable Fund",
+    "funder": "King Charles III Charitable Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Social inclusion, Health & wellbeing, Community. Funding: \u00a31,000\u2013\u00a33,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Social inclusion, Health & wellbeing, Community. Funding: \u00a31,000\u2013\u00a33,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970nsgscj3cpyy4q9xqqvvfw182rhwk",
+    "name": "Persimmon Charitable Foundation \u2013 Open Application Programme",
+    "funder": "Persimmon Charitable Foundation \u2013 Open Application Programme",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Social mobility, youth development, education and 11 more. Region: UK. Funding: \u00a31,000\u2013\u00a375,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Social mobility, youth development, education and 11 more. Region: UK. Funding: \u00a31,000\u2013\u00a375,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97933fafemk0fsrs84fw5a56182s2cf",
+    "name": "Superteam UK \u00d7 HelpBnk \u2013 Future Fund Accelerator",
+    "funder": "Superteam UK \u00d7 HelpBnk \u2013 Future Fund Accelerator",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Technology, Social Enterprise, Innovation. Region: UK. Funding: \u00a35,000\u2013\u00a3100,000",
+    "generated_opportunityType": "accelerator",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Technology, Social Enterprise, Innovation. Region: UK. Funding: \u00a35,000\u2013\u00a3100,000",
+      "opportunityType": "accelerator"
+    }
+  },
+  {
+    "id": "j97aq4jt53gdkhcrxw0g91g4wh82s4sy",
+    "name": "Craft Scotland",
+    "funder": "Craft Scotland",
+    "generated_eligibility": "Open to startup, growth organisations. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j974ywvfxgqnsz3desvbez0ef182r4ge",
+    "name": "Creative Education Hugo Burge Foundation",
+    "funder": "Creative Education Hugo Burge Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Education, Creative Industries. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Education, Creative Industries. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97714ckzfg0x42f5y7y6qgggx82rkk5",
+    "name": "Farming in Protected Landscapes Programme",
+    "funder": "Farming in Protected Landscapes Programme",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Farming, Environment, Heritage. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Farming, Environment, Heritage. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977x1y6gvhjbjy5wfspyb9yd982rqsd",
+    "name": "Creative Communities Hugo Burge Foundation",
+    "funder": "Creative Communities Hugo Burge Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Creative Industries. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Creative Industries. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9732nptpsb89x14tw6gmm30a182rmth",
+    "name": "Immerse Early Stage Accelerator",
+    "funder": "Immerse Early Stage Accelerator",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Startup Accelerator, Business Support Programme, Equity-Free Grant Funding and 3 more. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "accelerator",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Startup Accelerator, Business Support Programme, Equity-Free Grant Funding and 3 more. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "accelerator"
+    }
+  },
+  {
+    "id": "j97fzv4x1xdr8taz0gp4cf312182sfcm",
+    "name": "Naturesave Trust Small Grants",
+    "funder": "Naturesave Trust Small Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: SMEs. Sectors: Environmental Conservation, Community Development, Mental Health & Wellbeing and 16 more. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: SMEs. Sectors: Environmental Conservation, Community Development, Mental Health & Wellbeing and 16 more. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979z8h8awmt4s2dpxfvhng3dx82sbqe",
+    "name": "Hedley Foundation",
+    "funder": "Hedley Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Youth, Health, Social Welfare, Small Charities. Region: UK. Funding: \u00a3250\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Youth, Health, Social Welfare, Small Charities. Region: UK. Funding: \u00a3250\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97fmz6v7s7fn0mkmg2kfjab1h82rj5h",
+    "name": "Edith M Ellis 1985 Charitable Trust",
+    "funder": "Edith M Ellis 1985 Charitable Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Welfare. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Welfare. Region: UK. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9713mhhxyhx8xmw3rbe10tnh982rqmg",
+    "name": "Veolia Environmental Trust Grants",
+    "funder": "Veolia Environmental Trust Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Community, Outdoors. Region: UK. Funding: \u00a35,000\u2013\u00a375,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Community, Outdoors. Region: UK. Funding: \u00a35,000\u2013\u00a375,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9796kbsmdyedn88gezc8d21gn82s5mv",
+    "name": "Social Justice Small Grants Programme",
+    "funder": "Social Justice Small Grants Programme",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Human Rights, Social Justice. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Human Rights, Social Justice. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9771k17b3gg17ajd3sbbmta2s82ra81",
+    "name": "Patagonia Environmental Grants",
+    "funder": "Patagonia Environmental Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Climate Action. Region: UK. Funding: \u00a35,000\u2013\u00a320,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Climate Action. Region: UK. Funding: \u00a35,000\u2013\u00a320,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97f4mqx7rgs4kc4qe24mmy66n82rdh6",
+    "name": "Horizon Europe: European Innovation Ecosystems Work Programme 2025",
+    "funder": "Horizon Europe: European Innovation Ecosystems Work Programme 2025",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: SMEs. Sectors: Environment, Sustainability, Community Partnerships. Region: UK. Funding: \u00a350,000\u2013\u00a3500,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: SMEs. Sectors: Environment, Sustainability, Community Partnerships. Region: UK. Funding: \u00a350,000\u2013\u00a3500,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j978kvzbx8p6p00trnv1tc9cf982s2a1",
+    "name": "Micro Community Investment Fund",
+    "funder": "Micro Community Investment Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing. Region: UK. Funding: \u00a3250\u2013\u00a32,500",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing. Region: UK. Funding: \u00a3250\u2013\u00a32,500",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9756tf7m31sm7w75k1mwsrv0h82rs8j",
+    "name": "SWEF Enterprise Fund",
+    "funder": "SWEF Enterprise Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Young People, Social Enterprise, Education. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Young People, Social Enterprise, Education. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j974ymtwvjtady6acft308ej3n82ste3",
+    "name": "UnLtd Awards",
+    "funder": "UnLtd Awards",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Social Entrepreneurs, Startups, Sustainability. Region: UK. Funding: \u00a3500\u2013\u00a38,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Social Entrepreneurs, Startups, Sustainability. Region: UK. Funding: \u00a3500\u2013\u00a38,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97bw3yqtadkcnysxs43pr0jm182rnpt",
+    "name": "Trusthouse Charitable Foundation \u2013 Small Grants",
+    "funder": "Trusthouse Charitable Foundation \u2013 Small Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Support, Deprivation. Region: UK. Funding: \u00a32,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Support, Deprivation. Region: UK. Funding: \u00a32,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97fmpmd1mpc2fhthd64x5c3th82sg05",
+    "name": "Trusthouse Charitable Foundation \u2013 Major Grants",
+    "funder": "Trusthouse Charitable Foundation \u2013 Major Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Family Support, Addiction, Rural Areas. Region: UK. Funding: \u00a32,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Family Support, Addiction, Rural Areas. Region: UK. Funding: \u00a32,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ebqs29zt7s53s7v3r6n3v2582rxm1",
+    "name": "Steel Charitable Trust \u2013 Under-26 Fund",
+    "funder": "Steel Charitable Trust \u2013 Under-26 Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Young People, Education, Social Mobility. Region: UK. Funding: \u00a3500\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Young People, Education, Social Mobility. Region: UK. Funding: \u00a3500\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j972bns7z06n4g1ggc7edynnrn82rc8p",
+    "name": "Blagrave Trust",
+    "funder": "Blagrave Trust",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Young People, Youth Policy, Empowerment. Region: UK. Funding: \u00a310,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Young People, Youth Policy, Empowerment. Region: UK. Funding: \u00a310,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ddv2e0d6phvj7fcs1mq6ebx82sadf",
+    "name": "Sport England Movement Fund",
+    "funder": "Sport England Movement Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Sport, Health, Community Engagement. Region: UK. Funding: \u00a3300\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Sport, Health, Community Engagement. Region: UK. Funding: \u00a3300\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9756kg7f12f9yahq01v8wgfbs82rk2p",
+    "name": "Black Artist Grant",
+    "funder": "Black Artist Grant",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Black Artists, Creative Support. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Black Artists, Creative Support. Region: UK. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977rxyep3trb700geb7yem3ns82sspt",
+    "name": "Black Seed Venture Capital",
+    "funder": "Black Seed Venture Capital",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: Black-led organisations. Sectors: Black Entrepreneurs, Startups, Equity. Region: UK. Funding: \u00a310,000\u2013\u00a3250,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: Black-led organisations. Sectors: Black Entrepreneurs, Startups, Equity. Region: UK. Funding: \u00a310,000\u2013\u00a3250,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9798y6cvsnvttpn9bpkwdbdy582s0c7",
+    "name": "Football Foundation Grants",
+    "funder": "Football Foundation Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Sports, Facilities, Youth, Community. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Sports, Facilities, Youth, Community. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97f4p0mmzcj9hpy86zyycm1kx82rgrh",
+    "name": "Flight Story Fund",
+    "funder": "Flight Story Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Innovation, Entrepreneurs, Disruption. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "social_investment",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Innovation, Entrepreneurs, Disruption. Region: UK. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "social_investment"
+    }
+  },
+  {
+    "id": "j972f8a5y1a0x60x27y0eb8bzs82sehf",
+    "name": "The Clothworkers\u2019 Foundation \u2013 Open Grants",
+    "funder": "The Clothworkers\u2019 Foundation \u2013 Open Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Renovation, Capital Projects, Equipment. Region: UK. Funding: \u00a31,000\u2013\u00a315,000",
+    "generated_opportunityType": "social_investment",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Renovation, Capital Projects, Equipment. Region: UK. Funding: \u00a31,000\u2013\u00a315,000",
+      "opportunityType": "social_investment"
+    }
+  },
+  {
+    "id": "j9795qrbt9021g6fw4081arbn582rpb0",
+    "name": "Stobart Sustainability Fund",
+    "funder": "Stobart Sustainability Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Green Projects. Region: UK. Funding: \u00a31,000\u2013\u00a325,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Green Projects. Region: UK. Funding: \u00a31,000\u2013\u00a325,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9733djn4kqc5k6jgj70byegds82rp6h",
+    "name": "Community Shares Booster \u2013 Power to Change",
+    "funder": "Community Shares Booster \u2013 Power to Change",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Business, Social Investment. Region: UK. Funding: \u00a310,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Business, Social Investment. Region: UK. Funding: \u00a310,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97ct1jdjjjvmmqasvk7fycsfd82srw0",
+    "name": "Common Break Fund",
+    "funder": "Common Break Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Working Class, Career Development, Creative Sector. Region: UK. Funding: \u00a31,000\u2013\u00a320,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Working Class, Career Development, Creative Sector. Region: UK. Funding: \u00a31,000\u2013\u00a320,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j973wvbyjzmegq11skdv852t1h82rfhe",
+    "name": "Garfield Weston Foundation",
+    "funder": "Garfield Weston Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Welfare, Community, Environment, Heritage. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Welfare, Community, Environment, Heritage. Region: UK. Funding: \u00a31,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9733wtv6zdkp6mgqwc171wv7982r600",
+    "name": "Allen Lane Foundation \u2013 Asylum Seekers and Refugees Grants",
+    "funder": "Allen Lane Foundation \u2013 Asylum Seekers and Refugees Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: women-led organisations. Sectors: Asylum seekers, refugees, integration and 9 more. Region: UK. Funding: \u00a3500\u2013\u00a315,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: women-led organisations. Sectors: Asylum seekers, refugees, integration and 9 more. Region: UK. Funding: \u00a3500\u2013\u00a315,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j971d2astn4r60475f2q8r3b5s82spd9",
+    "name": "Kaleidoscope Investments (Ki)",
+    "funder": "Kaleidoscope Investments (Ki)",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: disability-focused organisations. Sectors: Disability, Social Enterprise, Innovation. Region: UK. Funding: \u00a325,000\u2013\u00a3250,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: disability-focused organisations. Sectors: Disability, Social Enterprise, Innovation. Region: UK. Funding: \u00a325,000\u2013\u00a3250,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j972aq7gj3bn2brqab7vjv9zgx82sp6q",
+    "name": "Older People\u2019s Fund",
+    "funder": "Older People\u2019s Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Elderly Support, Health & Wellbeing, Social Care. Region: UK. Funding: \u00a3500\u2013\u00a325,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Elderly Support, Health & Wellbeing, Social Care. Region: UK. Funding: \u00a3500\u2013\u00a325,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970xg0n17xggqxsc7p4mgk31s82sbc4",
+    "name": "ARN Foundation Mental Health Fund",
+    "funder": "ARN Foundation Mental Health Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Mental Health, Health & Wellbeing. Region: UK. Funding: \u00a35,000\u2013\u00a325,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Mental Health, Health & Wellbeing. Region: UK. Funding: \u00a35,000\u2013\u00a325,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j971z8qat0yqpm8bw55mq3nrb182r01z",
+    "name": "Pre\u2011Seed SEIS Fund by Fuel Ventures",
+    "funder": "Pre\u2011Seed SEIS Fund by Fuel Ventures",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Technology, Social Enterprise, Innovation. Region: UK. Funding: \u00a325,000\u2013\u00a3150,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Technology, Social Enterprise, Innovation. Region: UK. Funding: \u00a325,000\u2013\u00a3150,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97fy87rdmrcnz5ejav1paq98h82rfks",
+    "name": "All-Island Community Fund",
+    "funder": "All-Island Community Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Peacebuilding. Region: UK. Funding: \u00a3500\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Peacebuilding. Region: UK. Funding: \u00a3500\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j973q2tw15et4v9f2x7zm5sv1n82sr8e",
+    "name": "National Lottery Awards for All",
+    "funder": "National Lottery Community Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Arts & Culture and 2 more. Funding: \u00a3300\u2013\u00a320,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Arts & Culture and 2 more. Funding: \u00a3300\u2013\u00a320,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977vzdh4ekcfd5rq3b6rc467982rv83",
+    "name": "The Fore Grant Programme",
+    "funder": "The Fore",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Community Development, Social Enterprise, Health & Wellbeing and 2 more. Funding: \u00a310,000\u2013\u00a345,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Community Development, Social Enterprise, Health & Wellbeing and 2 more. Funding: \u00a310,000\u2013\u00a345,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9784bpnvh7v01fkgktteaqxqn82se4x",
+    "name": "Fairer Life Chances Grant Programme",
+    "funder": "National Lottery Community Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Youth Services, Education & Training. Funding: \u00a320,001\u2013\u00a3500,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Youth Services, Education & Training. Funding: \u00a320,001\u2013\u00a3500,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97f5hr4nvcpvmy3gxgq7yrykn82sd6g",
+    "name": "Social Enterprise Boost Fund",
+    "funder": "UK Government (DLUHC)",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Social Enterprise, Community Development, Education & Training. Region: England. Funding: \u00a31,000\u2013\u00a310,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Social Enterprise, Community Development, Education & Training. Region: England. Funding: \u00a31,000\u2013\u00a310,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97566wqt522p91eamj4s28czh82rj9e",
+    "name": "National Lottery Project Grants",
+    "funder": "Arts Council England",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Arts & Culture, Heritage, Community Development. Region: England. Funding: \u00a31,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Arts & Culture, Heritage, Community Development. Region: England. Funding: \u00a31,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97d2xs734dk04taa3hr6xd6ad82sc7v",
+    "name": "Trusthouse Charitable Foundation",
+    "funder": "Trusthouse Charitable Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing, Arts & Culture. Funding: \u00a32,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing, Arts & Culture. Funding: \u00a32,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97agpspnm58emxvkjnw1xvd8n82s4a9",
+    "name": "Screwfix Foundation Community Grants",
+    "funder": "Screwfix Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing. Funding: \u00a3500\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing. Funding: \u00a3500\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97921y1m4t42cnmt8h8p46v3h82rdy5",
+    "name": "Garfield Weston Foundation Regular Grants",
+    "funder": "Garfield Weston Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Community Development, Arts & Culture, Health & Wellbeing and 4 more. Funding: \u00a310,000\u2013\u00a3100,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Community Development, Arts & Culture, Health & Wellbeing and 4 more. Funding: \u00a310,000\u2013\u00a3100,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97f8hcqypgaa879gg6xk6hr4x82smhc",
+    "name": "KFC Youth Foundation Community Grants",
+    "funder": "KFC Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Youth Services, Community Development, Education & Training. Funding: \u00a31,000\u2013\u00a36,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: CICs, charities. Sectors: Youth Services, Community Development, Education & Training. Funding: \u00a31,000\u2013\u00a36,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9786jx4y655yypk25zwh16jvh82rzz5",
+    "name": "Grassroots Grants",
+    "funder": "Postcode Society Trust (Groundwork)",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Enterprise, Health & Wellbeing. Region: England. Funding: \u00a3500\u2013\u00a32,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Enterprise, Health & Wellbeing. Region: England. Funding: \u00a3500\u2013\u00a32,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977cmmdkha6fb621r5knjhks182s3h4",
+    "name": "Genting Good Causes Fund",
+    "funder": "Genting UK (via Newham Council)",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing, Education & Training. Region: England. Funding: \u00a31,000\u2013\u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing, Education & Training. Region: England. Funding: \u00a31,000\u2013\u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j971eghvvt74geg529h9mw2d7182ssh3",
+    "name": "Greggs Foundation Community Action Fund",
+    "funder": "Greggs Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing. Funding: \u00a320,000\u2013\u00a360,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Health & Wellbeing. Funding: \u00a320,000\u2013\u00a360,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97fatkafgvnexwz0xxeffw2ps82s927",
+    "name": "Movement for Good Awards",
+    "funder": "Benefact Group",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Arts & Culture and 2 more. Funding: \u00a31,000\u2013\u00a35,000",
+    "generated_opportunityType": "competition",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Arts & Culture and 2 more. Funding: \u00a31,000\u2013\u00a35,000",
+      "opportunityType": "competition"
+    }
+  },
+  {
+    "id": "j97apmk3ksj2qszbze8sqexax182rbvp",
+    "name": "Tesco Community Grants",
+    "funder": "Tesco",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Sports & Recreation, Education & Training. Funding: \u00a3500\u2013\u00a31,500",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Youth Services, Sports & Recreation, Education & Training. Funding: \u00a3500\u2013\u00a31,500",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j970qcn5g4z5zr6mw78q7n1wyh82sec1",
+    "name": "People's Postcode Lottery Trust",
+    "funder": "People's Postcode Lottery",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Environment, Arts & Culture. Funding: \u00a35,000\u2013\u00a350,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Health & Wellbeing, Environment, Arts & Culture. Funding: \u00a35,000\u2013\u00a350,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979c9302gxcq766ve2cxw3xas835svh",
+    "name": "Skipton Building Society Charitable Foundation",
+    "funder": "Skipton Building Society",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Housing, Financial Inclusion, Wellbeing. Funding: up to \u00a35,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Housing, Financial Inclusion, Wellbeing. Funding: up to \u00a35,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97fw4sc7kf1vgebvrt1ebdr498354gp",
+    "name": "Community Grants Scheme - Buildings & Outdoor Spaces",
+    "funder": "Community Grants Scheme",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Environment, Infrastructure. Funding: \u00a310,000\u2013\u00a375,000. Uk not-for-profits",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Environment, Infrastructure. Funding: \u00a310,000\u2013\u00a375,000. Uk not-for-profits",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97adkcy6v6mxrtffbqsdzkhvh834g6f",
+    "name": "Lord-Lieutenant's Fund",
+    "funder": "Lord-Lieutenant's Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97exjy4ff6hygqa3ze472b24h835fze",
+    "name": "One Stop Community Partnership Programme",
+    "funder": "One Stop",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Enterprise",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Social Enterprise",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j972ycz1nxt4at62rtm3jctms9834bvp",
+    "name": "Bright Futures Fund",
+    "funder": "Bright Futures Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Young People, Health & Wellbeing, Social Care",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Young People, Health & Wellbeing, Social Care",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977cevdpkhvh093bfcg265re1835t3s",
+    "name": "Grants for New Fine Arts Projects",
+    "funder": "Fine Arts Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Arts, Creative Industries",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Arts, Creative Industries",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97emwxrx8x0qqqdnaymeyp0vd834d6x",
+    "name": "Projects for Young People Programme",
+    "funder": "Projects for Young People",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Young People, Community Development, Education. Funding: up to \u00a315,000",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Young People, Community Development, Education. Funding: up to \u00a315,000",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j973sr1yk8k4q7jry5h65t06kd835ywj",
+    "name": "Woodroffe Benton Foundation Small Grant Programme",
+    "funder": "Woodroffe Benton Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97dwj0rywbj8a1gb7767bvf51835ykj",
+    "name": "Community Research Grant Program",
+    "funder": "Community Research Grant",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development, Research, Environment",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development, Research, Environment",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j972387a9dd4957nzngt5rtdq9834t84",
+    "name": "Habitat and Biodiversity Grant Scheme",
+    "funder": "Habitat and Biodiversity Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Nature Conservation",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Environment, Sustainability, Nature Conservation",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j979t7x7dmcd04243fm3nqxk3s834pxh",
+    "name": "UK Global Screen Fund: International Co-production",
+    "funder": "BFI",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Creative Industries, Film, Media",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Creative Industries, Film, Media",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j973pbrnrzgj4ssvyxesnychzn835gg8",
+    "name": "Fat Beehive Foundation - Digital Presence Grants",
+    "funder": "Fat Beehive Foundation",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Digital, Technology, Charity Support",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: charities. Sectors: Digital, Technology, Charity Support",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j97c5qeknmppnmv8zhvt72baxx834jtf",
+    "name": "Realisation Grants Programme",
+    "funder": "Realisation Grants",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Arts, Culture",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Arts, Culture",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j9717q1pegmyjz076rxtyx6exh835qpx",
+    "name": "Community Development Grant - Small",
+    "funder": "Community Development Fund",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+    "generated_opportunityType": "grant",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Community Development",
+      "opportunityType": "grant"
+    }
+  },
+  {
+    "id": "j977n8a64dvntp061374pr64rn8348ga",
+    "name": "Children & Young People Community Health and Wellbeing Services",
+    "funder": "NHS England",
+    "generated_eligibility": "Open to growth, scale-up organisations. Eligible: CICs, social enterprises. Sectors: Healthcare, Young People, Mental Health, Community Development. Funding: \u00a3500,000\u2013\u00a35,000,000. Cics and social enterprises with healthcare delivery track record",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Eligible: CICs, social enterprises. Sectors: Healthcare, Young People, Mental Health, Community Development. Funding: \u00a3500,000\u2013\u00a35,000,000. Cics and social enterprises with healthcare delivery track record"
+    }
+  },
+  {
+    "id": "j971k566ed94qeg7nk2t9we5rn834dkj",
+    "name": "Mental Health Community Support Services",
+    "funder": "NHS Integrated Care Board",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Mental Health, Healthcare, Community Development, Employment. Region: North West England. Funding: \u00a3200,000\u2013\u00a31,400,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Mental Health, Healthcare, Community Development, Employment. Region: North West England. Funding: \u00a3200,000\u2013\u00a31,400,000"
+    }
+  },
+  {
+    "id": "j973e36r473rnna9r7zkd3hvrn8354ag",
+    "name": "South West London Mental Health Support Teams",
+    "funder": "NHS South West London ICB",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Mental Health, Young People, Education, Healthcare. Region: London. Funding: \u00a3300,000\u2013\u00a32,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Mental Health, Young People, Education, Healthcare. Region: London. Funding: \u00a3300,000\u2013\u00a32,000,000"
+    }
+  },
+  {
+    "id": "j97b1er4jw1vmm4msqyb9caakd834744",
+    "name": "Mental Health Prevention Services",
+    "funder": "Local Authority / NHS Partnership",
+    "generated_eligibility": "Open to growth organisations. Eligible: VCSE organisations. Sectors: Mental Health, Healthcare, Community Development. Funding: \u00a3100,000\u2013\u00a3800,000",
+    "updates": {
+      "eligibility": "Open to growth organisations. Eligible: VCSE organisations. Sectors: Mental Health, Healthcare, Community Development. Funding: \u00a3100,000\u2013\u00a3800,000"
+    }
+  },
+  {
+    "id": "j97ats5eh1wde9h30fb8mxsy798354rq",
+    "name": "Care and Support at Home Services",
+    "funder": "Local Authority Social Care",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Social Care, Healthcare, Disability, Community Development. Funding: \u00a3100,000\u2013\u00a33,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Social Care, Healthcare, Disability, Community Development. Funding: \u00a3100,000\u2013\u00a33,000,000"
+    }
+  },
+  {
+    "id": "j971sp2jg7r54t1sqemhsxaqtn835baf",
+    "name": "Step-Down Housing Service for Mental Health",
+    "funder": "Hull Teaching Hospitals NHS Foundation Trust",
+    "generated_eligibility": "Open to growth organisations. Sectors: Housing, Mental Health, Healthcare, Social Care. Region: Yorkshire and Humber. Funding: \u00a350,000\u2013\u00a3500,000",
+    "updates": {
+      "eligibility": "Open to growth organisations. Sectors: Housing, Mental Health, Healthcare, Social Care. Region: Yorkshire and Humber. Funding: \u00a350,000\u2013\u00a3500,000"
+    }
+  },
+  {
+    "id": "j979hk00dx0e0xbe8d73kk4ffs835pxd",
+    "name": "NextGen Youth Services",
+    "funder": "Local Authority",
+    "generated_eligibility": "Open to startup, growth organisations. Sectors: Young People, Community Development, Education, Sport. Funding: \u00a3100,000\u2013\u00a31,000,000",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Sectors: Young People, Community Development, Education, Sport. Funding: \u00a3100,000\u2013\u00a31,000,000"
+    }
+  },
+  {
+    "id": "j9755gz03mkp59qr6m9rdjafvs834qyw",
+    "name": "Connect to Work Supported Employment Service",
+    "funder": "Dorset Council / DWP",
+    "generated_eligibility": "Open to growth organisations. Sectors: Employment, Disability, Mental Health, Community Development. Region: South West England. Funding: \u00a3200,000\u2013\u00a31,500,000",
+    "updates": {
+      "eligibility": "Open to growth organisations. Sectors: Employment, Disability, Mental Health, Community Development. Region: South West England. Funding: \u00a3200,000\u2013\u00a31,500,000"
+    }
+  },
+  {
+    "id": "j97d3ttthbnmxzyg1pejrx5g2h834656",
+    "name": "Adult Learning Services - Multi-Lot Framework",
+    "funder": "Local Authority Education",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: VCSE organisations. Sectors: Education, Digital Health, Creative Industries, Employment. Funding: \u00a350,000\u2013\u00a32,000,000",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: VCSE organisations. Sectors: Education, Digital Health, Creative Industries, Employment. Funding: \u00a350,000\u2013\u00a32,000,000"
+    }
+  },
+  {
+    "id": "j97cp5v5ww7w5p35ed1eq9f1rn8352c9",
+    "name": "VCSE Infrastructure Support - Ashford",
+    "funder": "Ashford Borough Council",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: social enterprises, VCSE organisations. Sectors: Social Enterprise, Community Development, Financial Inclusion. Region: South East England. Funding: \u00a325,000\u2013\u00a3150,000",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: social enterprises, VCSE organisations. Sectors: Social Enterprise, Community Development, Financial Inclusion. Region: South East England. Funding: \u00a325,000\u2013\u00a3150,000"
+    }
+  },
+  {
+    "id": "j974tttv21memsmaad96k9s8wd8351xz",
+    "name": "Short Breaks Leisure Activities for Children with Disabilities",
+    "funder": "Central Bedfordshire Council",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: CICs, charities, social enterprises. Sectors: Disability, Young People, Sport, Community Development. Region: East of England. Funding: \u00a350,000\u2013\u00a3500,000. Cics, charities, and social enterprises",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: CICs, charities, social enterprises. Sectors: Disability, Young People, Sport, Community Development. Region: East of England. Funding: \u00a350,000\u2013\u00a3500,000. Cics, charities, and social enterprises"
+    }
+  },
+  {
+    "id": "j974jhdx1vkmhbefzk8ykhg1e1834mrz",
+    "name": "Homeless Family Rehousing Support",
+    "funder": "Local Authority Housing",
+    "generated_eligibility": "Open to growth organisations. Sectors: Housing, Social Care, Community Development, Young People. Funding: \u00a3100,000\u2013\u00a3800,000",
+    "updates": {
+      "eligibility": "Open to growth organisations. Sectors: Housing, Social Care, Community Development, Young People. Funding: \u00a3100,000\u2013\u00a3800,000"
+    }
+  },
+  {
+    "id": "j973fqqa78506hzksa4qdc6s7x834wy2",
+    "name": "Social Integration and Community Support Groups",
+    "funder": "Local Authority",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: VCSE organisations. Sectors: Community Development, Mental Health, Social Care. Funding: \u00a310,000\u2013\u00a3200,000. Vcse organisations with below-threshold open procedure",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: VCSE organisations. Sectors: Community Development, Mental Health, Social Care. Funding: \u00a310,000\u2013\u00a3200,000. Vcse organisations with below-threshold open procedure"
+    }
+  },
+  {
+    "id": "j975f0mnpp2qrj97x0yhhd77k5834syr",
+    "name": "Adult Social Care Transformation Delivery Partner",
+    "funder": "Local Authority Social Care",
+    "generated_eligibility": "Open to growth, scale-up organisations. Eligible: VCSE organisations. Sectors: Social Care, Healthcare, Innovation, Technology. Funding: \u00a3500,000\u2013\u00a35,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Eligible: VCSE organisations. Sectors: Social Care, Healthcare, Innovation, Technology. Funding: \u00a3500,000\u2013\u00a35,000,000"
+    }
+  },
+  {
+    "id": "j97ddbsg4rzcqx8qhewk0f59c18342zc",
+    "name": "Digital Outcomes and Specialists 7 (DOS7)",
+    "funder": "Crown Commercial Service",
+    "generated_eligibility": "Open to startup, growth, scale-up organisations. Eligible: social enterprises, SMEs. Sectors: Technology, Digital Health, Innovation. Funding: up to \u00a310,000,000. Smes and social enterprises",
+    "updates": {
+      "eligibility": "Open to startup, growth, scale-up organisations. Eligible: social enterprises, SMEs. Sectors: Technology, Digital Health, Innovation. Funding: up to \u00a310,000,000. Smes and social enterprises"
+    }
+  },
+  {
+    "id": "j97aef288x3ncgxjv1zt3wn5gx834z4b",
+    "name": "Construction Professional Services 2 Framework (2026-2030)",
+    "funder": "Crown Commercial Service",
+    "generated_eligibility": "Open to growth, scale-up organisations. Eligible: social enterprises, VCSE organisations, SMEs. Sectors: Housing, Environment, Innovation. Funding: up to \u00a34,200,000,000. Unlimited suppliers including smes, vcses, and social enterprises",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Eligible: social enterprises, VCSE organisations, SMEs. Sectors: Housing, Environment, Innovation. Funding: up to \u00a34,200,000,000. Unlimited suppliers including smes, vcses, and social enterprises"
+    }
+  },
+  {
+    "id": "j975ngrbzja24jbs5qjygrmr05835wx0",
+    "name": "Technology Innovation Marketplace (DPS)",
+    "funder": "Crown Commercial Service",
+    "generated_eligibility": "Open to startup, growth, scale-up organisations. Eligible: social enterprises. Sectors: Technology, Innovation, Digital Health. Funding: up to \u00a35,000,000",
+    "updates": {
+      "eligibility": "Open to startup, growth, scale-up organisations. Eligible: social enterprises. Sectors: Technology, Innovation, Digital Health. Funding: up to \u00a35,000,000"
+    }
+  },
+  {
+    "id": "j978755b2yqm9xwc8de02n4yan83560m",
+    "name": "Sustainability Framework - Crown Estate",
+    "funder": "The Crown Estate",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Environment, Community Development, Innovation. Funding: \u00a350,000\u2013\u00a32,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Environment, Community Development, Innovation. Funding: \u00a350,000\u2013\u00a32,000,000"
+    }
+  },
+  {
+    "id": "j978pmh33st85hj6rht8ywksqn835wb5",
+    "name": "UK Leisure Framework 2026-2034",
+    "funder": "Denbighshire Leisure Limited",
+    "generated_eligibility": "Open to growth, scale-up organisations. Eligible: CICs, social enterprises. Sectors: Sport, Community Development, Healthcare, Young People. Funding: \u00a350,000\u2013\u00a35,000,000. Social enterprises and cics with sport/leisure expertise",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Eligible: CICs, social enterprises. Sectors: Sport, Community Development, Healthcare, Young People. Funding: \u00a350,000\u2013\u00a35,000,000. Social enterprises and cics with sport/leisure expertise"
+    }
+  },
+  {
+    "id": "j97cyn7whwne7sk1ne9exty08h834zmp",
+    "name": "Network of Employability Support and Training - Vocational Framework 2026-2030",
+    "funder": "Department for Work and Pensions",
+    "generated_eligibility": "Open to growth, scale-up organisations. Eligible: VCSE organisations. Sectors: Employment, Education, Community Development. Funding: \u00a3100,000\u2013\u00a33,000,000. Vcse training providers",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Eligible: VCSE organisations. Sectors: Employment, Education, Community Development. Funding: \u00a3100,000\u2013\u00a33,000,000. Vcse training providers"
+    }
+  },
+  {
+    "id": "j973xj6a6q3j25tfkkwdx13z2x834gdp",
+    "name": "L&Q Financial Inclusion Service",
+    "funder": "L&Q Housing Association",
+    "generated_eligibility": "Open to growth organisations. Eligible: VCSE organisations. Sectors: Financial Inclusion, Housing, Social Care, Community Development. Region: London, South East England. Funding: \u00a350,000\u2013\u00a3500,000. Reducing eviction risk through specialist vcse support",
+    "updates": {
+      "eligibility": "Open to growth organisations. Eligible: VCSE organisations. Sectors: Financial Inclusion, Housing, Social Care, Community Development. Region: London, South East England. Funding: \u00a350,000\u2013\u00a3500,000. Reducing eviction risk through specialist vcse support"
+    }
+  },
+  {
+    "id": "j971553rp3aetek8q7adppp975834nz2",
+    "name": "Great British Energy Advisory Services 2026-2029",
+    "funder": "Great British Energy / DESNZ",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Environment, Innovation, Technology, Community Development. Funding: \u00a3100,000\u2013\u00a35,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Environment, Innovation, Technology, Community Development. Funding: \u00a3100,000\u2013\u00a35,000,000"
+    }
+  },
+  {
+    "id": "j979z4knq9ece4b5z5v3cqqsps8343eg",
+    "name": "ESG and Sustainability Reporting System",
+    "funder": "Public Sector Body",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Technology, Environment, Innovation. Funding: \u00a350,000\u2013\u00a3500,000. Tech social enterprises with sustainability expertise",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Technology, Environment, Innovation. Funding: \u00a350,000\u2013\u00a3500,000. Tech social enterprises with sustainability expertise"
+    }
+  },
+  {
+    "id": "j972ja5hm2trmtbh4pxwrrrpys834e5d",
+    "name": "Net Zero Neighbourhood Community Energy Advice",
+    "funder": "City of Wolverhampton Council",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Environment, Community Development, Financial Inclusion, Education. Region: West Midlands. Funding: \u00a350,000\u2013\u00a3400,000",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: social enterprises. Sectors: Environment, Community Development, Financial Inclusion, Education. Region: West Midlands. Funding: \u00a350,000\u2013\u00a3400,000"
+    }
+  },
+  {
+    "id": "j97e8y9aq26b0r0tb338fhxd8n835de3",
+    "name": "Temporary Accommodation Solutions Framework",
+    "funder": "Birmingham City Council",
+    "generated_eligibility": "Open to growth, scale-up organisations. Sectors: Housing, Social Care, Community Development. Region: West Midlands. Funding: \u00a3100,000\u2013\u00a310,000,000",
+    "updates": {
+      "eligibility": "Open to growth, scale-up organisations. Sectors: Housing, Social Care, Community Development. Region: West Midlands. Funding: \u00a3100,000\u2013\u00a310,000,000"
+    }
+  },
+  {
+    "id": "j979sfpx3cnf2kbjhfw8wa1s81834g6j",
+    "name": "Start & Sustain Business Start-Up Support Service",
+    "funder": "Local Authority / UKSPF",
+    "generated_eligibility": "Open to startup, growth organisations. Eligible: social enterprises, VCSE organisations. Sectors: Social Enterprise, Employment, Community Development, Innovation. Funding: \u00a350,000\u2013\u00a3500,000",
+    "updates": {
+      "eligibility": "Open to startup, growth organisations. Eligible: social enterprises, VCSE organisations. Sectors: Social Enterprise, Employment, Community Development, Innovation. Funding: \u00a350,000\u2013\u00a3500,000"
+    }
+  }
+]
