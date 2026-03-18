@@ -8,9 +8,21 @@
     "amountMax": 75000,
     "deadline": "Check Innovate UK website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Health tech", "Digital health", "Social enterprise", "Tech-for-good"],
-    "eligibleSectors": ["Health tech", "Digital health", "Social enterprise", "Tech-for-good"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Social Enterprise",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Social Enterprise",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -28,9 +40,19 @@
     "amountMax": 2000000,
     "deadline": "Check Innovate UK website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Health tech", "Life sciences", "Digital health"],
-    "eligibleSectors": ["Health tech", "Life sciences", "Digital health"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -48,10 +70,20 @@
     "amountMax": 1000000,
     "deadline": "Rolling competitions",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Health tech", "Digital health", "Preventative healthcare", "NHS efficiency"],
-    "eligibleSectors": ["Health tech", "Digital health", "Preventative healthcare", "NHS efficiency"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": false,
@@ -64,14 +96,20 @@
     "opportunityType": "csr",
     "funder": "Wellbeing of Women / Corporate Partners",
     "description": "Corporate sponsorship programme for women's health charities. Includes partnership opportunities modelled on Simplyhealth's Women's Healthcare Charity Alliance.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Rolling",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Women's health", "Healthcare", "Reproductive health"],
-    "eligibleSectors": ["Women's health", "Healthcare", "Reproductive health"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Healthcare"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -84,14 +122,20 @@
     "opportunityType": "csr",
     "funder": "Haemophilia Society",
     "description": "Charity partnership programme including joint advocacy, corporate sponsorship leveraging, and event collaboration for bleeding disorder organisations.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Rolling",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Healthcare", "Rare diseases", "Bleeding disorders"],
-    "eligibleSectors": ["Healthcare", "Rare diseases", "Bleeding disorders"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Healthcare"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -104,14 +148,20 @@
     "opportunityType": "csr",
     "funder": "Blood Cancer UK / Pharma Partners",
     "description": "Corporate CSR partnership model targeting pharma, healthcare, and insurance companies. Adaptable by blood disorder charities seeking corporate sponsors.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Rolling",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Healthcare", "Blood disorders", "Patient support"],
-    "eligibleSectors": ["Healthcare", "Blood disorders", "Patient support"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Healthcare"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -124,13 +174,24 @@
     "opportunityType": "accelerator",
     "funder": "Marshall Institute, London School of Economics",
     "description": "Social impact accelerator backed by GBP50M endowment. Platform for promising social ventures tackling global challenges in health, environment, and social inequality.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check LSE website for cohort deadlines",
     "geographicFocus": "Global (based in London)",
-    "regions": ["London", "Global"],
-    "sectors": ["Health", "Environment", "Social inequality", "Public policy"],
-    "eligibleSectors": ["Health", "Environment", "Social inequality", "Public policy"],
+    "regions": [
+      "London",
+      "Global"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Healthcare"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -148,9 +209,20 @@
     "amountMax": 500000,
     "deadline": "Check website",
     "geographicFocus": "North West England, North Wales",
-    "regions": ["North West England", "North Wales"],
-    "sectors": ["Health", "Social care", "Community development"],
-    "eligibleSectors": ["Health", "Social care", "Community development"],
+    "regions": [
+      "North West England",
+      "North Wales"
+    ],
+    "sectors": [
+      "Community Development",
+      "Healthcare",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Healthcare",
+      "Social Care"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -164,13 +236,25 @@
     "opportunityType": "competition",
     "funder": "UKRI (UK Research and Innovation)",
     "description": "GBP100M+ investment in collaborations between universities, businesses, and cultural entities for R&D and innovation in creative industries.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 27000000,
     "deadline": "Check UKRI website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Creative industries", "Digital", "Tech", "Arts"],
-    "eligibleSectors": ["Creative industries", "Digital", "Tech", "Arts"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries",
+      "Digital",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries",
+      "Digital",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -184,13 +268,21 @@
     "opportunityType": "procurement",
     "funder": "UK Government / Mayoral Strategic Authorities",
     "description": "GBP150M fund devolved to Mayoral Strategic Authorities for regional creative industries development outside London.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 150000000,
     "deadline": "Regional authorities set timelines",
     "geographicFocus": "UK regions outside London",
-    "regions": ["England (outside London)"],
-    "sectors": ["Creative industries", "Arts", "Culture"],
-    "eligibleSectors": ["Creative industries", "Arts", "Culture"],
+    "regions": [
+      "England (outside London)"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -204,14 +296,23 @@
     "opportunityType": "accelerator",
     "funder": "Creative UK / European Institute of Innovation & Technology",
     "description": "National vehicle for engaging with EIT Culture & Creativity programme. Expands networks and influences funding design for UK cultural and creative sectors.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Rolling",
     "geographicFocus": "UK and Europe",
-    "regions": ["UK-wide", "Europe"],
-    "sectors": ["Creative industries", "Culture", "Arts"],
-    "eligibleSectors": ["Creative industries", "Culture", "Arts"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide",
+      "Europe"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -224,13 +325,21 @@
     "opportunityType": "competition",
     "funder": "BFI (British Film Institute)",
     "description": "Financial support for UK-based organisations designing and delivering creative development programmes to strengthen the screen ecosystem.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Round Two opens July 2026",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Film", "Screen", "Creative industries"],
-    "eligibleSectors": ["Film", "Screen", "Creative industries"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Film"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Film"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -244,13 +353,23 @@
     "opportunityType": "competition",
     "funder": "BFI (British Film Institute)",
     "description": "GBP1.8M fund for not-for-profit organisations to innovate and develop new solutions in the screen sector.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 1800000,
     "deadline": "Check BFI website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Film", "Screen", "Creative innovation"],
-    "eligibleSectors": ["Film", "Screen", "Creative innovation"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Film",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Film",
+      "Innovation"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -264,13 +383,21 @@
     "opportunityType": "accelerator",
     "funder": "Creative UK / BFI National Lottery",
     "description": "Business development training programme equipping screen businesses with skills, confidence, and networks to attract funding and scale.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check Creative UK website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Screen", "Film", "Creative industries"],
-    "eligibleSectors": ["Screen", "Film", "Creative industries"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Film"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Film"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -284,13 +411,21 @@
     "opportunityType": "accelerator",
     "funder": "Creative UK / UKRI",
     "description": "Investment and non-financial support programme for micro and small creative businesses, including business development coaching.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check Creative UK website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Creative industries", "Micro enterprises", "SMEs"],
-    "eligibleSectors": ["Creative industries", "Micro enterprises", "SMEs"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Social Enterprise"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -304,14 +439,20 @@
     "opportunityType": "procurement",
     "funder": "UK Government (Central and Local Government)",
     "description": "The Procurement Act 2023 introduces social value considerations alongside value for money, SME access improvements, and a single digital platform for public procurement.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Ongoing (Act in force from February 2025)",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["All sectors", "Social enterprise", "CICs", "Charities"],
-    "eligibleSectors": ["All sectors", "Social enterprise", "CICs", "Charities"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Social Enterprise"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -324,13 +465,21 @@
     "opportunityType": "contract",
     "funder": "NHS England",
     "description": "GBP250M fund for Same Day Emergency Care and Urgent Treatment Centre expansion. Organisations can partner with NHS Trusts to deliver innovative care solutions.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 250000000,
     "deadline": "Check NHS England website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Healthcare", "Preventative care", "Digital health"],
-    "eligibleSectors": ["Healthcare", "Preventative care", "Digital health"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -344,13 +493,23 @@
     "opportunityType": "contract",
     "funder": "NHS England",
     "description": "Opportunities to integrate screening and predictive analytics into the NHS Federated Data Platform, covering 85% of acute trusts by March 2026.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check NHS England website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Health tech", "Data analytics", "Digital health"],
-    "eligibleSectors": ["Health tech", "Data analytics", "Digital health"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -364,13 +523,23 @@
     "opportunityType": "contract",
     "funder": "NHS England",
     "description": "GBP102M fund for 2025-2026 to improve GP facilities, workforce capacity, and primary care infrastructure including training and screening tools.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 102000000,
     "deadline": "Check NHS England website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Healthcare", "Primary care", "Medical education", "Health tech"],
-    "eligibleSectors": ["Healthcare", "Primary care", "Medical education", "Health tech"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Education",
+      "Healthcare",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Education",
+      "Healthcare",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -388,9 +557,17 @@
     "amountMax": 30000,
     "deadline": "Monitor for new rounds",
     "geographicFocus": "England (12 regions)",
-    "regions": ["England"],
-    "sectors": ["Creative industries", "Arts", "Culture"],
-    "eligibleSectors": ["Creative industries", "Arts", "Culture"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -408,9 +585,15 @@
     "amountMax": 0,
     "deadline": "Monitor for new cohorts",
     "geographicFocus": "East of England",
-    "regions": ["East of England"],
-    "sectors": ["Creative industries"],
-    "eligibleSectors": ["Creative industries"],
+    "regions": [
+      "East of England"
+    ],
+    "sectors": [
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -428,9 +611,17 @@
     "amountMax": 0,
     "deadline": "Check provider website",
     "geographicFocus": "Yorkshire",
-    "regions": ["Yorkshire"],
-    "sectors": ["Creative industries", "Arts"],
-    "eligibleSectors": ["Creative industries", "Arts"],
+    "regions": [
+      "Yorkshire"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": false,
@@ -444,14 +635,20 @@
     "opportunityType": "accelerator",
     "funder": "BFI (British Film Institute)",
     "description": "GBP1.35M programme through March 2029 for leadership and business development training for exhibition and distribution sector leaders.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 1350000,
     "deadline": "Through March 2029",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Film", "Screen", "Exhibition", "Distribution"],
-    "eligibleSectors": ["Film", "Screen", "Exhibition", "Distribution"],
-    "status": "Open Now",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Film"
+    ],
+    "eligibleSectors": [
+      "Film"
+    ],
+    "status": "Open",
     "supportsStartup": false,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -464,13 +661,23 @@
     "opportunityType": "competition",
     "funder": "DCMS / UKRI",
     "description": "GBP25M programme combining creative innovation with cutting-edge technology, supporting digital skills and creative technologies including VR, games, and immersive reality.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 25000000,
     "deadline": "Check UKRI website",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["Creative tech", "Digital", "Immersive", "Video games"],
-    "eligibleSectors": ["Creative tech", "Digital", "Immersive", "Video games"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Digital",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Digital",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -484,13 +691,25 @@
     "opportunityType": "accelerator",
     "funder": "Innovate UK / UK Government",
     "description": "GBP140M across three city regions (Glasgow, Manchester, West Midlands) for R&D innovation projects. Glasgow alone projected to deliver 446 high-value jobs.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 33000000,
     "deadline": "Check Innovate UK website",
     "geographicFocus": "Glasgow, Manchester, West Midlands",
-    "regions": ["Glasgow", "Manchester", "West Midlands"],
-    "sectors": ["Innovation", "R&D", "Health tech", "Advanced manufacturing"],
-    "eligibleSectors": ["Innovation", "R&D", "Health tech", "Advanced manufacturing"],
+    "regions": [
+      "Glasgow",
+      "Manchester",
+      "West Midlands"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -504,13 +723,23 @@
     "opportunityType": "csr",
     "funder": "Arts Council England / National Academy for Social Prescribing",
     "description": "GBP1.4M fund for local social prescribing activities connecting arts and culture with health outcomes.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 1400000,
     "deadline": "Check NASP website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Arts", "Culture", "Health", "Wellbeing"],
-    "eligibleSectors": ["Arts", "Culture", "Health", "Wellbeing"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts",
+      "Healthcare",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Healthcare",
+      "Wellbeing"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -524,13 +753,21 @@
     "opportunityType": "contract",
     "funder": "NHS England",
     "description": "2-year salary subsidy for Creative Health Lead positions at NHS Band 7 level, integrating creative health into the wider health system.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check NHS England website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Arts", "Culture", "Healthcare", "Creative health"],
-    "eligibleSectors": ["Arts", "Culture", "Healthcare", "Creative health"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts",
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Healthcare"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -544,13 +781,23 @@
     "opportunityType": "accelerator",
     "funder": "Wandsworth Council / NHS",
     "description": "Paid training, mentoring, and residencies for Global Majority artists to collaboratively design health and wellbeing support programmes.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "2025-2026 programme",
     "geographicFocus": "Wandsworth, London",
-    "regions": ["London"],
-    "sectors": ["Arts", "Wellbeing", "Creative health"],
-    "eligibleSectors": ["Arts", "Wellbeing", "Creative health"],
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Arts",
+      "Healthcare",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Healthcare",
+      "Wellbeing"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -564,14 +811,20 @@
     "opportunityType": "social_investment",
     "funder": "Foreign, Commonwealth & Development Office (FCDO)",
     "description": "GBP40M five-year programme advancing LGBT+ rights globally. Includes flexible grants to grassroots LGBT+ organisations via the LGBT+ Solidarity Fund.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 40000000,
     "deadline": "2024-2029 (5-year programme)",
     "geographicFocus": "Global (Africa, Caribbean, Pacific focus)",
-    "regions": ["Global"],
-    "sectors": ["LGBTQ+ rights", "Human rights", "Social justice"],
-    "eligibleSectors": ["LGBTQ+ rights", "Human rights", "Social justice"],
-    "status": "Open Now",
+    "regions": [
+      "Global"
+    ],
+    "sectors": [
+      "Community Development"
+    ],
+    "eligibleSectors": [
+      "Community Development"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": true,
     "supportsScale": true,
@@ -588,9 +841,15 @@
     "amountMax": 5000,
     "deadline": "Check Pride in London website",
     "geographicFocus": "London",
-    "regions": ["London"],
-    "sectors": ["LGBTQ+", "Community", "Social inclusion"],
-    "eligibleSectors": ["LGBTQ+", "Community", "Social inclusion"],
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Community Development"
+    ],
+    "eligibleSectors": [
+      "Community Development"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -608,10 +867,18 @@
     "amountMax": 1000,
     "deadline": "Rolling (year-round)",
     "geographicFocus": "Manchester",
-    "regions": ["Manchester"],
-    "sectors": ["LGBTQ+", "Community", "Wellbeing"],
-    "eligibleSectors": ["LGBTQ+", "Community", "Wellbeing"],
-    "status": "Open Now",
+    "regions": [
+      "Manchester"
+    ],
+    "sectors": [
+      "Community Development",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Wellbeing"
+    ],
+    "status": "Open",
     "supportsStartup": true,
     "supportsGrowth": false,
     "supportsScale": false,
@@ -624,13 +891,21 @@
     "opportunityType": "csr",
     "funder": "National Lottery Heritage Fund",
     "description": "GBP12M+ invested since 1994 in LGBTQ+ heritage projects including creativity and activism preservation.",
-    "amountMin": null,
-    "amountMax": null,
+    "amountMin": 0,
+    "amountMax": 0,
     "deadline": "Check website for current rounds",
     "geographicFocus": "UK-wide",
-    "regions": ["UK-wide"],
-    "sectors": ["LGBTQ+ heritage", "Culture", "Arts", "Activism"],
-    "eligibleSectors": ["LGBTQ+ heritage", "Culture", "Arts", "Activism"],
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Community Development"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Community Development"
+    ],
     "status": "Check Status",
     "supportsStartup": true,
     "supportsGrowth": true,
@@ -648,9 +923,17 @@
     "amountMax": 5000000,
     "deadline": "Check ACE website",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Arts", "Culture", "Creative industries"],
-    "eligibleSectors": ["Arts", "Culture", "Creative industries"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -664,13 +947,21 @@
     "opportunityType": "social_investment",
     "funder": "UK Government / DCMS",
     "description": "GBP425M for approximately 300 capital projects in arts venues across England, investing in cultural and creative industries infrastructure.",
-    "amountMin": null,
+    "amountMin": 0,
     "amountMax": 425000000,
     "deadline": "Parliamentary term cycle",
     "geographicFocus": "England",
-    "regions": ["England"],
-    "sectors": ["Arts", "Culture", "Creative industries", "Venues"],
-    "eligibleSectors": ["Arts", "Culture", "Creative industries", "Venues"],
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries"
+    ],
     "status": "Check Status",
     "supportsStartup": false,
     "supportsGrowth": true,
@@ -678,5 +969,2432 @@
     "applicationDifficulty": 5,
     "website": "https://www.gov.uk",
     "eligibility": "Arts venues and cultural organisations"
+  },
+  {
+    "name": "Children & Young People Community Health and Wellbeing Services",
+    "opportunityType": "contract",
+    "funder": "NHS England",
+    "description": "NHS contract for ongoing provision of children's community health and wellbeing services. 2-year contract with 1-year extension option. Open to CICs and social enterprises with healthcare delivery track record.",
+    "amountMin": 500000,
+    "amountMax": 5000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Healthcare",
+      "Mental Health",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Healthcare",
+      "Mental Health",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.find-tender.service.gov.uk/Notice/017943-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Mental Health Community Support Services",
+    "opportunityType": "contract",
+    "funder": "NHS Integrated Care Board",
+    "description": "Contract for mental health community support helping people regain skills to maintain independence and gain employment. 5-year contract from April 2026 to March 2031.",
+    "amountMin": 200000,
+    "amountMax": 1400000,
+    "deadline": "2026-04-01",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "North West England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Employment",
+      "Healthcare",
+      "Mental Health"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Employment",
+      "Healthcare",
+      "Mental Health"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.find-tender.service.gov.uk/Notice/001213-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "South West London Mental Health Support Teams",
+    "opportunityType": "contract",
+    "funder": "NHS South West London ICB",
+    "description": "Contract to provide Mental Health Support Teams working with schools and colleges across South West London, enabling children and young people to access mental health support and remain in education.",
+    "amountMin": 300000,
+    "amountMax": 2000000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Education",
+      "Healthcare",
+      "Mental Health",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Education",
+      "Healthcare",
+      "Mental Health",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.find-tender.service.gov.uk/Notice/020853-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Mental Health Prevention Services",
+    "opportunityType": "contract",
+    "funder": "Local Authority / NHS Partnership",
+    "description": "Contract for delivery of preventive mental health services in the community. Focused on early intervention and reducing demand on acute services. Open to VCSE organisations.",
+    "amountMin": 100000,
+    "amountMax": 800000,
+    "deadline": "2026-05-31",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Healthcare",
+      "Mental Health"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Healthcare",
+      "Mental Health"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/000021-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Care and Support at Home Services",
+    "opportunityType": "contract",
+    "funder": "Local Authority Social Care",
+    "description": "Contract for domiciliary care and support services helping older people and those with physical disabilities remain independent at home. Commencing June 2026.",
+    "amountMin": 100000,
+    "amountMax": 3000000,
+    "deadline": "2026-06-01",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Disability",
+      "Healthcare",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Disability",
+      "Healthcare",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/005549-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Step-Down Housing Service for Mental Health",
+    "opportunityType": "contract",
+    "funder": "Hull Teaching Hospitals NHS Foundation Trust",
+    "description": "NHS contract for step-down housing service facilitating safe discharge from acute mental health inpatient units. Includes tenancy support and accommodation access for service users.",
+    "amountMin": 50000,
+    "amountMax": 500000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "Yorkshire and Humber"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Housing",
+      "Mental Health",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Healthcare",
+      "Housing",
+      "Mental Health",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/009872-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "NextGen Youth Services",
+    "opportunityType": "contract",
+    "funder": "Local Authority",
+    "description": "Contract for delivery of next generation youth services including community-based activities, personal development programmes, and mentoring for young people.",
+    "amountMin": 100000,
+    "amountMax": 1000000,
+    "deadline": "2026-05-15",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Sport",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Sport",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/012816-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Connect to Work Supported Employment Service",
+    "opportunityType": "contract",
+    "funder": "Dorset Council / DWP",
+    "description": "Supported employment service in Dorset for people with disabilities and health conditions. Includes job coaching, employer engagement, and in-work support.",
+    "amountMin": 200000,
+    "amountMax": 1500000,
+    "deadline": "2026-04-15",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "South West England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Disability",
+      "Employment",
+      "Mental Health"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Disability",
+      "Employment",
+      "Mental Health"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/017995-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Adult Learning Services - Multi-Lot Framework",
+    "opportunityType": "procurement",
+    "funder": "Local Authority Education",
+    "description": "Framework for adult learning covering Digital Skills, Construction, Health & Social Care, Creative Industries, Employability Skills, and Hospitality. Multiple lots available to VCSE providers.",
+    "amountMin": 50000,
+    "amountMax": 2000000,
+    "deadline": "2026-12-01",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Digital",
+      "Education",
+      "Employment",
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Digital",
+      "Education",
+      "Employment",
+      "Healthcare"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/052450-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "VCSE Infrastructure Support - Ashford",
+    "opportunityType": "contract",
+    "funder": "Ashford Borough Council",
+    "description": "Contract for VCSE infrastructure support including capacity building, business advice, grant funding access assistance, and social enterprise development in Ashford borough.",
+    "amountMin": 25000,
+    "amountMax": 150000,
+    "deadline": "2026-03-31",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "South East England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.contractsfinder.service.gov.uk/notice/14a81395-86a9-4ea6-8927-75445b7d7572",
+    "eligibility": ""
+  },
+  {
+    "name": "Short Breaks Leisure Activities for Children with Disabilities",
+    "opportunityType": "contract",
+    "funder": "Central Bedfordshire Council",
+    "description": "Three-year contract for community-based leisure activities providing short breaks for children and young people with disabilities. Open to CICs, charities, and social enterprises.",
+    "amountMin": 50000,
+    "amountMax": 500000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "East of England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Disability",
+      "Sport",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Disability",
+      "Sport",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/006748-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Homeless Family Rehousing Support",
+    "opportunityType": "contract",
+    "funder": "Local Authority Housing",
+    "description": "Contract for support services helping homeless families access permanent housing. Includes tenancy readiness, resettlement support, and ongoing tenancy sustainment.",
+    "amountMin": 100000,
+    "amountMax": 800000,
+    "deadline": "2026-05-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Housing",
+      "Social Care",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Housing",
+      "Social Care",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/014253-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Social Integration and Community Support Groups",
+    "opportunityType": "contract",
+    "funder": "Local Authority",
+    "description": "Contract for delivery of social integration and community support groups reducing isolation and improving wellbeing. Open to VCSE organisations with below-threshold open procedure.",
+    "amountMin": 10000,
+    "amountMax": 200000,
+    "deadline": "2026-03-31",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Mental Health",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Mental Health",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.contractsfinder.service.gov.uk/Notice/4a9ff5f6-40bd-4446-8044-08f7fc2abbb2",
+    "eligibility": ""
+  },
+  {
+    "name": "Adult Social Care Transformation Delivery Partner",
+    "opportunityType": "contract",
+    "funder": "Local Authority Social Care",
+    "description": "Major transformation partner contract for adult social care. Includes working with VCSE sector, addressing demand complexity, and innovating delivery models.",
+    "amountMin": 500000,
+    "amountMax": 5000000,
+    "deadline": "2026-10-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Innovation",
+      "Social Care",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Healthcare",
+      "Innovation",
+      "Social Care",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://www.contractsfinder.service.gov.uk/Notice/87659739-5dfd-4eba-9b5c-eb82c81900c0",
+    "eligibility": ""
+  },
+  {
+    "name": "Digital Outcomes and Specialists 7 (DOS7)",
+    "opportunityType": "contract",
+    "funder": "Crown Commercial Service",
+    "description": "CCS framework enabling public sector to procure digital, data, and technology services. Four lots: digital outcomes, capability/delivery partnerships, digital specialists, and user research. Open to SMEs and social enterprises.",
+    "amountMin": 0,
+    "amountMax": 10000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/017887-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Construction Professional Services 2 Framework (2026-2030)",
+    "opportunityType": "procurement",
+    "funder": "Crown Commercial Service",
+    "description": "Major CCS framework for construction professional services 2026-2030. Open to unlimited suppliers including SMEs, VCSEs, and social enterprises. Used by central government, local authorities, health, education, and housing.",
+    "amountMin": 0,
+    "amountMax": 4200000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Housing",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Housing",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.crowncommercial.gov.uk/",
+    "eligibility": ""
+  },
+  {
+    "name": "Technology Innovation Marketplace (DPS)",
+    "opportunityType": "procurement",
+    "funder": "Crown Commercial Service",
+    "description": "Dynamic Purchasing System for innovative technology products and services. Always-open DPS extended until Feb 2029. New suppliers can join at any time, making it accessible for emerging social enterprises.",
+    "amountMin": 0,
+    "amountMax": 5000000,
+    "deadline": "2029-02-15",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/014316-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Sustainability Framework - Crown Estate",
+    "opportunityType": "procurement",
+    "funder": "The Crown Estate",
+    "description": "Multi-supplier framework for strategic sustainability advisory, social impact, climate and nature investment, and communications services. Five lots supporting net zero, nature recovery, and social impact.",
+    "amountMin": 50000,
+    "amountMax": 2000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.find-tender.service.gov.uk/Notice/080802-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "UK Leisure Framework 2026-2034",
+    "opportunityType": "procurement",
+    "funder": "Denbighshire Leisure Limited",
+    "description": "8-year framework for leisure, sport, recreation, wellbeing, health and cultural projects. Includes feasibility studies and project delivery. Open to social enterprises and CICs with sport/leisure expertise.",
+    "amountMin": 50000,
+    "amountMax": 5000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Healthcare",
+      "Sport",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Healthcare",
+      "Sport",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/084356-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "Network of Employability Support and Training - Vocational Framework 2026-2030",
+    "opportunityType": "procurement",
+    "funder": "Department for Work and Pensions",
+    "description": "4-year vocational training framework supporting individuals to gain sector-specific skills and progress into higher-skilled roles. Flexible delivery (in-person and online). Open to VCSE training providers.",
+    "amountMin": 100000,
+    "amountMax": 3000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Employment"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Employment"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/065363-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "L&Q Financial Inclusion Service",
+    "opportunityType": "contract",
+    "funder": "L&Q Housing Association",
+    "description": "Contract for financial inclusion services to social housing residents addressing debt, welfare benefits, and energy advice. Aimed at reducing eviction risk through specialist VCSE support.",
+    "amountMin": 50000,
+    "amountMax": 500000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "London",
+      "South East England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Housing",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Housing",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/054067-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "Great British Energy Advisory Services 2026-2029",
+    "opportunityType": "contract",
+    "funder": "Great British Energy / DESNZ",
+    "description": "Technical and professional advisory support to Great British Energy for the UK clean energy transition. Covers diverse technical, commercial, and organisational capabilities.",
+    "amountMin": 100000,
+    "amountMax": 5000000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.find-tender.service.gov.uk/Notice/079312-2025",
+    "eligibility": ""
+  },
+  {
+    "name": "ESG and Sustainability Reporting System",
+    "opportunityType": "procurement",
+    "funder": "Public Sector Body",
+    "description": "Procurement for ESG and sustainability system to support environmental, social, and governance reporting. Open to tech social enterprises with sustainability expertise.",
+    "amountMin": 50000,
+    "amountMax": 500000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/012719-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Net Zero Neighbourhood Community Energy Advice",
+    "opportunityType": "contract",
+    "funder": "City of Wolverhampton Council",
+    "description": "Community energy efficiency advice and customer journey delivery partner for Net Zero Neighbourhood Project. Includes community engagement events and workshops. Well-suited to community-based social enterprises.",
+    "amountMin": 50000,
+    "amountMax": 400000,
+    "deadline": "2026-05-31",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "West Midlands"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Environment",
+      "Financial Inclusion"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Environment",
+      "Financial Inclusion"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.find-tender.service.gov.uk/Notice/006952-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Temporary Accommodation Solutions Framework",
+    "opportunityType": "procurement",
+    "funder": "Birmingham City Council",
+    "description": "Open framework for temporary accommodation solutions supporting the council's statutory duty to house vulnerable households. Includes private sector and registered provider partnerships.",
+    "amountMin": 100000,
+    "amountMax": 10000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "West Midlands"
+    ],
+    "sectors": [
+      "Community Development",
+      "Housing",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Housing",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/003366-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Start & Sustain Business Start-Up Support Service",
+    "opportunityType": "contract",
+    "funder": "Local Authority / UKSPF",
+    "description": "Procurement for VCSE business start-up support service. Providers deliver enterprise support, mentoring, and business diagnostics for new social enterprises and community organisations.",
+    "amountMin": 50000,
+    "amountMax": 500000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Employment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Employment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.find-tender.service.gov.uk/Notice/016588-2026",
+    "eligibility": ""
+  },
+  {
+    "name": "Aviva Foundation Communities Fund",
+    "opportunityType": "csr",
+    "funder": "Aviva Foundation",
+    "description": "Supports small, local organisations (income up to \u00a31m) helping people take control of their financial wellbeing or protect places in a changing climate. Over \u00a35m available in 2026.",
+    "amountMin": 1000,
+    "amountMax": 25000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Financial Inclusion",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Financial Inclusion",
+      "Wellbeing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://communitiesfund.avivafoundation.org.uk/",
+    "eligibility": "Registered charity, CIC, or community group with annual income under \u00a31m"
+  },
+  {
+    "name": "Aviva Foundation Financial Futures Fund",
+    "opportunityType": "csr",
+    "funder": "Aviva Foundation",
+    "description": "Supports larger charities (income \u00a31m+) delivering bold, long-term solutions to help people build financial resilience. Part of Aviva's refreshed 2026 grant-making programme.",
+    "amountMin": 25000,
+    "amountMax": 200000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.aviva.com/sustainability/aviva-foundation/",
+    "eligibility": "Registered charity with annual income over \u00a31m"
+  },
+  {
+    "name": "Tesco Stronger Starts Community Grants",
+    "opportunityType": "csr",
+    "funder": "Tesco / Groundwork",
+    "description": "Grants of \u00a3500-\u00a31,500 for schools, charities and not-for-profit organisations supporting children and young people. Projects voted on by customers via blue token scheme in local Tesco stores.",
+    "amountMin": 500,
+    "amountMax": 1500,
+    "deadline": "Rolling (quarterly rounds)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Wellbeing",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Wellbeing",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 1,
+    "website": "https://tescostrongerstarts.org.uk/",
+    "eligibility": "Registered charity, school, or not-for-profit organisation"
+  },
+  {
+    "name": "Santander Foundation Financial & Digital Empowerment Fund",
+    "opportunityType": "csr",
+    "funder": "Santander Foundation",
+    "description": "\u00a31.8m fund supporting UK charities and CICs working to build people's digital and financial skills. Community Plus (up to \u00a35k) and Learn & Grow (up to \u00a310k) streams.",
+    "amountMin": 5000,
+    "amountMax": 10000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Digital",
+      "Education",
+      "Employment",
+      "Financial Inclusion",
+      "Healthcare"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Education",
+      "Employment",
+      "Financial Inclusion",
+      "Healthcare"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-foundation-launches-ps18million-fund",
+    "eligibility": "Registered charity or CIC"
+  },
+  {
+    "name": "Lloyds Bank Foundation Racial Equity Grants",
+    "opportunityType": "csr",
+    "funder": "Lloyds Bank Foundation",
+    "description": "Unrestricted grants for small charities and CICs led by and working with people who face inequity because of their race or ethnicity. Three-year funding plus tailored development support.",
+    "amountMin": 10000,
+    "amountMax": 75000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "England",
+      "Wales"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Employment",
+      "Social Care"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Employment",
+      "Social Care"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.lloydsbankfoundation.org.uk/funding",
+    "eligibility": "Registered charity with annual income \u00a325k-\u00a3500k, operating in England/Wales"
+  },
+  {
+    "name": "Garfield Weston Foundation Main Grants",
+    "opportunityType": "csr",
+    "funder": "Garfield Weston Foundation",
+    "description": "One of the UK's largest independent grant-makers, distributing around \u00a3100m annually across a wide range of charitable activities. No deadlines, trustees make decisions year-round.",
+    "amountMin": 1000,
+    "amountMax": 100000,
+    "deadline": "Rolling (no deadlines)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Community Development",
+      "Education",
+      "Environment",
+      "Wellbeing",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Community Development",
+      "Education",
+      "Environment",
+      "Wellbeing",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://garfieldweston.org/what-we-fund/",
+    "eligibility": "Registered charity"
+  },
+  {
+    "name": "Esmee Fairbairn Foundation Grants",
+    "opportunityType": "csr",
+    "funder": "Esmee Fairbairn Foundation",
+    "description": "Unrestricted, core and project grants. Median grant \u00a3150k over 3 years. Focus on creative, fair and green futures. Minimum grant \u00a330k.",
+    "amountMin": 30000,
+    "amountMax": 500000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Community Development",
+      "Creative Industries",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Community Development",
+      "Creative Industries",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://esmeefairbairn.org.uk/our-support/grants/",
+    "eligibility": "Registered charity or CIC with established track record"
+  },
+  {
+    "name": "Big Give Christmas Challenge 2026",
+    "opportunityType": "csr",
+    "funder": "Big Give / Multiple Champions",
+    "description": "UK's biggest match funding campaign. Champion funders double every public donation during campaign week (1-8 Dec 2026). Applications open 11 May. Charities must secure a Champion match funder.",
+    "amountMin": 5000,
+    "amountMax": 50000,
+    "deadline": "2026-05-11",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Social Care",
+      "Wellbeing",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Social Care",
+      "Wellbeing",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://biggive.org/charities/",
+    "eligibility": "UK registered charity with a Champion match funder"
+  },
+  {
+    "name": "Nationwide Community Grants Programme",
+    "opportunityType": "csr",
+    "funder": "Nationwide Building Society",
+    "description": "Grants of \u00a310k-\u00a360k over one or two years for housing-focused charities across the UK. Focus on access to decent affordable homes, community-led housing, and private rented sector improvements.",
+    "amountMin": 10000,
+    "amountMax": 60000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Housing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Housing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://nationwidecommunitygrants.co.uk/",
+    "eligibility": "Registered charity focused on housing issues"
+  },
+  {
+    "name": "Cadbury Foundation Community Grants",
+    "opportunityType": "csr",
+    "funder": "Cadbury Foundation",
+    "description": "Grants supporting charitable work in the UK, with focus on community development, education, young people and the environment. Simple application process.",
+    "amountMin": 500,
+    "amountMax": 5000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Environment",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Environment",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.cadbury.co.uk/about/impact/cadbury-foundation/",
+    "eligibility": "Registered charity"
+  },
+  {
+    "name": "CAF Venturesome Impact Fund",
+    "opportunityType": "social_investment",
+    "funder": "Charities Aid Foundation",
+    "description": "Unsecured loans \u00a350k-\u00a31m at 5.5% fixed interest over 3-10 years. For organisations with turnover under \u00a3500k, blended finance available: 70% loan / 30% grant. Evergreen fund, always open.",
+    "amountMin": 50000,
+    "amountMax": 1000000,
+    "deadline": "Rolling (evergreen fund)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Healthcare",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Healthcare",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.cafonline.org/services-for-charities/funding-for-charities/social-investment/venturesome-impact-fund",
+    "eligibility": "Charities, social enterprises and community groups in the UK"
+  },
+  {
+    "name": "Social Investment Business - Community Enterprise Fund",
+    "opportunityType": "social_investment",
+    "funder": "Social Investment Business",
+    "description": "Blended loan and grant fund of up to \u00a350k for community organisations transforming their local area. Available to charities and social enterprises in England and Wales.",
+    "amountMin": 5000,
+    "amountMax": 50000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "England",
+      "Wales"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.sibgroup.org.uk/funds/community-enterprise-fund/",
+    "eligibility": "Charities and social enterprises based in England and Wales"
+  },
+  {
+    "name": "Social Investment Business - Community Builders Fund",
+    "opportunityType": "social_investment",
+    "funder": "Social Investment Business",
+    "description": "\u00a317m fund providing loans of \u00a3100k-\u00a31.5m for UK charities and social enterprises. Launched 2025, supporting organisations building community infrastructure and assets.",
+    "amountMin": 100000,
+    "amountMax": 1500000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "England",
+      "Wales",
+      "Scotland"
+    ],
+    "sectors": [
+      "Community Development",
+      "Housing",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Housing",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://www.sibgroup.org.uk/funds/community-builders-fund/",
+    "eligibility": "Charities and social enterprises in England, Wales and Scotland"
+  },
+  {
+    "name": "Social Investment Business - Energy Resilience Fund",
+    "opportunityType": "social_investment",
+    "funder": "Social Investment Business",
+    "description": "\u00a315m blended package (40% grant, 60% loan) for charities and social enterprises to improve energy resilience. Retrofit, insulation, and renewable energy projects.",
+    "amountMin": 10000,
+    "amountMax": 200000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "England",
+      "Wales",
+      "Scotland"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.sibgroup.org.uk/funding/",
+    "eligibility": "Charities and social enterprises in England, Wales and Scotland"
+  },
+  {
+    "name": "Foundation Scotland Social Investment Fund",
+    "opportunityType": "social_investment",
+    "funder": "Foundation Scotland",
+    "description": "Blended grant and loan investment (up to 25% as grant). Investments of \u00a310k-\u00a3250k for social enterprises, community organisations and charities across Scotland. Loans typically over 10 years.",
+    "amountMin": 10000,
+    "amountMax": 250000,
+    "deadline": "Rolling (always open)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "Scotland"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.foundationscotland.org.uk/apply-for-funding/funding-available/social-investment-fund",
+    "eligibility": "Social enterprises, community organisations and charities operating in Scotland"
+  },
+  {
+    "name": "Resonance Enterprise Investment Fund",
+    "opportunityType": "social_investment",
+    "funder": "Resonance",
+    "description": "\u00a310m fund backing social enterprises tackling pressing challenges: health, wellbeing, economic inequality, low-carbon transition. Initial focus on South West, North West, West Midlands. B Corp certified investor.",
+    "amountMin": 25000,
+    "amountMax": 500000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Healthcare",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Healthcare",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://resonance.ltd.uk/get-investment/enterprise-growth-funds/resonance-enterprise-investment-fund",
+    "eligibility": "Social enterprises in England, particularly South West, North West and West Midlands"
+  },
+  {
+    "name": "Key Fund - Northern Impact Fund",
+    "opportunityType": "social_investment",
+    "funder": "Key Fund",
+    "description": "Flexible loans and grants for community and social enterprises. Northern Impact Fund offers 20% of loan value as grant. Energy funding stream offers up to 40% as grant. Investments from \u00a35k-\u00a3300k.",
+    "amountMin": 5000,
+    "amountMax": 300000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "North East",
+      "Yorkshire",
+      "East Midlands",
+      "West Midlands"
+    ],
+    "sectors": [
+      "Community Development",
+      "Employment",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Employment",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 2,
+    "website": "https://thekeyfund.co.uk/",
+    "eligibility": "Community and social enterprises operating in North of England and Midlands"
+  },
+  {
+    "name": "NatWest Social & Community Capital",
+    "opportunityType": "social_investment",
+    "funder": "NatWest",
+    "description": "Loans and support for social enterprises, charities and community organisations. Part of NatWest's \u00a310bn social housing funding ambition. Includes mentoring and business support alongside finance.",
+    "amountMin": 10000,
+    "amountMax": 500000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Employment",
+      "Housing",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Employment",
+      "Housing",
+      "Social Enterprise",
+      "Wellbeing"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://www.natwest.com/business/loans-and-finance/social-and-community-capital.html",
+    "eligibility": "Social enterprises, charities and community organisations"
+  },
+  {
+    "name": "UnLtd Social Entrepreneur Awards",
+    "opportunityType": "social_investment",
+    "funder": "UnLtd",
+    "description": "Starting Up and Scaling Up awards for social entrepreneurs aged 16+. Scaling Up offers \u00a38k-\u00a318k plus 12 months mentoring. At least 50% of awards support disabled and/or Black, Asian or minority ethnic entrepreneurs.",
+    "amountMin": 500,
+    "amountMax": 18000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise",
+      "Wellbeing",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise",
+      "Wellbeing",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://unltd.org.uk/awards/",
+    "eligibility": "Social entrepreneurs aged 16+ based in the UK"
+  },
+  {
+    "name": "Esmee Fairbairn Foundation Social Investment",
+    "opportunityType": "social_investment",
+    "funder": "Esmee Fairbairn Foundation",
+    "description": "Social investment programme alongside grants, using repayable finance to achieve impact goals. Focus on creative, fair and green futures. For established organisations with social mission.",
+    "amountMin": 50000,
+    "amountMax": 1000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Community Development",
+      "Creative Industries",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Community Development",
+      "Creative Industries",
+      "Environment",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://esmeefairbairn.org.uk/our-support/social-investment/",
+    "eligibility": "Established charities and social enterprises with clear social mission"
+  },
+  {
+    "name": "UnLtd Starting Up Award",
+    "opportunityType": "accelerator",
+    "funder": "UnLtd",
+    "description": "Funding and 12 months mentoring for social entrepreneurs at idea or early stage. At least 50% of awards support disabled and/or Black, Asian or minority ethnic entrepreneurs.",
+    "amountMin": 500,
+    "amountMax": 8000,
+    "deadline": "Rolling (limited to 650 per round)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://unltd.org.uk/awards/",
+    "eligibility": "Social entrepreneurs with right to live and work in UK, idea or early stage"
+  },
+  {
+    "name": "UnLtd Scaling Up Award",
+    "opportunityType": "accelerator",
+    "funder": "UnLtd",
+    "description": "Funding plus 12 months tailored mentoring for social entrepreneurs ready to scale their existing venture. Covers wages and living costs.",
+    "amountMin": 8000,
+    "amountMax": 18000,
+    "deadline": "Rolling (limited to 650 per round)",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 3,
+    "website": "https://unltd.org.uk/awards/",
+    "eligibility": "Existing social ventures ready to scale, right to live and work in UK"
+  },
+  {
+    "name": "CVC DIF-Allia Accelerator Challenge",
+    "opportunityType": "accelerator",
+    "funder": "CVC / DIF / Allia",
+    "description": "Six-month accelerator for UK-based impact ventures with proven concept and early traction. Culminates in Final Pitch Day with up to 50k in prize funding for top performers.",
+    "amountMin": 0,
+    "amountMax": 50000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://ukbaa.org.uk/blog/2026/02/23/applications-open-for-the-fourth-year-of-the-cvc-dif-allia-accelerator-challenge/",
+    "eligibility": "UK-based impact ventures with proven concept and early traction, ideally revenue-generating or raising seed round"
+  },
+  {
+    "name": "Growth Accelerator for Social Entrepreneurs (Leicester)",
+    "opportunityType": "accelerator",
+    "funder": "University of Leicester / Leicester City Council",
+    "description": "Fully-funded programme (worth 5,700) for social enterprises. Covers business growth, strategy, and social impact measurement. No charge to participants.",
+    "amountMin": 0,
+    "amountMax": 5700,
+    "deadline": "2026-03-31",
+    "geographicFocus": "East Midlands",
+    "regions": [
+      "East Midlands"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://le.ac.uk/school-of-business/working-with-business/growth-accelerator-for-social-entrepreneurs",
+    "eligibility": "Social enterprises in Leicester/East Midlands area"
+  },
+  {
+    "name": "SSE London Growth & Resilience Programme",
+    "opportunityType": "accelerator",
+    "funder": "School for Social Entrepreneurs",
+    "description": "18-month programme with Set Up Grant (4-7k) and Match Trading Grant (up to 12k matching trading income increases). 60 places across 3 cohorts, April 2026 to September 2027.",
+    "amountMin": 4000,
+    "amountMax": 19000,
+    "deadline": "2026-04-15",
+    "geographicFocus": "London",
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Financial Inclusion",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.the-sse.org/programme/london-growth-and-resilience-programme/",
+    "eligibility": "London-based organisations with little or no trading history wanting to build trading income"
+  },
+  {
+    "name": "SSE Southwark Trade Up Programme 2026",
+    "opportunityType": "accelerator",
+    "funder": "School for Social Entrepreneurs / Southwark LAP",
+    "description": "Place-based programme for social enterprises in Southwark. Learning sessions, grants, and trading support from June 2026 to March 2027.",
+    "amountMin": 0,
+    "amountMax": 12000,
+    "deadline": "2026-05-31",
+    "geographicFocus": "London (Southwark)",
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Community Development",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.the-sse.org/programme/southwarklap2026/",
+    "eligibility": "Social enterprises based in or serving London Borough of Southwark"
+  },
+  {
+    "name": "Hatch Enterprise Accelerator",
+    "opportunityType": "accelerator",
+    "funder": "Hatch Enterprise",
+    "description": "Growth programme for established social businesses. 12+ hours peer learning, coaching, expert sessions on strategy, PR, branding, sales, funding, and pitching. Targeted cohorts for women and impact founders.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 2,
+    "website": "https://hatchenterprise.org/our-programmes/join-the-accelerator/",
+    "eligibility": "Established businesses with annual revenue over 30k and at least one paid staff member"
+  },
+  {
+    "name": "Hatch Enterprise Incubator",
+    "opportunityType": "accelerator",
+    "funder": "Hatch Enterprise",
+    "description": "Support programme for early-stage social entrepreneurs. Workshops, mentoring, and community for founders from underrepresented backgrounds building purpose-driven businesses.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 1,
+    "website": "https://hatchenterprise.org/our-programmes/join-the-incubator/",
+    "eligibility": "Early-stage social entrepreneurs, especially from underrepresented backgrounds"
+  },
+  {
+    "name": "Bethnal Green Ventures Tech for Good (Autumn 2026)",
+    "opportunityType": "accelerator",
+    "funder": "Bethnal Green Ventures",
+    "description": "Europe's leading tech-for-good accelerator. 60k investment plus 6 weeks intensive learning for prototype-stage ventures using technology to address social and environmental issues.",
+    "amountMin": 60000,
+    "amountMax": 60000,
+    "deadline": "2026-07-31",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide",
+      "London"
+    ],
+    "sectors": [
+      "Digital",
+      "Education",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Digital",
+      "Education",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.bethnalgreenventures.com/apply",
+    "eligibility": "UK-incorporated ventures at prototype stage using tech for social/environmental good. 7% equity taken."
+  },
+  {
+    "name": "100x Impact Accelerator 2026-2027 (LSE)",
+    "opportunityType": "accelerator",
+    "funder": "London School of Economics / 100x Impact",
+    "description": "Global impact accelerator based at LSE offering 150k unrestricted grant funding plus catalytic capital. For social ventures addressing climate, healthcare, inequality, education, democracy.",
+    "amountMin": 150000,
+    "amountMax": 150000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Education",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Education",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://www.100ximpact.org/",
+    "eligibility": "For-profit or non-profit social ventures with credible route to systems-level change. Global eligibility."
+  },
+  {
+    "name": "NTU Social Enterprise Accelerator",
+    "opportunityType": "accelerator",
+    "funder": "Nottingham Trent University / UKSPF",
+    "description": "Comprehensive support package for new or growing VCSE organisations. Specialised training, business diagnostics, organisational development, and access to funding. Funded by UK Shared Prosperity Fund.",
+    "amountMin": 0,
+    "amountMax": 5000,
+    "deadline": "Rolling",
+    "geographicFocus": "East Midlands",
+    "regions": [
+      "East Midlands"
+    ],
+    "sectors": [
+      "Community Development",
+      "Education",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Education",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.ntu.ac.uk/business-and-employers/financial-and-funded-support/social-enterprise-accelerator",
+    "eligibility": "VCSEs in Nottinghamshire/East Midlands area"
+  },
+  {
+    "name": "CISL Canopy Sustainability Accelerator",
+    "opportunityType": "accelerator",
+    "funder": "Cambridge Institute for Sustainability Leadership / BSI",
+    "description": "Accelerator for early-stage sustainability startups. February to June 2026 programme with expert mentoring, online and in-person sessions in Cambridge and London.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.cisl.cam.ac.uk/innovation/cisl-canopy-and-bsis-accelerator-programme-trust-sustainability",
+    "eligibility": "Early-stage sustainability startups"
+  },
+  {
+    "name": "Cambridge Social Innovation Prize 2026",
+    "opportunityType": "competition",
+    "funder": "Cambridge Centre for Social Innovation / Trinity Hall",
+    "description": "Prize celebrating extraordinary social innovators creating impact through business across the UK. Up to 4 winners receive 10k each plus skills development, resources and networks.",
+    "amountMin": 10000,
+    "amountMax": 10000,
+    "deadline": "2026-04-17",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.jbs.cam.ac.uk/centres/social-innovation/cambridge-social-innovation-prize/",
+    "eligibility": "UK social innovators creating social impact through business"
+  },
+  {
+    "name": "Stephen Lloyd Awards 2026",
+    "opportunityType": "competition",
+    "funder": "Stephen Lloyd Awards / Bates Wells",
+    "description": "Awards for innovative early-stage ideas addressing social or environmental challenges. Winners receive 25k plus expert guidance and pro bono support. Up to 10 shortlisted receive 2.5k development grants.",
+    "amountMin": 2500,
+    "amountMax": 25000,
+    "deadline": "2026-04-08",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Innovation",
+      "Social Enterprise"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.stephenlloydawards.org/",
+    "eligibility": "UK charities, non-profits, social enterprises, or UK residents setting up eligible entity"
+  },
+  {
+    "name": "Go! London Open Innovation Challenge - Sport for Climate Action",
+    "opportunityType": "competition",
+    "funder": "Go! London / Mayor of London / Sport England",
+    "description": "Challenge fund for organisations using sport and physical activity to drive climate action with young people in London. Up to 100k per project to test and scale solutions.",
+    "amountMin": 0,
+    "amountMax": 100000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "London",
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Community Development",
+      "Environment",
+      "Sport",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Environment",
+      "Sport",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://golondon.org.uk/open-innovation-challenges/",
+    "eligibility": "Non-profit lead applicant, UK registered, London-based address. For-profits can be partners."
+  },
+  {
+    "name": "Go! London Open Innovation Challenge - Reimagining Spaces",
+    "opportunityType": "competition",
+    "funder": "Go! London / Mayor of London / Sport England",
+    "description": "Challenge fund for solutions increasing availability of safe, inclusive spaces for sport and physical activity for young people in London. Up to 100k to test and scale.",
+    "amountMin": 0,
+    "amountMax": 100000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "London",
+    "regions": [
+      "London"
+    ],
+    "sectors": [
+      "Community Development",
+      "Housing",
+      "Sport",
+      "Young People"
+    ],
+    "eligibleSectors": [
+      "Community Development",
+      "Housing",
+      "Sport",
+      "Young People"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://golondon.org.uk/open-innovation-challenges/",
+    "eligibility": "Non-profit lead applicant, UK registered, London-based address"
+  },
+  {
+    "name": "BFI National Lottery Creative Challenge Fund (Round 2)",
+    "opportunityType": "competition",
+    "funder": "BFI / National Lottery",
+    "description": "Fund for UK screen organisations to create targeted project development programmes for features or immersive projects. 12-150k per programme for labs focused on producers, filmmakers, genre projects.",
+    "amountMin": 12000,
+    "amountMax": 150000,
+    "deadline": "2026-09-09",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries",
+      "Film",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries",
+      "Film",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.bfi.org.uk/get-funding-support/create-films-tv-or-new-formats-storytelling/bfi-national-lottery-creative-challenge-fund",
+    "eligibility": "UK screen organisations delivering development programmes for fiction/documentary features or immersive film"
+  },
+  {
+    "name": "Ofwat Water Discovery Challenge 2",
+    "opportunityType": "competition",
+    "funder": "Ofwat / Water Innovation Fund",
+    "description": "Innovation challenge for fresh thinking from outside the water sector. 20 finalists get 100k seed funding plus mentoring; 10 winners get up to 550k. Total pot approx 7.5m.",
+    "amountMin": 100000,
+    "amountMax": 550000,
+    "deadline": "2026-04-08",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://waterinnovation.challenges.org/discovery2/",
+    "eligibility": "UK registered entities from any sector. Designed for innovators outside the water industry."
+  },
+  {
+    "name": "MSDUK Innovation Challenge 2026",
+    "opportunityType": "competition",
+    "funder": "MSDUK",
+    "description": "Innovation competition for minority-led businesses. Finalists present at Finals in September 2026 in London. Winner receives 20k cash prize, 3 years free MSDUK membership plus mentorship.",
+    "amountMin": 0,
+    "amountMax": 20000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Innovation",
+      "Social Enterprise",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Innovation",
+      "Social Enterprise",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 3,
+    "website": "https://www.msduk.org.uk/programme/msduk-innovation-challenge/",
+    "eligibility": "Minority-led businesses in the UK"
+  },
+  {
+    "name": "Cambridge Climate Challenge 2026",
+    "opportunityType": "competition",
+    "funder": "Cambridge Zero / Carbon13 / King's Entrepreneurship Lab",
+    "description": "Two-track climate innovation competition. Track 1 (new concepts): 1.5k winner, 500 runners-up. Track 2 (early ventures): 5k winner plus Carbon13 programme, 2k runners-up. Free workshops and mentoring.",
+    "amountMin": 500,
+    "amountMax": 5000,
+    "deadline": "2026-05-01",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": false,
+    "supportsScale": false,
+    "applicationDifficulty": 2,
+    "website": "https://www.zero.cam.ac.uk/node/544",
+    "eligibility": "Open to innovators with climate solutions. Track 1 for new concepts, Track 2 for early-stage ventures."
+  },
+  {
+    "name": "Innovate UK Innovation Loans Round 26",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Innovation loans of 100k to 5m for close-to-market innovative projects with strong commercial potential. For UK registered SMEs with projects that drive economic and societal benefit.",
+    "amountMin": 100000,
+    "amountMax": 5000000,
+    "deadline": "2026-04-29",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+    "eligibility": "UK registered micro, small or medium sized enterprises (SMEs)"
+  },
+  {
+    "name": "Energy Catalyst Round 11 - Early Stage",
+    "opportunityType": "competition",
+    "funder": "Innovate UK / UKRI",
+    "description": "Funding for feasibility studies creating new or improved clean energy access in developing countries. 50-300k total costs, up to 70% funded. Part of International Science Partnerships Fund.",
+    "amountMin": 50000,
+    "amountMax": 300000,
+    "deadline": "2026-03-25",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://apply-for-innovation-funding.service.gov.uk/competition/2362/overview/640b2f4e-8571-4aef-9e2a-67e35db3db77",
+    "eligibility": "UK businesses/organisations with clean energy innovation for ODA-eligible countries"
+  },
+  {
+    "name": "UKRI Creative Industries Clusters Programme",
+    "opportunityType": "competition",
+    "funder": "UKRI",
+    "description": "27m funding round for regions to bid for creative industries cluster development. Part of 369m UKRI investment in creative industries. Supports innovative creative businesses and regional growth.",
+    "amountMin": 500000,
+    "amountMax": 5000000,
+    "deadline": "2026-06-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Arts",
+      "Creative Industries",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Arts",
+      "Creative Industries",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://creativeindustriesclusters.com/",
+    "eligibility": "Regional partnerships and creative industry clusters"
+  },
+  {
+    "name": "Innovate UK Smart Grants March 2026",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Up to 25m for game-changing, commercially viable R&D projects. Successful applicants can request 100k to 2m in funding. Open to disruptive innovations across all sectors.",
+    "amountMin": 100000,
+    "amountMax": 2000000,
+    "deadline": "2026-04-30",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Creative Industries",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "eligibleSectors": [
+      "Creative Industries",
+      "Environment",
+      "Healthcare",
+      "Innovation",
+      "Technology"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 4,
+    "website": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+    "eligibility": "UK registered businesses with game-changing R&D innovation"
+  },
+  {
+    "name": "Robotics Adoption Hub Central Body",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Establishing central convening body for UK Robotics adoption infrastructure.",
+    "amountMin": 1000000,
+    "amountMax": 2000000,
+    "deadline": "2026-04-15",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Technology",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Technology",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
+  },
+  {
+    "name": "Clean Maritime Technology Projects",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "\u00a3121M fund for maritime clean tech innovation projects.",
+    "amountMin": 100000,
+    "amountMax": 121000000,
+    "deadline": "2026-07-15",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Technology",
+      "Environment",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Technology",
+      "Environment",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
+  },
+  {
+    "name": "Advanced Connectivity System Integration",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Innovation programme for tech and connectivity system integration projects.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Technology",
+      "Digital",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Technology",
+      "Digital",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
+  },
+  {
+    "name": "Non-Animal Drug Testing Methods",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Innovation programme for non-animal drug testing methods development.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Healthcare",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
+  },
+  {
+    "name": "Hemp Varieties for British Farming",
+    "opportunityType": "competition",
+    "funder": "Innovate UK",
+    "description": "Innovation programme for hemp variety development for British farming.",
+    "amountMin": 0,
+    "amountMax": 0,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Innovation"
+    ],
+    "eligibleSectors": [
+      "Environment",
+      "Innovation"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
+  },
+  {
+    "name": "Cybersecurity Startup Programme",
+    "opportunityType": "accelerator",
+    "funder": "Innovate UK",
+    "description": "\u00a310M additional funding for cybersecurity startup programme.",
+    "amountMin": 0,
+    "amountMax": 10000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Technology",
+      "Innovation",
+      "Digital"
+    ],
+    "eligibleSectors": [
+      "Technology",
+      "Innovation",
+      "Digital"
+    ],
+    "status": "Open",
+    "supportsStartup": true,
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "applicationDifficulty": 4,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK cybersecurity startups"
+  },
+  {
+    "name": "Whole-System AI Strategy Fund",
+    "opportunityType": "social_investment",
+    "funder": "Innovate UK",
+    "description": "\u00a31.6 billion whole-system AI strategy investment programme.",
+    "amountMin": 100000,
+    "amountMax": 1600000000,
+    "deadline": "Rolling",
+    "geographicFocus": "UK-wide",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Technology",
+      "Innovation",
+      "Digital"
+    ],
+    "eligibleSectors": [
+      "Technology",
+      "Innovation",
+      "Digital"
+    ],
+    "status": "Open",
+    "supportsStartup": false,
+    "supportsGrowth": true,
+    "supportsScale": true,
+    "applicationDifficulty": 5,
+    "website": "https://www.ukri.org/councils/innovate-uk/",
+    "eligibility": "UK organisations"
   }
 ]
