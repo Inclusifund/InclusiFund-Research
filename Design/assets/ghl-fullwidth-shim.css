@@ -1,0 +1,52 @@
+/*
+ * GHL Full-Width Shim
+ * -------------------
+ * Inject this into GHL Page Settings > Custom Code > Header:
+ *   <link rel="stylesheet" href="assets/ghl-fullwidth-shim.css">
+ *
+ * OR paste the contents inside a <style> tag in the Header Code field.
+ *
+ * This removes all GHL container width constraints so custom HTML
+ * pages can control their own layout.
+ *
+ * GHL wrapper hierarchy:
+ *   #__nuxt > .preview-container > .fullSection > .c-section >
+ *   .c-wrapper > .inner > .c-row > .c-column > [your code]
+ *
+ * The .inner div is the primary culprit — it caps at ~1170px with margin:auto
+ */
+
+/* Layer 1: Outer GHL structural containers */
+#__nuxt,
+#__nuxt > div,
+.preview-container,
+.hl_page-preview--content,
+.fullSection,
+.c-section,
+.c-wrapper,
+.bgCover,
+.bg-fixed,
+[id^="section-"] {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Layer 2: Inner GHL containers — .inner is the main width cap */
+.inner,
+.c-row,
+.c-column,
+.c-wrapper > div,
+.c-section > div {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+}

@@ -1,0 +1,10 @@
+The files in this directory are source research that informed the public
+funder data used by the quantum grant matching system.
+
+Some files reference specific organisations as research context. These
+references are for internal provenance only. The extracted funder data
+(amounts, deadlines, eligibility criteria) is public information sourced
+from funder websites and published guidelines.
+
+The system's runtime code does NOT read these files. They are retained
+as a record of where the enrichment data originated.

@@ -1,0 +1,3202 @@
+[
+  {
+    "_creationTime": 1773281110196.3875,
+    "_id": "j978dn7fw44pwz12s2gbtxrz5x82s193",
+    "amountMax": 500000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports community-led climate action projects addressing environmental challenges",
+    "eligibleSectors": [
+      "Environment",
+      "Climate action",
+      "Community"
+    ],
+    "funder": "National Lottery Community Fund",
+    "geographicFocus": "UK-wide",
+    "grantName": "National Lottery Community Fund - Climate Action",
+    "maxAmount": 500000.0,
+    "minAmount": 10000.0,
+    "name": "National Lottery Community Fund - Climate Action",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Climate action",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.tnlcommunityfund.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3877,
+    "_id": "j970nza1fchxvx3y8cadtkv26h82sagr",
+    "amountMax": 250000.0,
+    "amountMin": 50000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-Q2",
+    "description": "Supports community businesses developing renewable energy and energy efficiency projects",
+    "eligibleSectors": [
+      "Energy",
+      "Community ownership",
+      "Sustainability"
+    ],
+    "funder": "Power to Change Trust",
+    "geographicFocus": "England",
+    "grantName": "Power to Change - Energy Resilience Fund",
+    "maxAmount": 250000.0,
+    "minAmount": 50000.0,
+    "name": "Power to Change - Energy Resilience Fund",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Energy",
+      "Community ownership",
+      "Sustainability"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.powertochange.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.388,
+    "_id": "j975g9zkmtm590hwmhas50yrp982shjf",
+    "amountMax": 150000.0,
+    "amountMin": 20000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling EOI",
+    "description": "Funds work that protects the natural environment and addresses climate change",
+    "eligibleSectors": [
+      "Environment",
+      "Nature conservation",
+      "Biodiversity"
+    ],
+    "funder": "Esm\u00e9e Fairbairn Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Esm\u00e9e Fairbairn Foundation - Environment Programme",
+    "maxAmount": 150000.0,
+    "minAmount": 20000.0,
+    "name": "Esm\u00e9e Fairbairn Foundation - Environment Programme",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Nature conservation",
+      "Biodiversity"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://esmeefairbairn.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3882,
+    "_id": "j97bhrjvpgsc2w66wk1vqzdvh182sm2z",
+    "amountMax": 100000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Quarterly",
+    "description": "Supports environmental and conservation charities across Great Britain",
+    "eligibleSectors": [
+      "Environment",
+      "Conservation",
+      "Sustainability"
+    ],
+    "funder": "Postcode Earth Trust",
+    "geographicFocus": "Great Britain",
+    "grantName": "Postcode Earth Trust",
+    "maxAmount": 100000.0,
+    "minAmount": 5000.0,
+    "name": "Postcode Earth Trust",
+    "regions": [
+      "Great Britain"
+    ],
+    "sectors": [
+      "Environment",
+      "Conservation",
+      "Sustainability"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.postcodeearthtrust.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3884,
+    "_id": "j9702pmcctt4jxg3a4ew8ggfbh82szhs",
+    "amountMax": 200000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports environmental conservation and heritage projects",
+    "eligibleSectors": [
+      "Environment",
+      "Conservation",
+      "Heritage"
+    ],
+    "funder": "Garfield Weston Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Garfield Weston Foundation - Environment",
+    "maxAmount": 200000.0,
+    "minAmount": 10000.0,
+    "name": "Garfield Weston Foundation - Environment",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Conservation",
+      "Heritage"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://garfieldweston.org"
+  },
+  {
+    "_creationTime": 1773281110196.3887,
+    "_id": "j9712t58dcrn1ev4n7p1w2zvn182st8y",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Free trees and funding for community tree planting projects",
+    "eligibleSectors": [
+      "Environment",
+      "Forestry",
+      "Community"
+    ],
+    "funder": "Woodland Trust",
+    "geographicFocus": "UK-wide",
+    "grantName": "Woodland Trust - Community Tree Planting",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Woodland Trust - Community Tree Planting",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Environment",
+      "Forestry",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.woodlandtrust.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.389,
+    "_id": "j9788zvam41n79g2gzv2kch9jd82rz7a",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Annual",
+    "description": "Supports community projects protecting UK seas and coastlines",
+    "eligibleSectors": [
+      "Marine conservation",
+      "Environment",
+      "Community"
+    ],
+    "funder": "Marine Conservation Society",
+    "geographicFocus": "UK coastal areas",
+    "grantName": "Marine Conservation Society Grants",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Marine Conservation Society Grants",
+    "regions": [
+      "UK coastal areas"
+    ],
+    "sectors": [
+      "Marine conservation",
+      "Environment",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.mcsuk.org"
+  },
+  {
+    "_creationTime": 1773281110196.3892,
+    "_id": "j97a5a9agzr3277hf2yawas25d82sr1g",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "September 2025",
+    "description": "Funds feasibility and development of community energy projects including solar and wind",
+    "eligibleSectors": [
+      "Renewable energy",
+      "Community energy",
+      "Solar",
+      "Wind"
+    ],
+    "funder": "Great British Energy",
+    "geographicFocus": "UK-wide",
+    "grantName": "Great British Energy Community Fund",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "Great British Energy Community Fund",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Renewable energy",
+      "Community energy",
+      "Solar",
+      "Wind"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.gov.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3894,
+    "_id": "j97dbztgvk09qmtpwv5v4y1gwx82smne",
+    "amountMax": 30000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "February 2026",
+    "description": "Assists Scottish communities in early stages of community-led renewable energy projects",
+    "eligibleSectors": [
+      "Renewable energy",
+      "Community energy",
+      "Development"
+    ],
+    "funder": "Scottish Government",
+    "geographicFocus": "Scotland",
+    "grantName": "CARES Development Fund (Scotland)",
+    "maxAmount": 30000.0,
+    "minAmount": 5000.0,
+    "name": "CARES Development Fund (Scotland)",
+    "regions": [
+      "Scotland"
+    ],
+    "sectors": [
+      "Renewable energy",
+      "Community energy",
+      "Development"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://localenergy.scot"
+  },
+  {
+    "_creationTime": 1773281110196.3896,
+    "_id": "j97czykqw51awkb3j1m4cjma0n82rd3q",
+    "amountMax": 25000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "February 2026",
+    "description": "Grants for community organizations to install renewable technologies like solar PV",
+    "eligibleSectors": [
+      "Renewable energy",
+      "Energy efficiency",
+      "Community buildings"
+    ],
+    "funder": "Scottish Government",
+    "geographicFocus": "Scotland",
+    "grantName": "CARES Community Buildings Fund (Scotland)",
+    "maxAmount": 25000.0,
+    "minAmount": 5000.0,
+    "name": "CARES Community Buildings Fund (Scotland)",
+    "regions": [
+      "Scotland"
+    ],
+    "sectors": [
+      "Renewable energy",
+      "Energy efficiency",
+      "Community buildings"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://localenergy.scot"
+  },
+  {
+    "_creationTime": 1773281110196.39,
+    "_id": "j97727jtt1r26vvda0qve4q33s82skeb",
+    "amountMax": 60000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-Q3",
+    "description": "Supports small voluntary organisations delivering social care services",
+    "eligibleSectors": [
+      "Social care",
+      "Voluntary sector",
+      "Capacity building"
+    ],
+    "funder": "Baring Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Baring Foundation - Strengthening the Voluntary Sector",
+    "maxAmount": 60000.0,
+    "minAmount": 10000.0,
+    "name": "Baring Foundation - Strengthening the Voluntary Sector",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Social care",
+      "Voluntary sector",
+      "Capacity building"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://baringfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3901,
+    "_id": "j97ddt1pxb1p4vyrr6x3k6rsqh82sjk7",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports health and wellbeing projects for vulnerable groups",
+    "eligibleSectors": [
+      "Health",
+      "Wellbeing",
+      "Social care"
+    ],
+    "funder": "Masonic Charitable Foundation",
+    "geographicFocus": "England and Wales",
+    "grantName": "Masonic Charitable Foundation - Health and Wellbeing",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "Masonic Charitable Foundation - Health and Wellbeing",
+    "regions": [
+      "England and Wales"
+    ],
+    "sectors": [
+      "Health",
+      "Wellbeing",
+      "Social care"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://mcf.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3904,
+    "_id": "j979qpfgd2dbqepf9mdhyx4mm982rdsj",
+    "amountMax": 100000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Quarterly",
+    "description": "Funds projects improving care and quality of life for older people",
+    "eligibleSectors": [
+      "Elderly care",
+      "Health",
+      "Medical research"
+    ],
+    "funder": "Dunhill Medical Trust",
+    "geographicFocus": "UK-wide",
+    "grantName": "Dunhill Medical Trust",
+    "maxAmount": 100000.0,
+    "minAmount": 10000.0,
+    "name": "Dunhill Medical Trust",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Elderly care",
+      "Health",
+      "Medical research"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://dunhillmedical.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3906,
+    "_id": "j97bczzs9ejatcvsxgtqrctjyx82sty1",
+    "amountMax": 10000.0,
+    "amountMin": 2000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "April 1, 2026",
+    "description": "Grants for grassroots groups working with young people on mental health and depression",
+    "eligibleSectors": [
+      "Mental health",
+      "Youth",
+      "Depression"
+    ],
+    "funder": "The Sasha Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "The Sasha Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 2000.0,
+    "name": "The Sasha Foundation",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Mental health",
+      "Youth",
+      "Depression"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.thesashafoundation.org"
+  },
+  {
+    "_creationTime": 1773281110196.3909,
+    "_id": "j97463vsc4cg58jdnf8pyqch5x82s6kg",
+    "amountMax": 45000.0,
+    "amountMin": 15000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "April 1, 2026",
+    "description": "Unrestricted grants over 1-3 years for registered charities and CICs",
+    "eligibleSectors": [
+      "Social welfare",
+      "Community",
+      "Capacity building"
+    ],
+    "funder": "The Fore",
+    "geographicFocus": "UK-wide",
+    "grantName": "The Fore - Unrestricted Grants",
+    "maxAmount": 45000.0,
+    "minAmount": 15000.0,
+    "name": "The Fore - Unrestricted Grants",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Social welfare",
+      "Community",
+      "Capacity building"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.thefore.org"
+  },
+  {
+    "_creationTime": 1773281110196.391,
+    "_id": "j97309h46gh4nssa24ejbm5cb982sc2s",
+    "amountMax": 50000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "April 24, 2026",
+    "description": "Supports charities addressing Adverse Childhood Experiences and trauma-informed mental health",
+    "eligibleSectors": [
+      "Mental health",
+      "Trauma",
+      "ACEs"
+    ],
+    "funder": "James Tudor Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "James Tudor Foundation - Mental Health Support",
+    "maxAmount": 50000.0,
+    "minAmount": 10000.0,
+    "name": "James Tudor Foundation - Mental Health Support",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Mental health",
+      "Trauma",
+      "ACEs"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://jamestudor.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3914,
+    "_id": "j9744pkq8w6vt0vtd3g2pvey6x82swm4",
+    "amountMax": 5000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "September 1, 2026",
+    "description": "Small grants for registered charities supporting people with disabilities",
+    "eligibleSectors": [
+      "Disability",
+      "Social welfare",
+      "Community"
+    ],
+    "funder": "Grocers Charity",
+    "geographicFocus": "UK-wide",
+    "grantName": "Grocers Charity - Disability Support",
+    "maxAmount": 5000.0,
+    "minAmount": 1000.0,
+    "name": "Grocers Charity - Disability Support",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Disability",
+      "Social welfare",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://grocershall.co.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3916,
+    "_id": "j97ctgpqh12h916bmx23e0c9rx82ssen",
+    "amountMax": 100000.0,
+    "amountMin": 20000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-Q2",
+    "description": "Supports organisations helping migrants and refugees integrate and thrive",
+    "eligibleSectors": [
+      "Migration",
+      "Integration",
+      "Social justice"
+    ],
+    "funder": "Paul Hamlyn Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Paul Hamlyn Foundation - Migration and Integration",
+    "maxAmount": 100000.0,
+    "minAmount": 20000.0,
+    "name": "Paul Hamlyn Foundation - Migration and Integration",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Migration",
+      "Integration",
+      "Social justice"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.phf.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3918,
+    "_id": "j97eejcjdadgry6g2rt27mv6bh82ryem",
+    "amountMax": 150000.0,
+    "amountMin": 25000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "description": "Supports pragmatic and innovative initiatives on immigration and integration",
+    "eligibleSectors": [
+      "Migration",
+      "Refugee support",
+      "Integration"
+    ],
+    "funder": "Unbound Philanthropy",
+    "geographicFocus": "UK-wide",
+    "grantName": "Unbound Philanthropy - UK Programme",
+    "maxAmount": 150000.0,
+    "minAmount": 25000.0,
+    "name": "Unbound Philanthropy - UK Programme",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Migration",
+      "Refugee support",
+      "Integration"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.unboundphilanthropy.org"
+  },
+  {
+    "_creationTime": 1773281110196.392,
+    "_id": "j97ef17s87dqahr1vhgfgdngs582rz78",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "description": "Supports grassroots community projects across Yorkshire and Humber region",
+    "eligibleSectors": [
+      "Community development",
+      "Social welfare",
+      "Education"
+    ],
+    "funder": "Yorkshire & Humber Community Foundation",
+    "geographicFocus": "Yorkshire & Humber",
+    "grantName": "Yorkshire & Humber Community Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Yorkshire & Humber Community Foundation",
+    "regions": [
+      "Yorkshire & Humber"
+    ],
+    "sectors": [
+      "Community development",
+      "Social welfare",
+      "Education"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.yandh.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3923,
+    "_id": "j975kgh2gqnknrw50dgs1655gd82rqra",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Quarterly",
+    "description": "Small grants for community groups across Lancashire",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Youth"
+    ],
+    "funder": "Lancashire Community Foundation",
+    "geographicFocus": "Lancashire",
+    "grantName": "Lancashire Community Foundation",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Lancashire Community Foundation",
+    "regions": [
+      "Lancashire"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Youth"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.lancsfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3926,
+    "_id": "j97c0cywynr3wyxxs3z225dhw182s4yp",
+    "amountMax": 2500.0,
+    "amountMin": 250.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Quick-turnaround small grants for Kent community groups",
+    "eligibleSectors": [
+      "Community",
+      "Voluntary sector",
+      "Social welfare"
+    ],
+    "funder": "Kent Community Foundation",
+    "geographicFocus": "Kent",
+    "grantName": "Kent Community Foundation",
+    "maxAmount": 2500.0,
+    "minAmount": 250.0,
+    "name": "Kent Community Foundation",
+    "regions": [
+      "Kent"
+    ],
+    "sectors": [
+      "Community",
+      "Voluntary sector",
+      "Social welfare"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://kentcf.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3928,
+    "_id": "j974kgg6nddkzp3s4w1xa9pdfn82rwmd",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Quarterly",
+    "description": "Supports community projects addressing local needs in Norfolk",
+    "eligibleSectors": [
+      "Community",
+      "Rural development",
+      "Social inclusion"
+    ],
+    "funder": "Norfolk Community Foundation",
+    "geographicFocus": "Norfolk",
+    "grantName": "Norfolk Community Foundation",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Norfolk Community Foundation",
+    "regions": [
+      "Norfolk"
+    ],
+    "sectors": [
+      "Community",
+      "Rural development",
+      "Social inclusion"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.norfolkfoundation.com"
+  },
+  {
+    "_creationTime": 1773281110196.393,
+    "_id": "j970e2k1mvg1kpb3mhmedtjkvx82sdtz",
+    "amountMax": 3000.0,
+    "amountMin": 250.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Small grants for Cornwall community groups and charities",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Environment"
+    ],
+    "funder": "Cornwall Community Foundation",
+    "geographicFocus": "Cornwall",
+    "grantName": "Cornwall Community Foundation",
+    "maxAmount": 3000.0,
+    "minAmount": 250.0,
+    "name": "Cornwall Community Foundation",
+    "regions": [
+      "Cornwall"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Environment"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.cornwallfoundation.com"
+  },
+  {
+    "_creationTime": 1773281110196.3933,
+    "_id": "j97bbtdb5xwrcwc83jpppgmpcd82revt",
+    "amountMax": 10000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "description": "Various funds supporting community activities across Essex region",
+    "eligibleSectors": [
+      "Community",
+      "Youth",
+      "Social welfare"
+    ],
+    "funder": "Essex Community Foundation",
+    "geographicFocus": "Essex, Southend, Thurrock",
+    "grantName": "Essex Community Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 500.0,
+    "name": "Essex Community Foundation",
+    "regions": [
+      "Essex, Southend, Thurrock"
+    ],
+    "sectors": [
+      "Community",
+      "Youth",
+      "Social welfare"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.essexcommunityfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3936,
+    "_id": "j97d2dzyb9pnychpg4msvfdbwx82s1qf",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "description": "Small grants for new or small-scale organisations addressing inequalities in Devon",
+    "eligibleSectors": [
+      "Community",
+      "Social inclusion",
+      "Poverty"
+    ],
+    "funder": "Devon Community Foundation",
+    "geographicFocus": "Devon",
+    "grantName": "Devon Community Foundation - Small Grants",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Devon Community Foundation - Small Grants",
+    "regions": [
+      "Devon"
+    ],
+    "sectors": [
+      "Community",
+      "Social inclusion",
+      "Poverty"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.devoncf.com"
+  },
+  {
+    "_creationTime": 1773281110196.3938,
+    "_id": "j979anng53x301adp4j2xt4e5582rfe2",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "April 2026",
+    "description": "Various funds supporting grassroots community groups in Cumbria",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Health"
+    ],
+    "funder": "Cumbria Community Foundation",
+    "geographicFocus": "Cumbria",
+    "grantName": "Cumbria Community Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Cumbria Community Foundation",
+    "regions": [
+      "Cumbria"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Health"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.cumbriafoundation.org"
+  },
+  {
+    "_creationTime": 1773281110196.394,
+    "_id": "j970cyfz9309xkfsrmwybrjs3982rzgd",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Quarterly",
+    "description": "Supports community projects in South Gloucestershire",
+    "eligibleSectors": [
+      "Community",
+      "Sport",
+      "Arts"
+    ],
+    "funder": "South Gloucestershire Council",
+    "geographicFocus": "South Gloucestershire",
+    "grantName": "South Gloucestershire Community Lottery Fund",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "South Gloucestershire Community Lottery Fund",
+    "regions": [
+      "South Gloucestershire"
+    ],
+    "sectors": [
+      "Community",
+      "Sport",
+      "Arts"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.southglos.gov.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3943,
+    "_id": "j975f6ha15ye8w2hqnzmga2r7982sqsh",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "May 1, 2026",
+    "description": "Grants for community-led projects addressing local needs in Hertfordshire",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Disadvantage"
+    ],
+    "funder": "Hertfordshire Community Foundation",
+    "geographicFocus": "Hertfordshire",
+    "grantName": "Hertfordshire Community Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Hertfordshire Community Foundation",
+    "regions": [
+      "Hertfordshire"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Disadvantage"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.hertscf.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3945,
+    "_id": "j9715xm2epjfjz823t06vz0vxd82s123",
+    "amountMax": 10000.0,
+    "amountMin": 350.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "January 31, 2026",
+    "description": "Various funds for community and voluntary groups improving Nottinghamshire communities",
+    "eligibleSectors": [
+      "Community",
+      "Arts",
+      "Social welfare"
+    ],
+    "funder": "Forever Notts",
+    "geographicFocus": "Nottinghamshire",
+    "grantName": "Forever Notts (Nottinghamshire CF)",
+    "maxAmount": 10000.0,
+    "minAmount": 350.0,
+    "name": "Forever Notts (Nottinghamshire CF)",
+    "regions": [
+      "Nottinghamshire"
+    ],
+    "sectors": [
+      "Community",
+      "Arts",
+      "Social welfare"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.forevernotts.com"
+  },
+  {
+    "_creationTime": 1773281110196.3948,
+    "_id": "j977t9jmgx2rjyxna5pwk2q1s182s4pc",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "description": "Multiple funds supporting projects addressing disadvantage and social exclusion",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Disadvantage"
+    ],
+    "funder": "Heart of England Community Foundation",
+    "geographicFocus": "Coventry, Solihull, Warwickshire",
+    "grantName": "Heart of England CF - Coventry, Solihull & Warwickshire",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Heart of England CF - Coventry, Solihull & Warwickshire",
+    "regions": [
+      "Coventry, Solihull, Warwickshire"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Disadvantage"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.heartofenglandcf.org"
+  },
+  {
+    "_creationTime": 1773281110196.395,
+    "_id": "j9775bbhq52j738ctpzaxyswxn82r2tb",
+    "amountMax": 2000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Small grants open anytime; large grants reopening Spring 2026",
+    "eligibleSectors": [
+      "Community",
+      "Social welfare",
+      "Local support"
+    ],
+    "funder": "Stratford Town Trust",
+    "geographicFocus": "Stratford-upon-Avon",
+    "grantName": "Stratford Town Trust",
+    "maxAmount": 2000.0,
+    "minAmount": 500.0,
+    "name": "Stratford Town Trust",
+    "regions": [
+      "Stratford-upon-Avon"
+    ],
+    "sectors": [
+      "Community",
+      "Social welfare",
+      "Local support"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.stratfordtowntrust.co.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3953,
+    "_id": "j973rw400gp1grf3kmx20tvk5582r4hv",
+    "amountMax": 5000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "February 8, 2026",
+    "description": "Youth projects focusing on crime/safety, school experiences, and mental health",
+    "eligibleSectors": [
+      "Youth",
+      "Crime prevention",
+      "Mental health"
+    ],
+    "funder": "Warwickshire County Council",
+    "geographicFocus": "Warwickshire",
+    "grantName": "Warwickshire Youth Council Project Grant",
+    "maxAmount": 5000.0,
+    "minAmount": 1000.0,
+    "name": "Warwickshire Youth Council Project Grant",
+    "regions": [
+      "Warwickshire"
+    ],
+    "sectors": [
+      "Youth",
+      "Crime prevention",
+      "Mental health"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.warwickshire.gov.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3955,
+    "_id": "j97c07rsd5asfhcj8rbg3qwcth82s7fd",
+    "amountMax": 2000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "September 2026",
+    "description": "Unrestricted funding for small local organizations with income under \u00a325k",
+    "eligibleSectors": [
+      "Community",
+      "Environment",
+      "Social welfare"
+    ],
+    "funder": "Groundwork UK",
+    "geographicFocus": "England",
+    "grantName": "Groundwork Grassroots Grants",
+    "maxAmount": 2000.0,
+    "minAmount": 500.0,
+    "name": "Groundwork Grassroots Grants",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Community",
+      "Environment",
+      "Social welfare"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.groundwork.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3958,
+    "_id": "j9709wysb2ah1hnxk0bva6ed6s82rb0g",
+    "amountMax": 5000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "October 6, 2025",
+    "description": "Grassroots grants for community-led organisations tackling poverty impacts",
+    "eligibleSectors": [
+      "Poverty",
+      "Community",
+      "Social justice"
+    ],
+    "funder": "Comic Relief",
+    "geographicFocus": "England",
+    "grantName": "Comic Relief Community Fund - England",
+    "maxAmount": 5000.0,
+    "minAmount": 1000.0,
+    "name": "Comic Relief Community Fund - England",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Poverty",
+      "Community",
+      "Social justice"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.comicrelief.com"
+  },
+  {
+    "_creationTime": 1773281110196.396,
+    "_id": "j972exeq8zbcdqjhqgw28b57td82s7s6",
+    "amountMax": 100000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "TBC Summer 2026",
+    "description": "Supporting organisations ensuring everyone has a good place to live",
+    "eligibleSectors": [
+      "Housing",
+      "Social issues",
+      "Community"
+    ],
+    "funder": "Lloyds Bank Foundation",
+    "geographicFocus": "England and Wales",
+    "grantName": "Lloyds Bank Foundation - Housing Programme",
+    "maxAmount": 100000.0,
+    "minAmount": 10000.0,
+    "name": "Lloyds Bank Foundation - Housing Programme",
+    "regions": [
+      "England and Wales"
+    ],
+    "sectors": [
+      "Housing",
+      "Social issues",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.lloydsbankfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3962,
+    "_id": "j979eev38t4nfag87e6ybddn5d82sarz",
+    "amountMax": 6500.0,
+    "amountMin": 4500.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Twice yearly",
+    "description": "One-off or multi-year grants for charities supporting vulnerable individuals",
+    "eligibleSectors": [
+      "Mental health",
+      "Vulnerable groups",
+      "Social welfare"
+    ],
+    "funder": "City Bridge Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Matrix Causes Fund",
+    "maxAmount": 6500.0,
+    "minAmount": 4500.0,
+    "name": "Matrix Causes Fund",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Mental health",
+      "Vulnerable groups",
+      "Social welfare"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://citybridgefoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.3965,
+    "_id": "j975xxw82xwqbq757269dh1s5h82s0py",
+    "amountMax": 1000.0,
+    "amountMin": 100.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Community grants for coastal communities near Dogger Bank Wind Farm",
+    "eligibleSectors": [
+      "Community",
+      "Environment",
+      "Local projects"
+    ],
+    "funder": "Dogger Bank Wind Farm",
+    "geographicFocus": "South Tyneside, East Riding, Redcar & Cleveland",
+    "grantName": "Dogger Bank Wind Farm Operator Fund",
+    "maxAmount": 1000.0,
+    "minAmount": 100.0,
+    "name": "Dogger Bank Wind Farm Operator Fund",
+    "regions": [
+      "South Tyneside, East Riding, Redcar & Cleveland"
+    ],
+    "sectors": [
+      "Community",
+      "Environment",
+      "Local projects"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.doggerbank.com"
+  },
+  {
+    "_creationTime": 1773281110196.3967,
+    "_id": "j97bf2jqf8mx2tddx0dddq9sk982r1pb",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "March 30, 2026",
+    "description": "Supports educational, environmental, and energy-efficiency initiatives near wind farm",
+    "eligibleSectors": [
+      "Education",
+      "Environment",
+      "Energy efficiency",
+      "Community"
+    ],
+    "funder": "Tedder Hill Wind Farm",
+    "geographicFocus": "Within 5km of Roos Post Office (HU12 0HP)",
+    "grantName": "Tedder Hill Wind Farm Community Fund",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Tedder Hill Wind Farm Community Fund",
+    "regions": [
+      "Within 5km of Roos Post Office (HU12 0HP)"
+    ],
+    "sectors": [
+      "Education",
+      "Environment",
+      "Energy efficiency",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.tedderhill.com"
+  },
+  {
+    "_creationTime": 1773281110196.397,
+    "_id": "j97a86y65g2v60vs0tan17zqkd82rqat",
+    "amountMax": 5000.0,
+    "amountMin": 250.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Multiple 2026 dates",
+    "description": "Grants for community activities including energy efficiency projects",
+    "eligibleSectors": [
+      "Community",
+      "Energy efficiency",
+      "Local projects"
+    ],
+    "funder": "Wingates Wind Farm",
+    "geographicFocus": "Near Wingates Wind Farm",
+    "grantName": "Wingates Wind Farm Community Grants",
+    "maxAmount": 5000.0,
+    "minAmount": 250.0,
+    "name": "Wingates Wind Farm Community Grants",
+    "regions": [
+      "Near Wingates Wind Farm"
+    ],
+    "sectors": [
+      "Community",
+      "Energy efficiency",
+      "Local projects"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.wingateswindfarm.com"
+  },
+  {
+    "_creationTime": 1773281110196.3972,
+    "_id": "j97841vn6q6s87qxxqh1pfc7b182r4bm",
+    "amountMax": 3000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 5.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "February 11",
+    "description": "Grants for charities and CICs with income \u00a325k-\u00a3500k for social inclusion and health projects",
+    "eligibleSectors": [
+      "Social inclusion",
+      "Health & wellbeing",
+      "Community"
+    ],
+    "funder": "King Charles III Charitable Fund",
+    "geographicFocus": "UK-wide",
+    "grantName": "King Charles III Charitable Fund",
+    "maxAmount": 3000.0,
+    "minAmount": 1000.0,
+    "name": "King Charles III Charitable Fund",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Social inclusion",
+      "Health & wellbeing",
+      "Community"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://kingcharlesiiifund.org"
+  },
+  {
+    "_creationTime": 1773281110196.3975,
+    "_id": "j970nsgscj3cpyy4q9xqqvvfw182rhwk",
+    "amountMax": 75000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "15 July 2025",
+    "description": "\r\n                                                        Persimmon was founded in 1972 and is today one of the UK\u2019s leading housebuilders. We build good quality homes at a range of price points to meet the UK\u2019s housing needs.\r\n                                                    ",
+    "eligibleSectors": [
+      "Social mobility",
+      "youth development",
+      "education",
+      "training",
+      "employability",
+      "community transformation",
+      "overcoming disadvantage",
+      "poverty alleviation",
+      "disability support",
+      "health",
+      "sport",
+      "public amenities",
+      "sustainable development",
+      "grassroots initiatives"
+    ],
+    "funder": "Persimmon Charitable Foundation \u2013 Open Application Programme",
+    "geographicFocus": "UK",
+    "grantName": "Persimmon Charitable Foundation \u2013 Open Application Programme",
+    "maxAmount": 75000.0,
+    "minAmount": 1000.0,
+    "name": "Persimmon Charitable Foundation \u2013 Open Application Programme",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Social mobility",
+      "youth development",
+      "education",
+      "training",
+      "employability",
+      "community transformation",
+      "overcoming disadvantage",
+      "poverty alleviation",
+      "disability support",
+      "health",
+      "sport",
+      "public amenities",
+      "sustainable development",
+      "grassroots initiatives"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.persimmonhomes.com/corporate/foundation/open-application-programme/"
+  },
+  {
+    "_creationTime": 1773281110196.3977,
+    "_id": "j97933fafemk0fsrs84fw5a56182s2cf",
+    "amountMax": 100000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "4 July 2025",
+    "description": "HelpBnk is teaming up with SuperteamUK to help educate founders on the future of the internet. Backed by a $100k grant fund and accelerator for ambitious UK founders.",
+    "eligibleSectors": [
+      "\"Category\tDetails"
+    ],
+    "funder": "Superteam UK \u00d7 HelpBnk \u2013 Future Fund Accelerator",
+    "geographicFocus": "UK",
+    "grantName": "Superteam UK \u00d7 HelpBnk \u2013 Future Fund Accelerator",
+    "maxAmount": 100000.0,
+    "minAmount": 5000.0,
+    "name": "Superteam UK \u00d7 HelpBnk \u2013 Future Fund Accelerator",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Category\tDetails"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://uk.superteam.fun/"
+  },
+  {
+    "_creationTime": 1773281110196.398,
+    "_id": "j97aq4jt53gdkhcrxw0g91g4wh82s4sy",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Hugo Burge Foundation Submission Manager Powered By Submittable - Accept and Curate Digital Content",
+    "eligibleSectors": [],
+    "funder": "Craft Scotland",
+    "geographicFocus": "UK",
+    "grantName": "Craft Scotland",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Craft Scotland",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://hugoburgefoundation.submittable.com/submit"
+  },
+  {
+    "_creationTime": 1773281110196.3982,
+    "_id": "j974ywvfxgqnsz3desvbez0ef182r4ge",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Opens again 1 September",
+    "description": "Hugo Burge Foundation Submission Manager Powered By Submittable - Accept and Curate Digital Content",
+    "eligibleSectors": [
+      "\"Eligibility: Individuals"
+    ],
+    "funder": "Creative Education Hugo Burge Foundation",
+    "geographicFocus": "UK",
+    "grantName": "Creative Education Hugo Burge Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Creative Education Hugo Burge Foundation",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Eligibility: Individuals"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://hugoburgefoundation.submittable.com/submit"
+  },
+  {
+    "_creationTime": 1773281110196.3984,
+    "_id": "j97714ckzfg0x42f5y7y6qgggx82rkk5",
+    "amountMax": 100000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Closes March 2026",
+    "description": "If you\u2019re a farmer or land manager, you can get funding to support and improve National Landscapes, National Parks and the Broads.",
+    "eligibleSectors": [
+      "Farming",
+      "Environment",
+      "Heritage"
+    ],
+    "funder": "Farming in Protected Landscapes Programme",
+    "geographicFocus": "UK",
+    "grantName": "Farming in Protected Landscapes Programme",
+    "maxAmount": 100000.0,
+    "minAmount": 1000.0,
+    "name": "Farming in Protected Landscapes Programme",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Farming",
+      "Environment",
+      "Heritage"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.gov.uk/guidance/funding-for-farmers-in-protected-landscapes#how-much-funding-you-can-get"
+  },
+  {
+    "_creationTime": 1773281110196.3987,
+    "_id": "j977x1y6gvhjbjy5wfspyb9yd982rqsd",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Opens again 1 September",
+    "description": "Hugo Burge Foundation Submission Manager Powered By Submittable - Accept and Curate Digital Content",
+    "eligibleSectors": [
+      "\"Eligibility: Organisations"
+    ],
+    "funder": "Creative Communities Hugo Burge Foundation",
+    "geographicFocus": "UK",
+    "grantName": "Creative Communities Hugo Burge Foundation",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Creative Communities Hugo Burge Foundation",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Eligibility: Organisations"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://hugoburgefoundation.submittable.com/submit"
+  },
+  {
+    "_creationTime": 1773281110196.399,
+    "_id": "j9732nptpsb89x14tw6gmm30a182rmth",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "The Early Stage accelerator spans 8 weeks, guiding founders from MVP stage to business growth. We provide companies with top mentors, exceptional resources, a network of investors, and access to experts and alumni founders. Integrating in-person kickoff and wrap-up events with a mix of virtual and in-person sessions throughout ensures accessibility and engagement for all participants in our hybrid format. The programme culminates in a Demo Day, offering a platform for pitching to investors and accessing a \u00a315k grant funding pot!",
+    "eligibleSectors": [
+      "Startup Accelerator",
+      "Business Support Programme",
+      "Equity-Free Grant Funding",
+      "Early-Stage Business Support",
+      "Pitch-Based Funding",
+      "Incubator Programme"
+    ],
+    "funder": "Immerse Early Stage Accelerator",
+    "geographicFocus": "UK",
+    "grantName": "Immerse Early Stage Accelerator",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "Immerse Early Stage Accelerator",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Startup Accelerator",
+      "Business Support Programme",
+      "Equity-Free Grant Funding",
+      "Early-Stage Business Support",
+      "Pitch-Based Funding",
+      "Incubator Programme"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.foundervine.com/our-programmes/immerse-early-stage"
+  },
+  {
+    "_creationTime": 1773281110196.3992,
+    "_id": "j97fzv4x1xdr8taz0gp4cf312182sfcm",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "15th July 2025",
+    "description": "The Trust is wholly funded by Naturesave Insurance; it supports environmental projects and SME sustainability advice.",
+    "eligibleSectors": [
+      "Environmental Conservation",
+      "Community Development",
+      "Mental Health & Wellbeing",
+      "Nature-Based Solutions",
+      "Green Skills Training",
+      "Urban Greening",
+      "Social Prescribing. nature connection",
+      "community gardening",
+      "green skills",
+      "eco-anxiety",
+      "conservation",
+      "urban nature",
+      "social prescribing",
+      "environmental education",
+      "sustainability",
+      "mental health",
+      "wellbeing",
+      "biodiversity",
+      "climate action"
+    ],
+    "funder": "Naturesave Trust Small Grants",
+    "geographicFocus": "UK",
+    "grantName": "Naturesave Trust Small Grants",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Naturesave Trust Small Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Environmental Conservation",
+      "Community Development",
+      "Mental Health & Wellbeing",
+      "Nature-Based Solutions",
+      "Green Skills Training",
+      "Urban Greening",
+      "Social Prescribing. nature connection",
+      "community gardening",
+      "green skills",
+      "eco-anxiety",
+      "conservation",
+      "urban nature",
+      "social prescribing",
+      "environmental education",
+      "sustainability",
+      "mental health",
+      "wellbeing",
+      "biodiversity",
+      "climate action"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://naturesave.co.uk/naturesave-trust/"
+  },
+  {
+    "_creationTime": 1773281110196.3994,
+    "_id": "j979z8h8awmt4s2dpxfvhng3dx82sbqe",
+    "amountMax": 5000.0,
+    "amountMin": 250.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "The Hedley Foundation provides grants to smaller charities operating across the spectrum of social need.  Last year we supported hundreds of small charities, improving lives and lifting people\u2019s aspirations.",
+    "eligibleSectors": [
+      "Youth",
+      "Health",
+      "Social Welfare",
+      "Small Charities"
+    ],
+    "funder": "Hedley Foundation",
+    "geographicFocus": "UK",
+    "grantName": "Hedley Foundation",
+    "maxAmount": 5000.0,
+    "minAmount": 250.0,
+    "name": "Hedley Foundation",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Youth",
+      "Health",
+      "Social Welfare",
+      "Small Charities"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.hedleyfoundation.org.uk/apply-now"
+  },
+  {
+    "_creationTime": 1773281110196.3997,
+    "_id": "j97fmz6v7s7fn0mkmg2kfjab1h82rj5h",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "The Edith M Ellis Trust aims to help bring about a more peaceful, just and sustainable world, embodying Quaker values through a fearless approach to social and structural innovations in policy or practice.",
+    "eligibleSectors": [
+      "\"Important Notice: (final round under current policy)"
+    ],
+    "funder": "Edith M Ellis 1985 Charitable Trust",
+    "geographicFocus": "UK",
+    "grantName": "Edith M Ellis 1985 Charitable Trust",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Edith M Ellis 1985 Charitable Trust",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Important Notice: (final round under current policy)"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://theedithmellischaritabletrust.org/"
+  },
+  {
+    "_creationTime": 1773281110196.4,
+    "_id": "j9713mhhxyhx8xmw3rbe10tnh982rqmg",
+    "amountMax": 75000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "Explore how our grants help communities enhance their local environments and support biodiversity projects across England.",
+    "eligibleSectors": [
+      "Environment",
+      "Community",
+      "Outdoors"
+    ],
+    "funder": "Veolia Environmental Trust Grants",
+    "geographicFocus": "UK",
+    "grantName": "Veolia Environmental Trust Grants",
+    "maxAmount": 75000.0,
+    "minAmount": 5000.0,
+    "name": "Veolia Environmental Trust Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Environment",
+      "Community",
+      "Outdoors"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.veoliatrust.org/"
+  },
+  {
+    "_creationTime": 1773281110196.4001,
+    "_id": "j9796kbsmdyedn88gezc8d21gn82s5mv",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Human Rights"
+    ],
+    "funder": "Social Justice Small Grants Programme",
+    "geographicFocus": "UK",
+    "grantName": "Social Justice Small Grants Programme",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Social Justice Small Grants Programme",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Human Rights"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.4004,
+    "_id": "j9771k17b3gg17ajd3sbbmta2s82ra81",
+    "amountMax": 20000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Various",
+    "description": "We\u00e2\u0080\u0099ve got our hands full at the moment but we should be up and moving shortly.This page will automatically refresh and bring you into the website as soon as we can handle it.",
+    "eligibleSectors": [
+      "Environment",
+      "Sustainability",
+      "Climate Action"
+    ],
+    "funder": "Patagonia Environmental Grants",
+    "geographicFocus": "UK",
+    "grantName": "Patagonia Environmental Grants",
+    "maxAmount": 20000.0,
+    "minAmount": 5000.0,
+    "name": "Patagonia Environmental Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Environment",
+      "Sustainability",
+      "Climate Action"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://eu.patagonia.com/gb/en/how-we-fund/"
+  },
+  {
+    "_creationTime": 1773281110196.4006,
+    "_id": "j97f4mqx7rgs4kc4qe24mmy66n82rdh6",
+    "amountMax": 500000.0,
+    "amountMin": 50000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Deadline: 19-Jun-25 The European Innovation Ecosystems Work programme aims to create and expand more connected, inclusive, and efficient innovation ecosystems that support the scaling of companies and spur innovation. Destinations The work programme contains actions under two destinations: CONNECT and INNOVSMES. The actions under the CONNECT destination focus on building interconnected and inclusive innovation ecosystems",
+    "eligibleSectors": [
+      "Environment",
+      "Sustainability",
+      "Community Partnerships"
+    ],
+    "funder": "Horizon Europe: European Innovation Ecosystems Work Programme 2025",
+    "geographicFocus": "UK",
+    "grantName": "Horizon Europe: European Innovation Ecosystems Work Programme 2025",
+    "maxAmount": 500000.0,
+    "minAmount": 50000.0,
+    "name": "Horizon Europe: European Innovation Ecosystems Work Programme 2025",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Environment",
+      "Sustainability",
+      "Community Partnerships"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www2.fundsforngos.org/latest-funds-for-ngos/horizon-europe-european-innovation-ecosystems-work-programme-2025/"
+  },
+  {
+    "_creationTime": 1773281110196.401,
+    "_id": "j978kvzbx8p6p00trnv1tc9cf982s2a1",
+    "amountMax": 2500.0,
+    "amountMin": 250.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Community Wellbeing"
+    ],
+    "funder": "Micro Community Investment Fund",
+    "geographicFocus": "UK",
+    "grantName": "Micro Community Investment Fund",
+    "maxAmount": 2500.0,
+    "minAmount": 250.0,
+    "name": "Micro Community Investment Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Community Wellbeing"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.4011,
+    "_id": "j9756tf7m31sm7w75k1mwsrv0h82rs8j",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Youth Entrepreneurship"
+    ],
+    "funder": "SWEF Enterprise Fund",
+    "geographicFocus": "UK",
+    "grantName": "SWEF Enterprise Fund",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "SWEF Enterprise Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Youth Entrepreneurship"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.4014,
+    "_id": "j974ymtwvjtady6acft308ej3n82ste3",
+    "amountMax": 8000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "You have an idea, or you are already creating a positive social impact with your venture and are looking to develop. We combine funding and support specifically tailored to you. We'll help get you started or to grow.",
+    "eligibleSectors": [
+      "Social Entrepreneurs",
+      "Startups",
+      "Sustainability"
+    ],
+    "funder": "UnLtd Awards",
+    "geographicFocus": "UK",
+    "grantName": "UnLtd Awards",
+    "maxAmount": 8000.0,
+    "minAmount": 500.0,
+    "name": "UnLtd Awards",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Social Entrepreneurs",
+      "Startups",
+      "Sustainability"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.unltd.org.uk/awards/"
+  },
+  {
+    "_creationTime": 1773281110196.4016,
+    "_id": "j97bw3yqtadkcnysxs43pr0jm182rnpt",
+    "amountMax": 100000.0,
+    "amountMin": 2000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "You can apply if: Your organisation\u2019s postcode falls within the following on the Indices of Multiple Deprivation: if you are located in an urban area, you must be in the bottom 15% most deprived areas if you are located in a rural area, you must be in the bottom 50% most deprived areas Your project has a focus on community support",
+    "eligibleSectors": [
+      "Community Support",
+      "Deprivation"
+    ],
+    "funder": "Trusthouse Charitable Foundation \u2013 Small Grants",
+    "geographicFocus": "UK",
+    "grantName": "Trusthouse Charitable Foundation \u2013 Small Grants",
+    "maxAmount": 100000.0,
+    "minAmount": 2000.0,
+    "name": "Trusthouse Charitable Foundation \u2013 Small Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Community Support",
+      "Deprivation"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.trusthousecharitablefoundation.org.uk/our-grants/small-grants"
+  },
+  {
+    "_creationTime": 1773281110196.4019,
+    "_id": "j97fmpmd1mpc2fhthd64x5c3th82sg05",
+    "amountMax": 100000.0,
+    "amountMin": 2000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Organisations should have a focus on Family Support, this may further\u00a0include: Early intervention Families coping with addiction Prisoners'\u00a0families We fund voluntary sector organisations with a turnover up to \u00a3500,000.",
+    "eligibleSectors": [
+      "Family Support",
+      "Addiction",
+      "Rural Areas"
+    ],
+    "funder": "Trusthouse Charitable Foundation \u2013 Major Grants",
+    "geographicFocus": "UK",
+    "grantName": "Trusthouse Charitable Foundation \u2013 Major Grants",
+    "maxAmount": 100000.0,
+    "minAmount": 2000.0,
+    "name": "Trusthouse Charitable Foundation \u2013 Major Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Family Support",
+      "Addiction",
+      "Rural Areas"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.trusthousecharitablefoundation.org.uk/our-grants/major-grants"
+  },
+  {
+    "_creationTime": 1773281110196.402,
+    "_id": "j97ebqs29zt7s53s7v3r6n3v2582rxm1",
+    "amountMax": 50000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "The Steel Charitable Trust provides funding to UK-registered charities focused on improving outcomes for children and young people under 26, particularly those facing social marginalization. Eligible organizations must meet income and application criteria, while grants typically range from \u00a310k to \u00a325k, with specific reporting requirements post-funding.",
+    "eligibleSectors": [
+      "Young People",
+      "Education",
+      "Social Mobility"
+    ],
+    "funder": "Steel Charitable Trust \u2013 Under-26 Fund",
+    "geographicFocus": "UK",
+    "grantName": "Steel Charitable Trust \u2013 Under-26 Fund",
+    "maxAmount": 50000.0,
+    "minAmount": 500.0,
+    "name": "Steel Charitable Trust \u2013 Under-26 Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Young People",
+      "Education",
+      "Social Mobility"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://steelcharitabletrust.org.uk/uk-under-26-fund/guidance-notes-for-the-united-kingdom-under-26-fund/"
+  },
+  {
+    "_creationTime": 1773281110196.4023,
+    "_id": "j972bns7z06n4g1ggc7edynnrn82rc8p",
+    "amountMax": 100000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "A funder, we seek to bring lasting change to the lives of young people aged 14-25 facing challenge, to enable them to make a positive transition to adulthood.",
+    "eligibleSectors": [
+      "Young People",
+      "Youth Policy",
+      "Empowerment"
+    ],
+    "funder": "Blagrave Trust",
+    "geographicFocus": "UK",
+    "grantName": "Blagrave Trust",
+    "maxAmount": 100000.0,
+    "minAmount": 10000.0,
+    "name": "Blagrave Trust",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Young People",
+      "Youth Policy",
+      "Empowerment"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.blagravetrust.org/"
+  },
+  {
+    "_creationTime": 1773281110196.4026,
+    "_id": "j97ddv2e0d6phvj7fcs1mq6ebx82sadf",
+    "amountMax": 50000.0,
+    "amountMin": 300.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "All you need to know to apply to Sport England's Movement Fund.",
+    "eligibleSectors": [
+      "Sport",
+      "Health",
+      "Community Engagement"
+    ],
+    "funder": "Sport England Movement Fund",
+    "geographicFocus": "UK",
+    "grantName": "Sport England Movement Fund",
+    "maxAmount": 50000.0,
+    "minAmount": 300.0,
+    "name": "Sport England Movement Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Sport",
+      "Health",
+      "Community Engagement"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.sportengland.org/funding-and-campaigns/our-funding/movement-fund/apply-movement-fund"
+  },
+  {
+    "_creationTime": 1773281110196.4028,
+    "_id": "j9756kg7f12f9yahq01v8wgfbs82rk2p",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "The Black Artists Grant (BAG) offered by Creative Debuts as a no-strings attached financial support to help Black artists. They can spend the grant on whatever they want \u2013 be that make new work, buy equipment or materials, travel, research, visit exhibitions or conferences, or to even just cover som",
+    "eligibleSectors": [
+      "Black Artists",
+      "Creative Support"
+    ],
+    "funder": "Black Artist Grant",
+    "geographicFocus": "UK",
+    "grantName": "Black Artist Grant",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Black Artist Grant",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Black Artists",
+      "Creative Support"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.creativedebuts.co.uk/bag/"
+  },
+  {
+    "_creationTime": 1773281110196.403,
+    "_id": "j977rxyep3trb700geb7yem3ns82sspt",
+    "amountMax": 250000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "At Black Seed, we champion inclusion, addressing the historical \r\nunderfunding and over-mentoring of Black British founders. With only 0.24% \r\nof venture funding reaching this community in the past decade, we seize the \r\nopportunity to invest in diverse talent. We bring capital, connections and \r\nempower exceptional individuals to tackle society's pressing challenges as \r\nboth a Fund and a Community.",
+    "eligibleSectors": [
+      "Black Entrepreneurs",
+      "Startups",
+      "Equity"
+    ],
+    "funder": "Black Seed Venture Capital",
+    "geographicFocus": "UK",
+    "grantName": "Black Seed Venture Capital",
+    "maxAmount": 250000.0,
+    "minAmount": 10000.0,
+    "name": "Black Seed Venture Capital",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Black Entrepreneurs",
+      "Startups",
+      "Equity"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.blackseedvc.co.uk/"
+  },
+  {
+    "_creationTime": 1773281110196.4033,
+    "_id": "j9798y6cvsnvttpn9bpkwdbdy582s0c7",
+    "amountMax": 100000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "We want to enable you to make a difference to grassroots football in the UK. Our easy to use decision tree will help you find a grant suitable for your project and provide you will all the information you need to get started.",
+    "eligibleSectors": [
+      "Sports",
+      "Facilities",
+      "Youth",
+      "Community"
+    ],
+    "funder": "Football Foundation Grants",
+    "geographicFocus": "UK",
+    "grantName": "Football Foundation Grants",
+    "maxAmount": 100000.0,
+    "minAmount": 1000.0,
+    "name": "Football Foundation Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Sports",
+      "Facilities",
+      "Youth",
+      "Community"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://footballfoundation.org.uk/looking-for-funding"
+  },
+  {
+    "_creationTime": 1773281110196.4036,
+    "_id": "j97f4p0mmzcj9hpy86zyycm1kx82rgrh",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "Flight Fund has been structured to be the most successful private equity fund in Europe and provides unique access to Europe's most disruptive companies.",
+    "eligibleSectors": [
+      "Innovation",
+      "Entrepreneurs",
+      "Disruption"
+    ],
+    "funder": "Flight Story Fund",
+    "geographicFocus": "UK",
+    "grantName": "Flight Story Fund",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "Flight Story Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Innovation",
+      "Entrepreneurs",
+      "Disruption"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.flightstory.com/our-fund"
+  },
+  {
+    "_creationTime": 1773281110196.4038,
+    "_id": "j972f8a5y1a0x60x27y0eb8bzs82sehf",
+    "amountMax": 15000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "Learn about Open Funding, Proactive Funding, and Social Investment at The Clothworkers' Company.",
+    "eligibleSectors": [
+      "Renovation",
+      "Capital Projects",
+      "Equipment"
+    ],
+    "funder": "The Clothworkers\u2019 Foundation \u2013 Open Grants",
+    "geographicFocus": "UK",
+    "grantName": "The Clothworkers\u2019 Foundation \u2013 Open Grants",
+    "maxAmount": 15000.0,
+    "minAmount": 1000.0,
+    "name": "The Clothworkers\u2019 Foundation \u2013 Open Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Renovation",
+      "Capital Projects",
+      "Equipment"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.clothworkersfoundation.org.uk/what-we-fund/"
+  },
+  {
+    "_creationTime": 1773281110196.404,
+    "_id": "j9795qrbt9021g6fw4081arbn582rpb0",
+    "amountMax": 25000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "We are a company with a conscience, and we want to help create a greener, more sustainable world. We\u2019ve incorporated sustainability into our overall business",
+    "eligibleSectors": [
+      "Environment",
+      "Sustainability",
+      "Green Projects"
+    ],
+    "funder": "Stobart Sustainability Fund",
+    "geographicFocus": "UK",
+    "grantName": "Stobart Sustainability Fund",
+    "maxAmount": 25000.0,
+    "minAmount": 1000.0,
+    "name": "Stobart Sustainability Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Environment",
+      "Sustainability",
+      "Green Projects"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://eddiestobart.com/the-stobart-sustainability-fund/#enquires"
+  },
+  {
+    "_creationTime": 1773281110196.4043,
+    "_id": "j9733djn4kqc5k6jgj70byegds82rp6h",
+    "amountMax": 100000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "Our projects @ET-DC@eyJkeW5hbWljIjp0cnVlLCJjb250ZW50IjoicG9zdF90aXRsZSIsInNldHRpbmdzIjp7ImJlZm9yZSI6IjxoMT4iLCJhZnRlciI6IjwvaDE+In19@ The Community Shares B ...",
+    "eligibleSectors": [
+      "Community Business",
+      "Social Investment"
+    ],
+    "funder": "Community Shares Booster \u2013 Power to Change",
+    "geographicFocus": "UK",
+    "grantName": "Community Shares Booster \u2013 Power to Change",
+    "maxAmount": 100000.0,
+    "minAmount": 10000.0,
+    "name": "Community Shares Booster \u2013 Power to Change",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Community Business",
+      "Social Investment"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.powertochange.org.uk/what-we-do/projects/community-shares-booster/"
+  },
+  {
+    "_creationTime": 1773281110196.4045,
+    "_id": "j97ct1jdjjjvmmqasvk7fycsfd82srw0",
+    "amountMax": 20000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "\u0647\u0644 \u064a\u0628\u062f\u0648 \u0647\u0630\u0627 \u0627\u0644\u0646\u0645\u0648\u0630\u062c \u0645\u0631\u064a\u0628\u064b\u0627\u061f \u0627\u0644\u0625\u0628\u0644\u0627\u063a",
+    "eligibleSectors": [
+      "Working Class",
+      "Career Development",
+      "Creative Sector"
+    ],
+    "funder": "Common Break Fund",
+    "geographicFocus": "UK",
+    "grantName": "Common Break Fund",
+    "maxAmount": 20000.0,
+    "minAmount": 1000.0,
+    "name": "Common Break Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Working Class",
+      "Career Development",
+      "Creative Sector"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://docs.google.com/forms/d/e/1FAIpQLSdoTF_38HXYy1SUu72luOfv54u8lk6oL-FUPLCqmZufV3HKAA/viewform"
+  },
+  {
+    "_creationTime": 1773281110196.4048,
+    "_id": "j973wvbyjzmegq11skdv852t1h82rfhe",
+    "amountMax": 100000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "We support a wide range of charities that make a positive difference, working in different sectors in the UK. These include welfare, youth, community, environment, education, health, arts, heritage and faith.",
+    "eligibleSectors": [
+      "Welfare",
+      "Community",
+      "Environment",
+      "Heritage"
+    ],
+    "funder": "Garfield Weston Foundation",
+    "geographicFocus": "UK",
+    "grantName": "Garfield Weston Foundation",
+    "maxAmount": 100000.0,
+    "minAmount": 1000.0,
+    "name": "Garfield Weston Foundation",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Welfare",
+      "Community",
+      "Environment",
+      "Heritage"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://garfieldweston.org/what-we-fund/"
+  },
+  {
+    "_creationTime": 1773281110196.405,
+    "_id": "j9733wtv6zdkp6mgqwc171wv7982r600",
+    "amountMax": 15000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "We are interested in funding work that promotes the inclusion of female asylum seekers and refugees, and helps with their integration and settling into life in the UK.",
+    "eligibleSectors": [
+      "Asylum seekers",
+      "refugees",
+      "integration",
+      "community support",
+      "destitution relief",
+      "legal advice",
+      "trauma recovery",
+      "grassroots initiatives",
+      "social inclusion",
+      "migrant rights",
+      "small charities",
+      "community cohesion."
+    ],
+    "funder": "Allen Lane Foundation \u2013 Asylum Seekers and Refugees Grants",
+    "geographicFocus": "UK",
+    "grantName": "Allen Lane Foundation \u2013 Asylum Seekers and Refugees Grants",
+    "maxAmount": 15000.0,
+    "minAmount": 500.0,
+    "name": "Allen Lane Foundation \u2013 Asylum Seekers and Refugees Grants",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "Asylum seekers",
+      "refugees",
+      "integration",
+      "community support",
+      "destitution relief",
+      "legal advice",
+      "trauma recovery",
+      "grassroots initiatives",
+      "social inclusion",
+      "migrant rights",
+      "small charities",
+      "community cohesion."
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://allenlane.org.uk/asylum-seekers-and-refugees/"
+  },
+  {
+    "_creationTime": 1773281110196.4053,
+    "_id": "j971d2astn4r60475f2q8r3b5s82spd9",
+    "amountMax": 250000.0,
+    "amountMin": 25000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "The aim of Ki is to invest in great business ideas that originate from disabled people and help them to become successful.",
+    "eligibleSectors": [
+      "\"Pre-seed and Seed investment fund empowering disabled entrepreneurs and disability-focused ventures. Who can apply: UK-based disabled founders or ventures with disability-related mission. Support Offered\tOngoing mentorship"
+    ],
+    "funder": "Kaleidoscope Investments (Ki)",
+    "geographicFocus": "UK",
+    "grantName": "Kaleidoscope Investments (Ki)",
+    "maxAmount": 250000.0,
+    "minAmount": 25000.0,
+    "name": "Kaleidoscope Investments (Ki)",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Pre-seed and Seed investment fund empowering disabled entrepreneurs and disability-focused ventures. Who can apply: UK-based disabled founders or ventures with disability-related mission. Support Offered\tOngoing mentorship"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.kaleidoscope.group/ourservices/kaleidoscope-investments/"
+  },
+  {
+    "_creationTime": 1773281110196.4055,
+    "_id": "j972aq7gj3bn2brqab7vjv9zgx82sp6q",
+    "amountMax": 25000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Not Specified",
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Elderly Support"
+    ],
+    "funder": "Older People\u2019s Fund",
+    "geographicFocus": "UK",
+    "grantName": "Older People\u2019s Fund",
+    "maxAmount": 25000.0,
+    "minAmount": 500.0,
+    "name": "Older People\u2019s Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Elderly Support"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.4058,
+    "_id": "j970xg0n17xggqxsc7p4mgk31s82sbc4",
+    "amountMax": 25000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Not Specified",
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Mental Health"
+    ],
+    "funder": "ARN Foundation Mental Health Fund",
+    "geographicFocus": "UK",
+    "grantName": "ARN Foundation Mental Health Fund",
+    "maxAmount": 25000.0,
+    "minAmount": 5000.0,
+    "name": "ARN Foundation Mental Health Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Mental Health"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.406,
+    "_id": "j971z8qat0yqpm8bw55mq3nrb182r01z",
+    "amountMax": 150000.0,
+    "amountMin": 25000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Evergreen",
+    "description": "The Fuel Ventures funds have invested in 85+ Concept/Pre-Seed companies & 70+ Seed-Series A companies. Are you an early-stage tech company looking for Pre-Seed, Seed and Series A Round funding?",
+    "eligibleSectors": [
+      "\"Stage: Pre\u2011Seed (post-MVP preferred)"
+    ],
+    "funder": "Pre\u2011Seed SEIS Fund by Fuel Ventures",
+    "geographicFocus": "UK",
+    "grantName": "Pre\u2011Seed SEIS Fund by Fuel Ventures",
+    "maxAmount": 150000.0,
+    "minAmount": 25000.0,
+    "name": "Pre\u2011Seed SEIS Fund by Fuel Ventures",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Stage: Pre\u2011Seed (post-MVP preferred)"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.fuel.ventures/founders"
+  },
+  {
+    "_creationTime": 1773281110196.4062,
+    "_id": "j97fy87rdmrcnz5ejav1paq98h82rfks",
+    "amountMax": 10000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Not Specified",
+    "description": "All our Available Grants listed. The grants include rolling programmes which have continual closing dates and programmes with impending deadlines.",
+    "eligibleSectors": [
+      "\"Peacebuilding"
+    ],
+    "funder": "All-Island Community Fund",
+    "geographicFocus": "UK",
+    "grantName": "All-Island Community Fund",
+    "maxAmount": 10000.0,
+    "minAmount": 500.0,
+    "name": "All-Island Community Fund",
+    "regions": [
+      "UK"
+    ],
+    "sectors": [
+      "\"Peacebuilding"
+    ],
+    "status": "Open",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://communityfoundationni.org/achieving-impact/available-grants/"
+  },
+  {
+    "_creationTime": 1773281110196.4065,
+    "_id": "j973q2tw15et4v9f2x7zm5sv1n82sr8e",
+    "amountMax": 20000.0,
+    "amountMin": 300.0,
+    "applicationDifficulty": 2.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Quick and simple funding for community projects that bring people together and improve local areas.",
+    "eligibleSectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Arts & Culture",
+      "Youth Services",
+      "Sports & Recreation"
+    ],
+    "funder": "National Lottery Community Fund",
+    "geographicFocus": "UK-wide",
+    "grantName": "National Lottery Awards for All",
+    "maxAmount": 20000.0,
+    "minAmount": 300.0,
+    "name": "National Lottery Awards for All",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Arts & Culture",
+      "Youth Services",
+      "Sports & Recreation"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.tnlcommunityfund.org.uk/funding/programmes/national-lottery-awards-for-all-england"
+  },
+  {
+    "_creationTime": 1773281110196.4067,
+    "_id": "j977vzdh4ekcfd5rq3b6rc467982rv83",
+    "amountMax": 45000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-04-01",
+    "description": "Unrestricted grants for charities and CICs to support organizational growth, strength, efficiency, or resilience.",
+    "eligibleSectors": [
+      "Community Development",
+      "Social Enterprise",
+      "Health & Wellbeing",
+      "Education & Training",
+      "Youth Services"
+    ],
+    "funder": "The Fore",
+    "geographicFocus": "UK-wide",
+    "grantName": "The Fore Grant Programme",
+    "maxAmount": 45000.0,
+    "minAmount": 10000.0,
+    "name": "The Fore Grant Programme",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Social Enterprise",
+      "Health & Wellbeing",
+      "Education & Training",
+      "Youth Services"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.thefore.org"
+  },
+  {
+    "_creationTime": 1773281110196.407,
+    "_id": "j9784bpnvh7v01fkgktteaqxqn82se4x",
+    "amountMax": 500000.0,
+    "amountMin": 20001.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-12-31",
+    "description": "Supports projects assisting individuals and families experiencing poverty, disadvantage, or discrimination.",
+    "eligibleSectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Youth Services",
+      "Education & Training"
+    ],
+    "funder": "National Lottery Community Fund",
+    "geographicFocus": "UK-wide",
+    "grantName": "Fairer Life Chances Grant Programme",
+    "maxAmount": 500000.0,
+    "minAmount": 20001.0,
+    "name": "Fairer Life Chances Grant Programme",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Youth Services",
+      "Education & Training"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.tnlcommunityfund.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.4072,
+    "_id": "j97f5hr4nvcpvmy3gxgq7yrykn82sd6g",
+    "amountMax": 10000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 2.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-03-31",
+    "description": "Accelerates social enterprise activity in disadvantaged areas with capacity building and startup grants.",
+    "eligibleSectors": [
+      "Social Enterprise",
+      "Community Development",
+      "Education & Training"
+    ],
+    "funder": "UK Government (DLUHC)",
+    "geographicFocus": "England",
+    "grantName": "Social Enterprise Boost Fund",
+    "maxAmount": 10000.0,
+    "minAmount": 1000.0,
+    "name": "Social Enterprise Boost Fund",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Social Enterprise",
+      "Community Development",
+      "Education & Training"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.gov.uk"
+  },
+  {
+    "_creationTime": 1773281110196.4075,
+    "_id": "j97566wqt522p91eamj4s28czh82rj9e",
+    "amountMax": 100000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Open-access funding for arts, libraries, and museums projects supporting individual artists and cultural organizations.",
+    "eligibleSectors": [
+      "Arts & Culture",
+      "Heritage",
+      "Community Development"
+    ],
+    "funder": "Arts Council England",
+    "geographicFocus": "England",
+    "grantName": "National Lottery Project Grants",
+    "maxAmount": 100000.0,
+    "minAmount": 1000.0,
+    "name": "National Lottery Project Grants",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Arts & Culture",
+      "Heritage",
+      "Community Development"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.artscouncil.org.uk/funding"
+  },
+  {
+    "_creationTime": 1773281110196.4077,
+    "_id": "j97d2xs734dk04taa3hr6xd6ad82sc7v",
+    "amountMax": 100000.0,
+    "amountMin": 2000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports organizations in deprived areas with small grants for core costs and major grants for significant projects.",
+    "eligibleSectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing",
+      "Arts & Culture"
+    ],
+    "funder": "Trusthouse Charitable Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Trusthouse Charitable Foundation",
+    "maxAmount": 100000.0,
+    "minAmount": 2000.0,
+    "name": "Trusthouse Charitable Foundation",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing",
+      "Arts & Culture"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.trusthousecharitablefoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.408,
+    "_id": "j97agpspnm58emxvkjnw1xvd8n82s4a9",
+    "amountMax": 5000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 1.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Improves, repairs, and maintains homes and community facilities with long-term impact focus.",
+    "eligibleSectors": [
+      "Community Development",
+      "Health & Wellbeing"
+    ],
+    "funder": "Screwfix Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Screwfix Foundation Community Grants",
+    "maxAmount": 5000.0,
+    "minAmount": 500.0,
+    "name": "Screwfix Foundation Community Grants",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Health & Wellbeing"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.screwfixfoundation.com"
+  },
+  {
+    "_creationTime": 1773281110196.4082,
+    "_id": "j97921y1m4t42cnmt8h8p46v3h82rdy5",
+    "amountMax": 100000.0,
+    "amountMin": 10000.0,
+    "applicationDifficulty": 4.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports registered charities across multiple sectors including welfare, community, arts, heritage, and education.",
+    "eligibleSectors": [
+      "Community Development",
+      "Arts & Culture",
+      "Health & Wellbeing",
+      "Education & Training",
+      "Youth Services",
+      "Environment",
+      "Heritage"
+    ],
+    "funder": "Garfield Weston Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Garfield Weston Foundation Regular Grants",
+    "maxAmount": 100000.0,
+    "minAmount": 10000.0,
+    "name": "Garfield Weston Foundation Regular Grants",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Arts & Culture",
+      "Health & Wellbeing",
+      "Education & Training",
+      "Youth Services",
+      "Environment",
+      "Heritage"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://garfieldweston.org"
+  },
+  {
+    "_creationTime": 1773281110196.4084,
+    "_id": "j97f8hcqypgaa879gg6xk6hr4x82smhc",
+    "amountMax": 6000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 2.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-02-27",
+    "description": "Supports youth charities and CICs working with young people, up to \u00a33,000 per year for two years.",
+    "eligibleSectors": [
+      "Youth Services",
+      "Community Development",
+      "Education & Training"
+    ],
+    "funder": "KFC Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "KFC Youth Foundation Community Grants",
+    "maxAmount": 6000.0,
+    "minAmount": 1000.0,
+    "name": "KFC Youth Foundation Community Grants",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Youth Services",
+      "Community Development",
+      "Education & Training"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.kfcfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.4087,
+    "_id": "j9786jx4y655yypk25zwh16jvh82rzz5",
+    "amountMax": 2000.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 1.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-09-30",
+    "description": "Unrestricted funding for small groups supporting marginalized or vulnerable communities with income under \u00a325k.",
+    "eligibleSectors": [
+      "Community Development",
+      "Social Enterprise",
+      "Health & Wellbeing"
+    ],
+    "funder": "Postcode Society Trust (Groundwork)",
+    "geographicFocus": "England",
+    "grantName": "Grassroots Grants",
+    "maxAmount": 2000.0,
+    "minAmount": 500.0,
+    "name": "Grassroots Grants",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Social Enterprise",
+      "Health & Wellbeing"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.groundwork.org.uk/grants"
+  },
+  {
+    "_creationTime": 1773281110196.409,
+    "_id": "j977cmmdkha6fb621r5knjhks182s3h4",
+    "amountMax": 5000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 2.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-03-08",
+    "description": "Supports not-for-profit organizations in Newham benefiting local residents with community projects.",
+    "eligibleSectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing",
+      "Education & Training"
+    ],
+    "funder": "Genting UK (via Newham Council)",
+    "geographicFocus": "England",
+    "grantName": "Genting Good Causes Fund",
+    "maxAmount": 5000.0,
+    "minAmount": 1000.0,
+    "name": "Genting Good Causes Fund",
+    "regions": [
+      "England"
+    ],
+    "sectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing",
+      "Education & Training"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.newham.gov.uk"
+  },
+  {
+    "_creationTime": 1773281110196.4092,
+    "_id": "j971eghvvt74geg529h9mw2d7182ssh3",
+    "amountMax": 60000.0,
+    "amountMin": 20000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "2026-02-20",
+    "description": "Three-year grants for organizations tackling community challenges in specific geographical areas.",
+    "eligibleSectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing"
+    ],
+    "funder": "Greggs Foundation",
+    "geographicFocus": "UK-wide",
+    "grantName": "Greggs Foundation Community Action Fund",
+    "maxAmount": 60000.0,
+    "minAmount": 20000.0,
+    "name": "Greggs Foundation Community Action Fund",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Youth Services",
+      "Health & Wellbeing"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.greggsfoundation.org.uk"
+  },
+  {
+    "_creationTime": 1773281110196.4094,
+    "_id": "j97fatkafgvnexwz0xxeffw2ps82s927",
+    "amountMax": 5000.0,
+    "amountMin": 1000.0,
+    "applicationDifficulty": 1.0,
+    "createdAt": 1773281110196.0,
+    "description": "Multiple draws throughout 2026 with \u00a31,000 and \u00a35,000 awards, nominations open year-round.",
+    "eligibleSectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Arts & Culture",
+      "Youth Services",
+      "Environment"
+    ],
+    "funder": "Benefact Group",
+    "geographicFocus": "UK-wide",
+    "grantName": "Movement for Good Awards",
+    "maxAmount": 5000.0,
+    "minAmount": 1000.0,
+    "name": "Movement for Good Awards",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Arts & Culture",
+      "Youth Services",
+      "Environment"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.benefactgroup.com/movement-for-good"
+  },
+  {
+    "_creationTime": 1773281110196.4097,
+    "_id": "j97apmk3ksj2qszbze8sqexax182rbvp",
+    "amountMax": 1500.0,
+    "amountMin": 500.0,
+    "applicationDifficulty": 1.0,
+    "createdAt": 1773281110196.0,
+    "deadline": "Rolling",
+    "description": "Supports projects improving community buildings, outdoor spaces, or training through customer voting.",
+    "eligibleSectors": [
+      "Community Development",
+      "Youth Services",
+      "Sports & Recreation",
+      "Education & Training"
+    ],
+    "funder": "Tesco",
+    "geographicFocus": "UK-wide",
+    "grantName": "Tesco Community Grants",
+    "maxAmount": 1500.0,
+    "minAmount": 500.0,
+    "name": "Tesco Community Grants",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Youth Services",
+      "Sports & Recreation",
+      "Education & Training"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.tesco.com/community"
+  },
+  {
+    "_creationTime": 1773281110196.41,
+    "_id": "j970qcn5g4z5zr6mw78q7n1wyh82sec1",
+    "amountMax": 50000.0,
+    "amountMin": 5000.0,
+    "applicationDifficulty": 3.0,
+    "createdAt": 1773281110196.0,
+    "description": "Three-year grants for projects improving lives of disadvantaged and marginalized people across the UK.",
+    "eligibleSectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Environment",
+      "Arts & Culture"
+    ],
+    "funder": "People's Postcode Lottery",
+    "geographicFocus": "UK-wide",
+    "grantName": "People's Postcode Lottery Trust",
+    "maxAmount": 50000.0,
+    "minAmount": 5000.0,
+    "name": "People's Postcode Lottery Trust",
+    "regions": [
+      "UK-wide"
+    ],
+    "sectors": [
+      "Community Development",
+      "Health & Wellbeing",
+      "Environment",
+      "Arts & Culture"
+    ],
+    "status": "Open Now",
+    "supportsGrowth": true,
+    "supportsScale": false,
+    "supportsStartup": true,
+    "website": "https://www.postcodetrust.org.uk"
+  }
+]

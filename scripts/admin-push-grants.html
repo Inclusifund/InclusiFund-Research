@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InclusiFund Admin — Push Grants</title>
+    <script src="https://unpkg.com/convex@1.16.4/dist/browser.bundle.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #1F2232; color: #F4F4F4; padding: 2rem; }
+        h1 { color: #6BB6B6; margin-bottom: 1rem; }
+        h2 { color: #F59E0B; margin: 1.5rem 0 0.5rem; font-size: 1.1rem; }
+        .btn { padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; margin: 4px; }
+        .btn-fix { background: #F59E0B; color: #1F2232; }
+        .btn-add { background: #6BB6B6; color: #1F2232; }
+        .btn-danger { background: #EF4444; color: white; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .log { background: #2D3344; border: 1px solid #334155; border-radius: 8px; padding: 1rem; margin: 1rem 0; max-height: 400px; overflow-y: auto; font-family: monospace; font-size: 13px; line-height: 1.6; }
+        .log .ok { color: #4ADE80; }
+        .log .err { color: #F87171; }
+        .log .info { color: #94A3B8; }
+        .log .warn { color: #F59E0B; }
+        .summary { background: #2D3344; border: 1px solid #6BB6B6; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .grant-list { font-size: 13px; color: #94A3B8; margin: 0.5rem 0; }
+    </style>
+</head>
+<body>
+    <h1>InclusiFund Admin — Grant Database Operations</h1>
+    <p style="color: #94A3B8; margin-bottom: 1rem;">Connected to: terrific-bloodhound-927.convex.cloud</p>
+
+    <h2>Task 2: Fix Corrupted Sectors</h2>
+    <p class="grant-list">Fixes 12 grants with sectors starting with `"` — strips quotes from valid sectors, deletes junk entries.</p>
+    <button class="btn btn-fix" id="btnFixSectors" onclick="fixSectors()">Fix Corrupted Sectors</button>
+
+    <h2>Task 1: Add 22 New Grants (Google Alerts)</h2>
+    <p class="grant-list">Adds grants from the March 2026 Google Alerts compilation. Checks for duplicates first.</p>
+    <button class="btn btn-add" id="btnAddGrants" onclick="addNewGrants()">Add 22 New Grants</button>
+
+    <div class="log" id="log"></div>
+
+    <script>
+        const CONVEX_URL = "https://terrific-bloodhound-927.convex.cloud";
+        const client = new convex.ConvexHttpClient(CONVEX_URL);
+        const logEl = document.getElementById('log');
+
+        function log(msg, cls = 'info') {
+            const line = document.createElement('div');
+            line.className = cls;
+            line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            logEl.appendChild(line);
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        // ─── SECTOR FIXES ───
+        const SECTOR_FIXES = {
+            '"Community Wellbeing': 'Community Wellbeing',
+            '"Elderly Support': 'Elderly Support',
+            '"Human Rights': 'Human Rights',
+            '"Mental Health': 'Mental Health',
+            '"Peacebuilding': 'Peacebuilding',
+            '"Youth Entrepreneurship': 'Youth Entrepreneurship',
+        };
+        const JUNK_PREFIXES = ['"Category', '"Eligibility:', '"Important Notice', '"Pre-seed and Seed', '"Stage:'];
+
+        function cleanSector(sector) {
+            if (!sector.startsWith('"')) return { action: 'keep', value: sector };
+            if (SECTOR_FIXES[sector]) return { action: 'fix', value: SECTOR_FIXES[sector] };
+            for (const prefix of JUNK_PREFIXES) {
+                if (sector.startsWith(prefix)) return { action: 'delete', value: null };
+            }
+            const stripped = sector.replace(/^"+/, '').trim();
+            return stripped ? { action: 'fix', value: stripped } : { action: 'delete', value: null };
+        }
+
+        async function fixSectors() {
+            const btn = document.getElementById('btnFixSectors');
+            btn.disabled = true;
+            log('Fetching all grants...', 'info');
+
+            try {
+                const grants = await client.query("grants:getAllGrants");
+                log(`Fetched ${grants.length} grants`, 'info');
+
+                let fixed = 0, failed = 0;
+                for (const grant of grants) {
+                    const sectors = grant.sectors || [];
+                    let needsFix = false;
+                    const cleaned = [];
+
+                    for (const sector of sectors) {
+                        const result = cleanSector(sector);
+                        if (result.action === 'keep') {
+                            cleaned.push(sector);
+                        } else if (result.action === 'fix') {
+                            cleaned.push(result.value);
+                            needsFix = true;
+                            log(`  FIX: "${sector}" -> "${result.value}" (${grant.name})`, 'warn');
+                        } else {
+                            needsFix = true;
+                            log(`  DEL: "${sector}" (${grant.name})`, 'warn');
+                        }
+                    }
+
+                    if (needsFix) {
+                        try {
+                            await client.mutation("adminGrants:updateGrantSectors", {
+                                id: grant._id,
+                                sectors: cleaned,
+                            });
+                            log(`  Fixed: ${grant.name}`, 'ok');
+                            fixed++;
+                        } catch (e) {
+                            log(`  FAILED: ${grant.name} — ${e.message}`, 'err');
+                            failed++;
+                        }
+                    }
+                }
+
+                log(`Done. ${fixed} fixed, ${failed} failed.`, fixed > 0 ? 'ok' : 'info');
+            } catch (e) {
+                log(`Error: ${e.message}`, 'err');
+            }
+            btn.disabled = false;
+        }
+
+        // ─── NEW GRANTS ───
+        const NEW_GRANTS = [
+            {
+                name: "Skipton Building Society Charitable Foundation",
+                funder: "Skipton Building Society",
+                minAmount: 0, maxAmount: 5000,
+                deadline: "2026-03-31", status: "Open",
+                sectors: ["Housing", "Financial wellbeing"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.skiptonbuildingsociety.co.uk/charitable-foundation",
+                description: "Supports UK-registered charities working on housing and financial wellbeing. Up to £5,000 per grant.",
+            },
+            {
+                name: "Community Grants Scheme - Buildings & Outdoor Spaces",
+                funder: "Community Grants Scheme",
+                minAmount: 10000, maxAmount: 75000,
+                deadline: "2026-04-02", status: "Open",
+                sectors: ["Community", "Built environment", "Green spaces"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 3,
+                supportsStartup: false, supportsGrowth: true,
+                website: "https://www.gov.uk/guidance/community-grants-scheme",
+                description: "Funding for UK not-for-profit organisations to improve community buildings and outdoor spaces. £10,000 to £75,000.",
+            },
+            {
+                name: "Robotics Adoption Hubs - Central Body Launch",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 0,
+                deadline: "2026-04-15", status: "Open",
+                sectors: ["Technology", "Innovation", "Robotics"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "Innovate UK programme to establish robotics adoption infrastructure.",
+            },
+            {
+                name: "Clean Maritime Technology Projects",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 121000000,
+                deadline: "2026-07-15", status: "Open",
+                sectors: ["Maritime", "Clean tech", "Environment", "Innovation"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "£121 million fund for clean maritime technology innovation.",
+            },
+            {
+                name: "Lord-Lieutenant's Fund",
+                funder: "Lord-Lieutenant's Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Community", "Civic"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "UK-based projects. Applications now open with no stated deadline.",
+            },
+            {
+                name: "Bright Futures Fund",
+                funder: "Bright Futures Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Youth", "Education", "Carers"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Supports young carers managing responsibilities at home. UK-based organisations eligible.",
+            },
+            {
+                name: "Grants for New Fine Arts Projects",
+                funder: "Arts Funding Body",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Arts", "Culture"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 3,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Funding for new fine arts projects. UK-based projects only.",
+            },
+            {
+                name: "One Stop Community Partnership Programme",
+                funder: "One Stop",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Community", "Social impact"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Social impact funding delivered in collaboration with communities.",
+            },
+            {
+                name: "Advanced Connectivity System Integration Projects",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Technology", "Connectivity", "Innovation"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "Innovate UK programme for advanced connectivity system integration.",
+            },
+            {
+                name: "Projects for Young People Programme",
+                funder: "Youth Funding Body",
+                minAmount: 0, maxAmount: 15000,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Youth", "Community"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Up to £15,000 for community youth programmes. UK community organisations eligible.",
+            },
+            {
+                name: "Woodroffe Benton Foundation Small Grant Programme",
+                funder: "Woodroffe Benton Foundation",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["General", "Community"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "One-off small grants for UK organisations.",
+            },
+            {
+                name: "Community Research Grant Program",
+                funder: "Community Research Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Research", "Community", "Environment"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 3,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Supports projects creating positive social and environmental impact.",
+            },
+            {
+                name: "Habitat and Biodiversity Grant Scheme",
+                funder: "Environmental Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Environment", "Biodiversity"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 3,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Funding for sustainable environmental projects focused on habitat and biodiversity.",
+            },
+            {
+                name: "UK Global Screen Fund: International Co-production",
+                funder: "UK Global Screen Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Film", "Screen", "Creative industries"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 4,
+                supportsStartup: false, supportsGrowth: true,
+                website: "https://www.bfi.org.uk/uk-global-screen-fund",
+                description: "Grants for international co-production. Cannot exceed 50% of overall UK budget.",
+            },
+            {
+                name: "Fat Beehive Foundation - Digital Presence Grants",
+                funder: "Fat Beehive Foundation",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Digital", "Charity infrastructure"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.fatbeehive.com/foundation",
+                description: "Supports small UK charities to build digital presence and online capability.",
+            },
+            {
+                name: "Realisation Grants Programme",
+                funder: "Arts Funding Body",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Arts", "Culture"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 3,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Funding for arts and culture projects. UK organisations eligible.",
+            },
+            {
+                name: "Community Development Grant - Small",
+                funder: "Community Development Fund",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Community Development"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 2,
+                supportsStartup: true, supportsGrowth: true,
+                website: "https://www.gov.uk",
+                description: "Small community development grants for UK organisations.",
+            },
+            {
+                name: "Non-Animal Drug Testing Methods",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Life sciences", "Innovation", "Health tech"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "Innovate UK programme for non-animal drug testing methods innovation.",
+            },
+            {
+                name: "Hemp Varieties for British Farming - Innovation Programme",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 0,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Agriculture", "Innovation", "Sustainability"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "Innovate UK programme for hemp varieties for British farming.",
+            },
+            {
+                name: "Cybersecurity Startup Programme",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 10000000,
+                deadline: "Rolling", status: "Open",
+                sectors: ["Cybersecurity", "Technology", "Startup"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: true, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "£10 million additional funding for cybersecurity startup programme.",
+            },
+            {
+                name: "Whole-System AI Strategy",
+                funder: "Innovate UK",
+                minAmount: 0, maxAmount: 1600000000,
+                deadline: "Rolling", status: "Open",
+                sectors: ["AI", "Technology", "Innovation"],
+                regions: ["UK-wide"],
+                applicationDifficulty: 5,
+                supportsStartup: false, supportsGrowth: true, supportsScale: true,
+                website: "https://www.ukri.org/councils/innovate-uk/",
+                description: "£1.6 billion whole-system AI strategy by Innovate UK.",
+            },
+        ];
+
+        async function addNewGrants() {
+            const btn = document.getElementById('btnAddGrants');
+            btn.disabled = true;
+            log('Fetching existing grants for duplicate check...', 'info');
+
+            try {
+                const existing = await client.query("grants:getAllGrants");
+                const existingNames = new Set(existing.map(g => (g.name || '').toLowerCase().trim()));
+                log(`Found ${existing.length} existing grants`, 'info');
+
+                const toAdd = NEW_GRANTS.filter(g => {
+                    const isDupe = existingNames.has(g.name.toLowerCase().trim());
+                    if (isDupe) log(`  SKIP (duplicate): ${g.name}`, 'warn');
+                    return !isDupe;
+                });
+
+                log(`${toAdd.length} new grants to add`, 'info');
+
+                let added = 0, failed = 0;
+                for (const grant of toAdd) {
+                    try {
+                        await client.mutation("adminGrants:addGrant", grant);
+                        log(`  Added: ${grant.name}`, 'ok');
+                        added++;
+                        await new Promise(r => setTimeout(r, 200)); // rate limit
+                    } catch (e) {
+                        log(`  FAILED: ${grant.name} — ${e.message}`, 'err');
+                        failed++;
+                    }
+                }
+
+                log(`Done. ${added} added, ${failed} failed. Total: ${existing.length + added}`, added > 0 ? 'ok' : 'info');
+            } catch (e) {
+                log(`Error: ${e.message}`, 'err');
+            }
+            btn.disabled = false;
+        }
+    </script>
+</body>
+</html>

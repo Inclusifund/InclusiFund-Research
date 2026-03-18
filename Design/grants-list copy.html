@@ -1,0 +1,474 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InclusiFund - Browse All Grants</title>
+
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Auth & Security -->
+    <script src="assets/js/auth.js"></script>
+    <script>
+        // Enforce authentication
+        if (!InclusiFundAuth.requireAuth()) {
+            throw new Error("Redirecting to login...");
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Fix for Lucide-React UMD -->
+    <script>
+        window.react = window.React;
+    </script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide-react@0.344.0/dist/umd/lucide-react.min.js"></script>
+    <script>
+        window.lucide = window.LucideReact;
+    </script>
+
+    <!-- Convex Client -->
+    <script src="https://unpkg.com/convex@1.16.4/dist/browser.bundle.js"></script>
+    <script>
+        // Fix global variable name (Convex bundle exports as lowercase 'convex')
+        window.Convex = window.convex;
+    </script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#1F2232',
+                            primary: '#6BB6B6',
+                            secondary: '#008080',
+                            accent: '#005461',
+                            light: '#D5ECEC',
+                            white: '#FFFFFF',
+                            slate: '#94A3B8',
+                            border: '#334155',
+                            card: '#2D3344',
+                            gold: '#F59E0B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Lora', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #1F2232;
+            color: #F4F4F4;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1F2232;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        const { Search, Filter, X, ExternalLink, ChevronDown, ArrowLeft } = lucide;
+
+        // Convex Client
+        const CONVEX_URL = "https://terrific-bloodhound-927.convex.cloud";
+        const convexClient = new Convex.ConvexHttpClient(CONVEX_URL);
+
+        const App = () => {
+            const [grants, setGrants] = useState([]);
+            const [filteredGrants, setFilteredGrants] = useState([]);
+            const [loading, setLoading] = useState(true);
+            const [searchTerm, setSearchTerm] = useState('');
+            const [selectedSectors, setSelectedSectors] = useState([]);
+            const [selectedRegions, setSelectedRegions] = useState([]);
+            const [selectedStatus, setSelectedStatus] = useState('Open');
+            const [sortBy, setSortBy] = useState('name');
+            const [showFilters, setShowFilters] = useState(false);
+
+            // Fetch grants from Convex
+            useEffect(() => {
+                const fetchGrants = async () => {
+                    try {
+                        const result = await convexClient.query("grants:getAllGrants");
+                        // Transform data to match UI expectations
+                        const transformed = result.map(g => ({
+                            ...g,
+                            name: g.grantName || 'Unnamed Grant',
+                            minAmount: g.amountMin || 0,
+                            maxAmount: g.amountMax || 0,
+                            sectors: g.eligibleSectors || [],
+                            regions: [g.geographicFocus || 'UK-wide'],
+                            status: g.status === 'Open Now' ? 'Open' : g.status
+                        }));
+                        setGrants(transformed);
+                        setFilteredGrants(transformed);
+                    } catch (error) {
+                        console.error("Error fetching grants:", error);
+                    } finally {
+                        setLoading(false);
+                    }
+                };
+                fetchGrants();
+            }, []);
+
+            // Extract unique sectors and regions
+            const allSectors = [...new Set(grants.flatMap(g => g.sectors))].sort();
+            const allRegions = [...new Set(grants.flatMap(g => g.regions))].sort();
+
+            // Apply filters
+            useEffect(() => {
+                let filtered = grants;
+
+                // Status filter
+                if (selectedStatus) {
+                    filtered = filtered.filter(g => g.status === selectedStatus);
+                }
+
+                // Search filter
+                if (searchTerm) {
+                    filtered = filtered.filter(g =>
+                        g.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                        g.funder.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                        g.description.toLowerCase().includes(searchTerm.toLowerCase())
+                    );
+                }
+
+                // Sector filter
+                if (selectedSectors.length > 0) {
+                    filtered = filtered.filter(g =>
+                        g.sectors.some(s => selectedSectors.includes(s))
+                    );
+                }
+
+                // Region filter
+                if (selectedRegions.length > 0) {
+                    filtered = filtered.filter(g =>
+                        g.regions.includes('UK-wide') ||
+                        g.regions.some(r => selectedRegions.includes(r))
+                    );
+                }
+
+                // Sort
+                filtered = [...filtered].sort((a, b) => {
+                    if (sortBy === 'name') return a.name.localeCompare(b.name);
+                    if (sortBy === 'maxAmount') return b.maxAmount - a.maxAmount;
+                    if (sortBy === 'minAmount') return a.minAmount - b.minAmount;
+                    if (sortBy === 'difficulty') return a.applicationDifficulty - b.applicationDifficulty;
+                    return 0;
+                });
+
+                setFilteredGrants(filtered);
+            }, [grants, searchTerm, selectedSectors, selectedRegions, selectedStatus, sortBy]);
+
+            const toggleSector = (sector) => {
+                setSelectedSectors(prev =>
+                    prev.includes(sector) ? prev.filter(s => s !== sector) : [...prev, sector]
+                );
+            };
+
+            const toggleRegion = (region) => {
+                setSelectedRegions(prev =>
+                    prev.includes(region) ? prev.filter(r => r !== region) : [...prev, region]
+                );
+            };
+
+            const clearFilters = () => {
+                setSearchTerm('');
+                setSelectedSectors([]);
+                setSelectedRegions([]);
+                setSelectedStatus('Open');
+                setSortBy('name');
+            };
+
+            if (loading) {
+                return (
+                    <div className="min-h-screen bg-brand-dark flex items-center justify-center">
+                        <div className="text-center">
+                            <div className="inline-block animate-spin rounded-full h-16 w-16 border-b-2 border-brand-primary mb-4"></div>
+                            <p className="text-brand-slate text-lg">Loading grants...</p>
+                        </div>
+                    </div>
+                );
+            }
+
+            return (
+                <div className="min-h-screen bg-brand-dark text-brand-light font-sans">
+                    {/* Header */}
+                    <header className="bg-brand-card border-b border-brand-border sticky top-0 z-50">
+                        <div className="container mx-auto px-4 py-4">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-4">
+                                    <button
+                                        onClick={() => window.location.href = 'https://tools.inclusifund.co.uk/dashboard'}
+                                        className="text-brand-slate hover:text-brand-primary transition-colors flex items-center gap-2"
+                                        title="Return to Tools Suite"
+                                    >
+                                        <ArrowLeft size={24} />
+                                        <span className="hidden md:inline font-medium text-sm">Tools Suite</span>
+                                    </button>
+                                    <h1 className="font-serif text-2xl md:text-3xl text-brand-primary font-bold">
+                                        InclusiFund Grants
+                                    </h1>
+                                </div>
+                                <button
+                                    onClick={() => setShowFilters(!showFilters)}
+                                    className="md:hidden bg-brand-primary/10 text-brand-primary px-4 py-2 rounded-lg flex items-center gap-2"
+                                >
+                                    <Filter size={18} />
+                                    Filters
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div className="container mx-auto px-4 py-8">
+                        <div className="flex flex-col md:flex-row gap-8">
+                            {/* Sidebar Filters */}
+                            <aside className={`md:w-80 ${showFilters ? 'block' : 'hidden md:block'}`}>
+                                <div className="bg-brand-card border border-brand-border rounded-xl p-6 sticky top-24">
+                                    <div className="flex items-center justify-between mb-6">
+                                        <h2 className="font-serif text-xl text-brand-white">Filters</h2>
+                                        <button
+                                            onClick={clearFilters}
+                                            className="text-brand-slate hover:text-brand-primary text-sm transition-colors"
+                                        >
+                                            Clear All
+                                        </button>
+                                    </div>
+
+                                    {/* Search */}
+                                    <div className="mb-6">
+                                        <label className="block text-brand-slate text-sm mb-2">Search</label>
+                                        <div className="relative">
+                                            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-brand-slate" size={18} />
+                                            <input
+                                                type="text"
+                                                value={searchTerm}
+                                                onChange={(e) => setSearchTerm(e.target.value)}
+                                                placeholder="Grant name or funder..."
+                                                className="w-full bg-brand-dark border border-brand-border rounded-lg pl-10 pr-4 py-2 text-brand-white placeholder-brand-slate focus:outline-none focus:border-brand-primary"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    {/* Status */}
+                                    <div className="mb-6">
+                                        <label className="block text-brand-slate text-sm mb-2">Status</label>
+                                        <select
+                                            value={selectedStatus}
+                                            onChange={(e) => setSelectedStatus(e.target.value)}
+                                            className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-2 text-brand-white focus:outline-none focus:border-brand-primary"
+                                        >
+                                            <option value="">All</option>
+                                            <option value="Open">Open</option>
+                                            <option value="Closed">Closed</option>
+                                            <option value="Paused">Paused</option>
+                                        </select>
+                                    </div>
+
+                                    {/* Sort By */}
+                                    <div className="mb-6">
+                                        <label className="block text-brand-slate text-sm mb-2">Sort By</label>
+                                        <select
+                                            value={sortBy}
+                                            onChange={(e) => setSortBy(e.target.value)}
+                                            className="w-full bg-brand-dark border border-brand-border rounded-lg px-4 py-2 text-brand-white focus:outline-none focus:border-brand-primary"
+                                        >
+                                            <option value="name">Name (A-Z)</option>
+                                            <option value="maxAmount">Highest Amount</option>
+                                            <option value="minAmount">Lowest Amount</option>
+                                            <option value="difficulty">Easiest First</option>
+                                        </select>
+                                    </div>
+
+                                    {/* Sectors */}
+                                    <div className="mb-6">
+                                        <label className="block text-brand-slate text-sm mb-2">Sectors</label>
+                                        <div className="space-y-2 max-h-48 overflow-y-auto custom-scrollbar">
+                                            {allSectors.map(sector => (
+                                                <label key={sector} className="flex items-center gap-2 cursor-pointer hover:bg-brand-dark/50 p-2 rounded">
+                                                    <input
+                                                        type="checkbox"
+                                                        checked={selectedSectors.includes(sector)}
+                                                        onChange={() => toggleSector(sector)}
+                                                        className="w-4 h-4 accent-brand-primary"
+                                                    />
+                                                    <span className="text-sm text-brand-light">{sector}</span>
+                                                </label>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    {/* Regions */}
+                                    <div className="mb-6">
+                                        <label className="block text-brand-slate text-sm mb-2">Regions</label>
+                                        <div className="space-y-2 max-h-48 overflow-y-auto custom-scrollbar">
+                                            {allRegions.map(region => (
+                                                <label key={region} className="flex items-center gap-2 cursor-pointer hover:bg-brand-dark/50 p-2 rounded">
+                                                    <input
+                                                        type="checkbox"
+                                                        checked={selectedRegions.includes(region)}
+                                                        onChange={() => toggleRegion(region)}
+                                                        className="w-4 h-4 accent-brand-primary"
+                                                    />
+                                                    <span className="text-sm text-brand-light">{region}</span>
+                                                </label>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+
+                            {/* Main Content */}
+                            <main className="flex-1">
+                                <div className="mb-6">
+                                    <h2 className="text-2xl font-serif text-brand-white mb-2">
+                                        {filteredGrants.length} {filteredGrants.length === 1 ? 'Grant' : 'Grants'} Found
+                                    </h2>
+                                    {(selectedSectors.length > 0 || selectedRegions.length > 0 || searchTerm) && (
+                                        <div className="flex flex-wrap gap-2 mt-4">
+                                            {selectedSectors.map(sector => (
+                                                <span key={sector} className="bg-brand-primary/20 text-brand-primary px-3 py-1 rounded-full text-sm flex items-center gap-2">
+                                                    {sector}
+                                                    <button onClick={() => toggleSector(sector)}>
+                                                        <X size={14} />
+                                                    </button>
+                                                </span>
+                                            ))}
+                                            {selectedRegions.map(region => (
+                                                <span key={region} className="bg-brand-secondary/20 text-brand-light px-3 py-1 rounded-full text-sm flex items-center gap-2">
+                                                    {region}
+                                                    <button onClick={() => toggleRegion(region)}>
+                                                        <X size={14} />
+                                                    </button>
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Grants Grid */}
+                                {filteredGrants.length === 0 ? (
+                                    <div className="text-center py-20">
+                                        <p className="text-brand-slate text-lg mb-4">No grants found matching your criteria</p>
+                                        <button
+                                            onClick={clearFilters}
+                                            className="bg-brand-primary text-brand-dark px-6 py-3 rounded-lg font-medium hover:bg-brand-primary/90 transition-colors"
+                                        >
+                                            Clear Filters
+                                        </button>
+                                    </div>
+                                ) : (
+                                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                        {filteredGrants.map((grant) => (
+                                            <div
+                                                key={grant._id}
+                                                className="bg-brand-card border border-brand-border rounded-xl p-6 flex flex-col hover:border-brand-primary/50 transition-all group"
+                                            >
+                                                <div className="flex items-start justify-between mb-3">
+                                                    <span className={`text-xs px-2 py-1 rounded ${grant.status === 'Open'
+                                                        ? 'bg-green-500/20 text-green-400'
+                                                        : grant.status === 'Closed'
+                                                            ? 'bg-red-500/20 text-red-400'
+                                                            : 'bg-yellow-500/20 text-yellow-400'
+                                                        }`}>
+                                                        {grant.status}
+                                                    </span>
+                                                    <span className="text-xs bg-brand-dark px-2 py-1 rounded text-brand-slate">
+                                                        Difficulty: {grant.applicationDifficulty}/5
+                                                    </span>
+                                                </div>
+
+                                                <div className="text-xs text-brand-slate uppercase tracking-wider mb-2">
+                                                    {grant.funder}
+                                                </div>
+
+                                                <h3 className="font-serif text-xl text-brand-white mb-3 group-hover:text-brand-primary transition-colors">
+                                                    {grant.name}
+                                                </h3>
+
+                                                <div className="flex flex-wrap gap-2 mb-4">
+                                                    <span className="text-xs bg-brand-dark px-2 py-1 rounded text-brand-primary font-medium">
+                                                        £{grant.minAmount.toLocaleString()} - £{grant.maxAmount.toLocaleString()}
+                                                    </span>
+                                                    <span className="text-xs bg-brand-dark px-2 py-1 rounded text-brand-slate">
+                                                        {grant.deadline || "Rolling"}
+                                                    </span>
+                                                </div>
+
+                                                <p className="text-brand-slate text-sm mb-4 flex-1 line-clamp-3">
+                                                    {grant.description}
+                                                </p>
+
+                                                <div className="flex flex-wrap gap-1 mb-4">
+                                                    {grant.sectors.slice(0, 2).map(sector => (
+                                                        <span key={sector} className="text-xs bg-brand-primary/10 text-brand-primary px-2 py-1 rounded">
+                                                            {sector}
+                                                        </span>
+                                                    ))}
+                                                    {grant.sectors.length > 2 && (
+                                                        <span className="text-xs bg-brand-dark text-brand-slate px-2 py-1 rounded">
+                                                            +{grant.sectors.length - 2} more
+                                                        </span>
+                                                    )}
+                                                </div>
+
+                                                <a
+                                                    href={grant.website}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="flex items-center justify-center gap-2 bg-brand-primary/10 hover:bg-brand-primary/20 text-brand-primary py-2 rounded-lg text-sm font-medium transition-colors mt-auto"
+                                                >
+                                                    View Details
+                                                    <ExternalLink size={16} />
+                                                </a>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )}
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>

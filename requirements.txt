@@ -1,0 +1,32 @@
+# InclusiFund Quantum Grant Matching — R&D Dependencies
+# Install: python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+
+# Core scientific
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Quantum computing
+# pyqpanda          # Origin Quantum SDK — install separately (see README)
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab==4.5.6
+ipykernel>=6.0.0
+notebook>=7.0.0
+
+# Data
+pandas>=2.0.0
+
+# ML comparison baseline
+scikit-learn>=1.3.0
+
+# Convex (placeholder — for production integration)
+# convex>=0.6.0     # Uncomment when connecting to production
+
+# Dev tools
+pytest>=7.0.0
+black>=23.0.0
+ruff>=0.1.0
