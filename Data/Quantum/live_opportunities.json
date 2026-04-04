@@ -29,7 +29,16 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK-registered SME with a woman founder or co-founder"
+    "eligibility": "UK-registered SME with a woman founder or co-founder",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "networking",
+      "coaching"
+    ]
   },
   {
     "name": "Innovate UK Growth Catalyst - Investor Partnerships",
@@ -59,7 +68,13 @@
     "supportsScale": false,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK-registered SME"
+    "eligibility": "UK-registered SME",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "SBRI Healthcare - NHS Challenge Competitions",
@@ -89,7 +104,13 @@
     "supportsScale": false,
     "applicationDifficulty": 5,
     "website": "https://sbrihealthcare.co.uk",
-    "eligibility": "SMEs and organisations with innovative NHS solutions"
+    "eligibility": "SMEs and organisations with innovative NHS solutions",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Wellbeing of Women - Corporate Partnerships",
@@ -115,7 +136,12 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://wellbeingofwomen.org.uk",
-    "eligibility": "Charities and CICs focused on women's health"
+    "eligibility": "Charities and CICs focused on women's health",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Haemophilia Society - Partnership Opportunities",
@@ -141,7 +167,13 @@
     "supportsScale": true,
     "applicationDifficulty": 2,
     "website": "https://haemophilia.org.uk",
-    "eligibility": "Organisations working with bleeding disorders"
+    "eligibility": "Organisations working with bleeding disorders",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Blood Cancer UK - Corporate Partnerships Model",
@@ -167,7 +199,12 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://bloodcancer.org.uk",
-    "eligibility": "Charities in the blood disorder and healthcare space"
+    "eligibility": "Charities in the blood disorder and healthcare space",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Marshall Impact Accelerator (LSE)",
@@ -198,7 +235,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://shapingtheworld.lse.ac.uk",
-    "eligibility": "Social ventures tackling global challenges"
+    "eligibility": "Social ventures tackling global challenges",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Steve Morgan Foundation Regional Grants",
@@ -229,7 +272,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://stevemorganfoundation.org.uk",
-    "eligibility": "Charities and organisations in North West England or North Wales"
+    "eligibility": "Charities and organisations in North West England or North Wales",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Creative Industries Clusters Programme",
@@ -261,7 +309,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org",
-    "eligibility": "University-business collaborations and creative industry clusters"
+    "eligibility": "University-business collaborations and creative industry clusters",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Creative Places Growth Fund",
@@ -289,7 +342,14 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.gov.uk",
-    "eligibility": "Creative organisations in priority regions, via regional authorities"
+    "eligibility": "Creative organisations in priority regions, via regional authorities",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Local knowledge wins \u2014 if you're active in England (outside London), you already have an advantage"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "ICE UK Consortium (EIT Culture & Creativity)",
@@ -318,7 +378,15 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.wearecreative.uk",
-    "eligibility": "UK cultural and creative sector organisations"
+    "eligibility": "UK cultural and creative sector organisations",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "networking"
+    ]
   },
   {
     "name": "BFI National Lottery Creative Challenge Fund",
@@ -346,7 +414,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.bfi.org.uk",
-    "eligibility": "UK-based organisations (production companies, film festivals)"
+    "eligibility": "UK-based organisations (production companies, film festivals)",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "BFI National Lottery Innovation Challenge Fund",
@@ -376,7 +450,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.bfi.org.uk",
-    "eligibility": "Not-for-profit organisations"
+    "eligibility": "Not-for-profit organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Creative Enterprise by Creative UK",
@@ -404,7 +484,16 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.wearecreative.uk",
-    "eligibility": "Screen sector businesses in England"
+    "eligibility": "Screen sector businesses in England",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "training",
+      "networking"
+    ]
   },
   {
     "name": "Creative Catalyst Programme",
@@ -432,7 +521,15 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.wearecreative.uk",
-    "eligibility": "Micro and small creative businesses"
+    "eligibility": "Micro and small creative businesses",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "coaching"
+    ]
   },
   {
     "name": "Procurement Act 2023 - Social Value Contracts",
@@ -458,7 +555,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.gov.uk",
-    "eligibility": "UK-registered organisations, especially SMEs and social enterprises"
+    "eligibility": "UK-registered organisations, especially SMEs and social enterprises",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "NHS Urgent and Emergency Care Plan Funding",
@@ -486,7 +590,14 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.england.nhs.uk",
-    "eligibility": "Organisations partnering with NHS Trusts"
+    "eligibility": "Organisations partnering with NHS Trusts",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "NHS Federated Data Platform - Integration Opportunities",
@@ -516,7 +627,13 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.england.nhs.uk",
-    "eligibility": "Health tech organisations with data platform capabilities"
+    "eligibility": "Health tech organisations with data platform capabilities",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Primary Care Utilisation and Modernisation Fund",
@@ -546,7 +663,14 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.gov.uk",
-    "eligibility": "Organisations partnering with primary care networks"
+    "eligibility": "Organisations partnering with primary care networks",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Create Growth Programme",
@@ -574,7 +698,15 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "Creative businesses in designated English regions"
+    "eligibility": "Creative businesses in designated English regions",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "networking"
+    ]
   },
   {
     "name": "Creative East Programme",
@@ -600,7 +732,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": null,
-    "eligibility": "Creative businesses in East of England"
+    "eligibility": "Creative businesses in East of England",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Creative Business Skills Bootcamps",
@@ -628,7 +766,15 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": null,
-    "eligibility": "Creative businesses in Yorkshire"
+    "eligibility": "Creative businesses in Yorkshire",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [
+      "networking"
+    ]
   },
   {
     "name": "BFI Skills Fund - Exhibition and Distribution",
@@ -654,7 +800,11 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.bfi.org.uk",
-    "eligibility": "Exhibition and distribution leaders in the screen sector"
+    "eligibility": "Exhibition and distribution leaders in the screen sector",
+    "achievabilityTips": [
+      "Includes structured support and mentoring"
+    ],
+    "supportFlags": []
   },
   {
     "name": "DCMS Createch Futures Programme",
@@ -684,7 +834,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org",
-    "eligibility": "Creative technology companies and organisations"
+    "eligibility": "Creative technology companies and organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Innovation Accelerators Programme",
@@ -716,7 +871,11 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "Organisations in Glasgow, Manchester, or West Midlands city regions"
+    "eligibility": "Organisations in Glasgow, Manchester, or West Midlands city regions",
+    "achievabilityTips": [
+      "Includes structured support and mentoring"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Thriving Communities Fund (Social Prescribing)",
@@ -746,7 +905,12 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://socialprescribingacademy.org.uk",
-    "eligibility": "Arts and cultural organisations delivering social prescribing activities"
+    "eligibility": "Arts and cultural organisations delivering social prescribing activities",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Creative Health Leads Programme",
@@ -774,7 +938,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.england.nhs.uk",
-    "eligibility": "Organisations with creative health programmes partnering with NHS"
+    "eligibility": "Organisations with creative health programmes partnering with NHS",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Culturally Mindful Creative Health Residency",
@@ -804,7 +974,15 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": null,
-    "eligibility": "Global Majority artists"
+    "eligibility": "Global Majority artists",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "UK Government Equal, Safe and Free Fund (LGBT+)",
@@ -830,7 +1008,13 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.gov.uk",
-    "eligibility": "Grassroots LGBT+ organisations"
+    "eligibility": "Grassroots LGBT+ organisations",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Pride in London Unity Fund",
@@ -856,7 +1040,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://prideinlondon.org",
-    "eligibility": "Registered charity, CIC, CIO, or constituted community group in London"
+    "eligibility": "Registered charity, CIC, CIO, or constituted community group in London",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Manchester Pride Community Fund",
@@ -884,7 +1074,13 @@
     "supportsScale": false,
     "applicationDifficulty": 1,
     "website": "https://manchestercommunitycentral.org",
-    "eligibility": "Grassroots LGBTQ+ community groups in Manchester"
+    "eligibility": "Grassroots LGBTQ+ community groups in Manchester",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "National Lottery Heritage Fund - LGBTQ+ Heritage",
@@ -912,7 +1108,12 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://heritagefund.org.uk",
-    "eligibility": "Organisations with LGBTQ+ heritage projects"
+    "eligibility": "Organisations with LGBTQ+ heritage projects",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Arts Council England Cultural Development Fund",
@@ -940,7 +1141,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.artscouncil.org.uk",
-    "eligibility": "Local partnerships led by local authorities or similar entities"
+    "eligibility": "Local partnerships led by local authorities or similar entities",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Creative Foundations Fund (Capital Projects)",
@@ -968,7 +1174,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.gov.uk",
-    "eligibility": "Arts venues and cultural organisations"
+    "eligibility": "Arts venues and cultural organisations",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Children & Young People Community Health and Wellbeing Services",
@@ -1000,7 +1211,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.find-tender.service.gov.uk/Notice/017943-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Mental Health Community Support Services",
@@ -1032,7 +1250,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.find-tender.service.gov.uk/Notice/001213-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "South West London Mental Health Support Teams",
@@ -1064,7 +1289,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.find-tender.service.gov.uk/Notice/020853-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Mental Health Prevention Services",
@@ -1094,7 +1326,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/000021-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Care and Support at Home Services",
@@ -1126,7 +1365,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/005549-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Step-Down Housing Service for Mental Health",
@@ -1158,7 +1404,13 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/009872-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "NextGen Youth Services",
@@ -1190,7 +1442,16 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/012816-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Connect to Work Supported Employment Service",
@@ -1222,7 +1483,16 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/017995-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [
+      "coaching"
+    ],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Adult Learning Services - Multi-Lot Framework",
@@ -1256,7 +1526,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/052450-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know someone in the council? Those relationships are your route in"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "VCSE Infrastructure Support - Ashford",
@@ -1286,7 +1563,16 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.contractsfinder.service.gov.uk/notice/14a81395-86a9-4ea6-8927-75445b7d7572",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [
+      "capacity-building"
+    ],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Short Breaks Leisure Activities for Children with Disabilities",
@@ -1318,7 +1604,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/006748-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Homeless Family Rehousing Support",
@@ -1350,7 +1643,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/014253-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Social Integration and Community Support Groups",
@@ -1380,7 +1680,14 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.contractsfinder.service.gov.uk/Notice/4a9ff5f6-40bd-4446-8044-08f7fc2abbb2",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Adult Social Care Transformation Delivery Partner",
@@ -1412,7 +1719,14 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.contractsfinder.service.gov.uk/Notice/87659739-5dfd-4eba-9b5c-eb82c81900c0",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Digital Outcomes and Specialists 7 (DOS7)",
@@ -1444,7 +1758,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/017887-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Construction Professional Services 2 Framework (2026-2030)",
@@ -1474,7 +1795,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.crowncommercial.gov.uk/",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "Technology Innovation Marketplace (DPS)",
@@ -1506,7 +1834,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/014316-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "Sustainability Framework - Crown Estate",
@@ -1536,7 +1871,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.find-tender.service.gov.uk/Notice/080802-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "UK Leisure Framework 2026-2034",
@@ -1568,7 +1910,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/084356-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "Network of Employability Support and Training - Vocational Framework 2026-2030",
@@ -1598,7 +1947,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/065363-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Local knowledge wins \u2014 if you're active in UK-wide, you already have an advantage"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "L&Q Financial Inclusion Service",
@@ -1631,7 +1987,13 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/054067-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Great British Energy Advisory Services 2026-2029",
@@ -1663,7 +2025,14 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.find-tender.service.gov.uk/Notice/079312-2025",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Alliance opportunity \u2014 partner with charities, schools, and clinics in your area",
+      "Solid yearly income if you build good relationships and bring the team"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "ESG and Sustainability Reporting System",
@@ -1693,7 +2062,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/012719-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know inside workers in social housing, treasury, or health? Those relationships are your edge"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "Net Zero Neighbourhood Community Energy Advice",
@@ -1725,7 +2101,14 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.find-tender.service.gov.uk/Notice/006952-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Temporary Accommodation Solutions Framework",
@@ -1755,7 +2138,14 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/003366-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Two routes: join a main contractor's supply chain, or build an alliance and bid as lead",
+      "These award much higher than grants \u2014 solid yearly income if you build the relationship",
+      "Know someone in the council? Those relationships are your route in"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Supply Chain Opportunity"
   },
   {
     "name": "Start & Sustain Business Start-Up Support Service",
@@ -1787,7 +2177,16 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.find-tender.service.gov.uk/Notice/016588-2026",
-    "eligibility": ""
+    "eligibility": "",
+    "achievabilityTips": [
+      "Build your team, scale fractionally, deliver across multiple locations",
+      "Solid yearly income if you build good relationships and bring the team",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ],
+    "framingLabel": "Service Delivery Contract"
   },
   {
     "name": "Aviva Foundation Communities Fund",
@@ -1819,7 +2218,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://communitiesfund.avivafoundation.org.uk/",
-    "eligibility": "Registered charity, CIC, or community group with annual income under \u00a31m"
+    "eligibility": "Registered charity, CIC, or community group with annual income under \u00a31m",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Aviva Foundation Financial Futures Fund",
@@ -1849,15 +2254,19 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.aviva.com/sustainability/aviva-foundation/",
-    "eligibility": "Registered charity with annual income over \u00a31m"
+    "eligibility": "Registered charity with annual income over \u00a31m",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Tesco Stronger Starts Community Grants",
     "opportunityType": "csr",
     "funder": "Tesco / Groundwork",
     "description": "Grants of \u00a3500-\u00a31,500 for schools, charities and not-for-profit organisations supporting children and young people. Projects voted on by customers via blue token scheme in local Tesco stores.",
-    "amountMin": 500,
-    "amountMax": 1500,
+    "amountMin": 500.0,
+    "amountMax": 2000.0,
     "deadline": "Rolling (quarterly rounds)",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -1881,7 +2290,18 @@
     "supportsScale": false,
     "applicationDifficulty": 1,
     "website": "https://tescostrongerstarts.org.uk/",
-    "eligibility": "Registered charity, school, or not-for-profit organisation"
+    "eligibility": "Registered charity, school, or not-for-profit organisation",
+    "minAmount": 500.0,
+    "maxAmount": 2000.0,
+    "perAwardMin": 500.0,
+    "perAwardMax": 2000.0,
+    "framingLabel": null,
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Santander Foundation Financial & Digital Empowerment Fund",
@@ -1915,15 +2335,21 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-foundation-launches-ps18million-fund",
-    "eligibility": "Registered charity or CIC"
+    "eligibility": "Registered charity or CIC",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Lloyds Bank Foundation Racial Equity Grants",
     "opportunityType": "csr",
     "funder": "Lloyds Bank Foundation",
     "description": "Unrestricted grants for small charities and CICs led by and working with people who face inequity because of their race or ethnicity. Three-year funding plus tailored development support.",
-    "amountMin": 10000,
-    "amountMax": 75000,
+    "amountMin": 25000.0,
+    "amountMax": 75000.0,
     "deadline": "Rolling",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -1948,15 +2374,27 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.lloydsbankfoundation.org.uk/funding",
-    "eligibility": "Registered charity with annual income \u00a325k-\u00a3500k, operating in England/Wales"
+    "eligibility": "Registered charity with annual income \u00a325k-\u00a3500k, operating in England/Wales",
+    "minAmount": 25000.0,
+    "maxAmount": 75000.0,
+    "perAwardMin": 25000.0,
+    "perAwardMax": 75000.0,
+    "framingLabel": null,
+    "supportFlags": [
+      "capacity-building"
+    ],
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ]
   },
   {
     "name": "Garfield Weston Foundation Main Grants",
     "opportunityType": "csr",
     "funder": "Garfield Weston Foundation",
     "description": "One of the UK's largest independent grant-makers, distributing around \u00a3100m annually across a wide range of charitable activities. No deadlines, trustees make decisions year-round.",
-    "amountMin": 1000,
-    "amountMax": 100000,
+    "amountMin": 1000.0,
+    "amountMax": 100000.0,
     "deadline": "Rolling (no deadlines)",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -1984,7 +2422,17 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://garfieldweston.org/what-we-fund/",
-    "eligibility": "Registered charity"
+    "eligibility": "Registered charity",
+    "minAmount": 1000.0,
+    "maxAmount": 100000.0,
+    "perAwardMin": 1000.0,
+    "perAwardMax": 100000.0,
+    "framingLabel": null,
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Esmee Fairbairn Foundation Grants",
@@ -2018,7 +2466,11 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://esmeefairbairn.org.uk/our-support/grants/",
-    "eligibility": "Registered charity or CIC with established track record"
+    "eligibility": "Registered charity or CIC with established track record",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Big Give Christmas Challenge 2026",
@@ -2052,7 +2504,12 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://biggive.org/charities/",
-    "eligibility": "UK registered charity with a Champion match funder"
+    "eligibility": "UK registered charity with a Champion match funder",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Nationwide Community Grants Programme",
@@ -2082,7 +2539,12 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://nationwidecommunitygrants.co.uk/",
-    "eligibility": "Registered charity focused on housing issues"
+    "eligibility": "Registered charity focused on housing issues",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Cadbury Foundation Community Grants",
@@ -2114,7 +2576,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.cadbury.co.uk/about/impact/cadbury-foundation/",
-    "eligibility": "Registered charity"
+    "eligibility": "Registered charity",
+    "achievabilityTips": [
+      "Corporate partner angle \u2014 align your pitch to their social value goals",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "CAF Venturesome Impact Fund",
@@ -2146,7 +2614,12 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.cafonline.org/services-for-charities/funding-for-charities/social-investment/venturesome-impact-fund",
-    "eligibility": "Charities, social enterprises and community groups in the UK"
+    "eligibility": "Charities, social enterprises and community groups in the UK",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Social Investment Business - Community Enterprise Fund",
@@ -2179,7 +2652,14 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.sibgroup.org.uk/funds/community-enterprise-fund/",
-    "eligibility": "Charities and social enterprises based in England and Wales"
+    "eligibility": "Charities and social enterprises based in England and Wales",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Social Investment Business - Community Builders Fund",
@@ -2211,7 +2691,12 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://www.sibgroup.org.uk/funds/community-builders-fund/",
-    "eligibility": "Charities and social enterprises in England, Wales and Scotland"
+    "eligibility": "Charities and social enterprises in England, Wales and Scotland",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Social Investment Business - Energy Resilience Fund",
@@ -2243,7 +2728,12 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.sibgroup.org.uk/funding/",
-    "eligibility": "Charities and social enterprises in England, Wales and Scotland"
+    "eligibility": "Charities and social enterprises in England, Wales and Scotland",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Foundation Scotland Social Investment Fund",
@@ -2275,7 +2765,13 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.foundationscotland.org.uk/apply-for-funding/funding-available/social-investment-fund",
-    "eligibility": "Social enterprises, community organisations and charities operating in Scotland"
+    "eligibility": "Social enterprises, community organisations and charities operating in Scotland",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Resonance Enterprise Investment Fund",
@@ -2309,7 +2805,13 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://resonance.ltd.uk/get-investment/enterprise-growth-funds/resonance-enterprise-investment-fund",
-    "eligibility": "Social enterprises in England, particularly South West, North West and West Midlands"
+    "eligibility": "Social enterprises in England, particularly South West, North West and West Midlands",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "Key Fund - Northern Impact Fund",
@@ -2344,7 +2846,14 @@
     "supportsScale": true,
     "applicationDifficulty": 2,
     "website": "https://thekeyfund.co.uk/",
-    "eligibility": "Community and social enterprises operating in North of England and Midlands"
+    "eligibility": "Community and social enterprises operating in North of England and Midlands",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "NatWest Social & Community Capital",
@@ -2378,15 +2887,23 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://www.natwest.com/business/loans-and-finance/social-and-community-capital.html",
-    "eligibility": "Social enterprises, charities and community organisations"
+    "eligibility": "Social enterprises, charities and community organisations",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "UnLtd Social Entrepreneur Awards",
     "opportunityType": "social_investment",
     "funder": "UnLtd",
     "description": "Starting Up and Scaling Up awards for social entrepreneurs aged 16+. Scaling Up offers \u00a38k-\u00a318k plus 12 months mentoring. At least 50% of awards support disabled and/or Black, Asian or minority ethnic entrepreneurs.",
-    "amountMin": 500,
-    "amountMax": 18000,
+    "amountMin": 500.0,
+    "amountMax": 8000.0,
     "deadline": "Rolling",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -2412,7 +2929,22 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://unltd.org.uk/awards/",
-    "eligibility": "Social entrepreneurs aged 16+ based in the UK"
+    "eligibility": "Social entrepreneurs aged 16+ based in the UK",
+    "minAmount": 500.0,
+    "maxAmount": 8000.0,
+    "perAwardMin": 500.0,
+    "perAwardMax": 8000.0,
+    "framingLabel": null,
+    "supportFlags": [
+      "mentoring",
+      "capacity-building",
+      "coaching"
+    ],
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ]
   },
   {
     "name": "Esmee Fairbairn Foundation Social Investment",
@@ -2446,15 +2978,20 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://esmeefairbairn.org.uk/our-support/social-investment/",
-    "eligibility": "Established charities and social enterprises with clear social mission"
+    "eligibility": "Established charities and social enterprises with clear social mission",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   },
   {
     "name": "UnLtd Starting Up Award",
     "opportunityType": "accelerator",
     "funder": "UnLtd",
     "description": "Funding and 12 months mentoring for social entrepreneurs at idea or early stage. At least 50% of awards support disabled and/or Black, Asian or minority ethnic entrepreneurs.",
-    "amountMin": 500,
-    "amountMax": 8000,
+    "amountMin": 500.0,
+    "amountMax": 8000.0,
     "deadline": "Rolling (limited to 650 per round)",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -2476,15 +3013,30 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://unltd.org.uk/awards/",
-    "eligibility": "Social entrepreneurs with right to live and work in UK, idea or early stage"
+    "eligibility": "Social entrepreneurs with right to live and work in UK, idea or early stage",
+    "minAmount": 500.0,
+    "maxAmount": 8000.0,
+    "perAwardMin": 500.0,
+    "perAwardMax": 8000.0,
+    "framingLabel": null,
+    "supportFlags": [
+      "mentoring",
+      "capacity-building",
+      "coaching"
+    ],
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ]
   },
   {
     "name": "UnLtd Scaling Up Award",
     "opportunityType": "accelerator",
     "funder": "UnLtd",
     "description": "Funding plus 12 months tailored mentoring for social entrepreneurs ready to scale their existing venture. Covers wages and living costs.",
-    "amountMin": 8000,
-    "amountMax": 18000,
+    "amountMin": 500.0,
+    "amountMax": 8000.0,
     "deadline": "Rolling (limited to 650 per round)",
     "geographicFocus": "UK-wide",
     "regions": [
@@ -2506,7 +3058,20 @@
     "supportsScale": true,
     "applicationDifficulty": 3,
     "website": "https://unltd.org.uk/awards/",
-    "eligibility": "Existing social ventures ready to scale, right to live and work in UK"
+    "eligibility": "Existing social ventures ready to scale, right to live and work in UK",
+    "minAmount": 500.0,
+    "maxAmount": 8000.0,
+    "perAwardMin": 500.0,
+    "perAwardMax": 8000.0,
+    "framingLabel": null,
+    "supportFlags": [
+      "mentoring",
+      "capacity-building",
+      "coaching"
+    ],
+    "achievabilityTips": [
+      "Includes structured support and mentoring"
+    ]
   },
   {
     "name": "CVC DIF-Allia Accelerator Challenge",
@@ -2536,7 +3101,13 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://ukbaa.org.uk/blog/2026/02/23/applications-open-for-the-fourth-year-of-the-cvc-dif-allia-accelerator-challenge/",
-    "eligibility": "UK-based impact ventures with proven concept and early traction, ideally revenue-generating or raising seed round"
+    "eligibility": "UK-based impact ventures with proven concept and early traction, ideally revenue-generating or raising seed round",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Growth Accelerator for Social Entrepreneurs (Leicester)",
@@ -2566,7 +3137,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://le.ac.uk/school-of-business/working-with-business/growth-accelerator-for-social-entrepreneurs",
-    "eligibility": "Social enterprises in Leicester/East Midlands area"
+    "eligibility": "Social enterprises in Leicester/East Midlands area",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": []
   },
   {
     "name": "SSE London Growth & Resilience Programme",
@@ -2596,7 +3173,13 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.the-sse.org/programme/london-growth-and-resilience-programme/",
-    "eligibility": "London-based organisations with little or no trading history wanting to build trading income"
+    "eligibility": "London-based organisations with little or no trading history wanting to build trading income",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "SSE Southwark Trade Up Programme 2026",
@@ -2624,7 +3207,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.the-sse.org/programme/southwarklap2026/",
-    "eligibility": "Social enterprises based in or serving London Borough of Southwark"
+    "eligibility": "Social enterprises based in or serving London Borough of Southwark",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Hatch Enterprise Accelerator",
@@ -2654,7 +3243,14 @@
     "supportsScale": true,
     "applicationDifficulty": 2,
     "website": "https://hatchenterprise.org/our-programmes/join-the-accelerator/",
-    "eligibility": "Established businesses with annual revenue over 30k and at least one paid staff member"
+    "eligibility": "Established businesses with annual revenue over 30k and at least one paid staff member",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [
+      "coaching"
+    ]
   },
   {
     "name": "Hatch Enterprise Incubator",
@@ -2684,7 +3280,15 @@
     "supportsScale": false,
     "applicationDifficulty": 1,
     "website": "https://hatchenterprise.org/our-programmes/join-the-incubator/",
-    "eligibility": "Early-stage social entrepreneurs, especially from underrepresented backgrounds"
+    "eligibility": "Early-stage social entrepreneurs, especially from underrepresented backgrounds",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "Bethnal Green Ventures Tech for Good (Autumn 2026)",
@@ -2721,7 +3325,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.bethnalgreenventures.com/apply",
-    "eligibility": "UK-incorporated ventures at prototype stage using tech for social/environmental good. 7% equity taken."
+    "eligibility": "UK-incorporated ventures at prototype stage using tech for social/environmental good. 7% equity taken.",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "100x Impact Accelerator 2026-2027 (LSE)",
@@ -2755,7 +3365,11 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.100ximpact.org/",
-    "eligibility": "For-profit or non-profit social ventures with credible route to systems-level change. Global eligibility."
+    "eligibility": "For-profit or non-profit social ventures with credible route to systems-level change. Global eligibility.",
+    "achievabilityTips": [
+      "Includes structured support and mentoring"
+    ],
+    "supportFlags": []
   },
   {
     "name": "NTU Social Enterprise Accelerator",
@@ -2785,7 +3399,13 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.ntu.ac.uk/business-and-employers/financial-and-funded-support/social-enterprise-accelerator",
-    "eligibility": "VCSEs in Nottinghamshire/East Midlands area"
+    "eligibility": "VCSEs in Nottinghamshire/East Midlands area",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "Lightweight application \u2014 worth a quick bid"
+    ],
+    "supportFlags": []
   },
   {
     "name": "CISL Canopy Sustainability Accelerator",
@@ -2815,7 +3435,15 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.cisl.cam.ac.uk/innovation/cisl-canopy-and-bsis-accelerator-programme-trust-sustainability",
-    "eligibility": "Early-stage sustainability startups"
+    "eligibility": "Early-stage sustainability startups",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "Cambridge Social Innovation Prize 2026",
@@ -2845,7 +3473,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.jbs.cam.ac.uk/centres/social-innovation/cambridge-social-innovation-prize/",
-    "eligibility": "UK social innovators creating social impact through business"
+    "eligibility": "UK social innovators creating social impact through business",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "networking"
+    ]
   },
   {
     "name": "Stephen Lloyd Awards 2026",
@@ -2877,15 +3512,20 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.stephenlloydawards.org/",
-    "eligibility": "UK charities, non-profits, social enterprises, or UK residents setting up eligible entity"
+    "eligibility": "UK charities, non-profits, social enterprises, or UK residents setting up eligible entity",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Go! London Open Innovation Challenge - Sport for Climate Action",
     "opportunityType": "competition",
     "funder": "Go! London / Mayor of London / Sport England",
     "description": "Challenge fund for organisations using sport and physical activity to drive climate action with young people in London. Up to 100k per project to test and scale solutions.",
-    "amountMin": 0,
-    "amountMax": 100000,
+    "amountMin": 300.0,
+    "amountMax": 50000.0,
     "deadline": "2026-04-30",
     "geographicFocus": "London",
     "regions": [
@@ -2909,15 +3549,25 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://golondon.org.uk/open-innovation-challenges/",
-    "eligibility": "Non-profit lead applicant, UK registered, London-based address. For-profits can be partners."
+    "eligibility": "Non-profit lead applicant, UK registered, London-based address. For-profits can be partners.",
+    "minAmount": 300.0,
+    "maxAmount": 50000.0,
+    "perAwardMin": 300.0,
+    "perAwardMax": 50000.0,
+    "framingLabel": null,
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Go! London Open Innovation Challenge - Reimagining Spaces",
     "opportunityType": "competition",
     "funder": "Go! London / Mayor of London / Sport England",
     "description": "Challenge fund for solutions increasing availability of safe, inclusive spaces for sport and physical activity for young people in London. Up to 100k to test and scale.",
-    "amountMin": 0,
-    "amountMax": 100000,
+    "amountMin": 300.0,
+    "amountMax": 50000.0,
     "deadline": "2026-04-30",
     "geographicFocus": "London",
     "regions": [
@@ -2941,7 +3591,17 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://golondon.org.uk/open-innovation-challenges/",
-    "eligibility": "Non-profit lead applicant, UK registered, London-based address"
+    "eligibility": "Non-profit lead applicant, UK registered, London-based address",
+    "minAmount": 300.0,
+    "maxAmount": 50000.0,
+    "perAwardMin": 300.0,
+    "perAwardMax": 50000.0,
+    "framingLabel": null,
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "BFI National Lottery Creative Challenge Fund (Round 2)",
@@ -2973,7 +3633,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.bfi.org.uk/get-funding-support/create-films-tv-or-new-formats-storytelling/bfi-national-lottery-creative-challenge-fund",
-    "eligibility": "UK screen organisations delivering development programmes for fiction/documentary features or immersive film"
+    "eligibility": "UK screen organisations delivering development programmes for fiction/documentary features or immersive film",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Ofwat Water Discovery Challenge 2",
@@ -3003,7 +3669,15 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://waterinnovation.challenges.org/discovery2/",
-    "eligibility": "UK registered entities from any sector. Designed for innovators outside the water industry."
+    "eligibility": "UK registered entities from any sector. Designed for innovators outside the water industry.",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "MSDUK Innovation Challenge 2026",
@@ -3033,7 +3707,14 @@
     "supportsScale": false,
     "applicationDifficulty": 3,
     "website": "https://www.msduk.org.uk/programme/msduk-innovation-challenge/",
-    "eligibility": "Minority-led businesses in the UK"
+    "eligibility": "Minority-led businesses in the UK",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "Cambridge Climate Challenge 2026",
@@ -3063,7 +3744,15 @@
     "supportsScale": false,
     "applicationDifficulty": 2,
     "website": "https://www.zero.cam.ac.uk/node/544",
-    "eligibility": "Open to innovators with climate solutions. Track 1 for new concepts, Track 2 for early-stage ventures."
+    "eligibility": "Open to innovators with climate solutions. Track 1 for new concepts, Track 2 for early-stage ventures.",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Lightweight application \u2014 worth a quick bid",
+      "New CICs welcome"
+    ],
+    "supportFlags": [
+      "mentoring"
+    ]
   },
   {
     "name": "Innovate UK Innovation Loans Round 26",
@@ -3095,7 +3784,12 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
-    "eligibility": "UK registered micro, small or medium sized enterprises (SMEs)"
+    "eligibility": "UK registered micro, small or medium sized enterprises (SMEs)",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Energy Catalyst Round 11 - Early Stage",
@@ -3125,7 +3819,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://apply-for-innovation-funding.service.gov.uk/competition/2362/overview/640b2f4e-8571-4aef-9e2a-67e35db3db77",
-    "eligibility": "UK businesses/organisations with clean energy innovation for ODA-eligible countries"
+    "eligibility": "UK businesses/organisations with clean energy innovation for ODA-eligible countries",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "UKRI Creative Industries Clusters Programme",
@@ -3157,7 +3857,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://creativeindustriesclusters.com/",
-    "eligibility": "Regional partnerships and creative industry clusters"
+    "eligibility": "Regional partnerships and creative industry clusters",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Innovate UK Smart Grants March 2026",
@@ -3191,7 +3896,13 @@
     "supportsScale": true,
     "applicationDifficulty": 4,
     "website": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
-    "eligibility": "UK registered businesses with game-changing R&D innovation"
+    "eligibility": "UK registered businesses with game-changing R&D innovation",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Robotics Adoption Hub Central Body",
@@ -3219,7 +3930,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Clean Maritime Technology Projects",
@@ -3249,7 +3965,12 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Advanced Connectivity System Integration",
@@ -3279,7 +4000,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Non-Animal Drug Testing Methods",
@@ -3307,7 +4034,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Hemp Varieties for British Farming",
@@ -3335,7 +4068,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Innovation-focused \u2014 strong concept matters more than track record",
+      "Competitive process \u2014 budget time for a strong application",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Cybersecurity Startup Programme",
@@ -3365,7 +4104,13 @@
     "supportsScale": false,
     "applicationDifficulty": 4,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK cybersecurity startups"
+    "eligibility": "UK cybersecurity startups",
+    "achievabilityTips": [
+      "Includes structured support and mentoring",
+      "Designed for early-stage organisations",
+      "New CICs welcome"
+    ],
+    "supportFlags": []
   },
   {
     "name": "Whole-System AI Strategy Fund",
@@ -3395,6 +4140,11 @@
     "supportsScale": true,
     "applicationDifficulty": 5,
     "website": "https://www.ukri.org/councils/innovate-uk/",
-    "eligibility": "UK organisations"
+    "eligibility": "UK organisations",
+    "achievabilityTips": [
+      "Blended funding \u2014 part grant, part loan. Understand the repayment terms"
+    ],
+    "supportFlags": [],
+    "framingLabel": "Blended Funding"
   }
 ]

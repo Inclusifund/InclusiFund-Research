@@ -187,7 +187,7 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useCallback } = React;
-        const { Search, Filter, X, ExternalLink, ChevronDown, ArrowLeft, Award, Briefcase, Heart, Rocket, TrendingUp, Trophy, ShoppingCart, LayoutGrid, List, Bookmark, BookmarkCheck, Shield, Clock, Star } = lucide;
+        const { Search, Filter, X, ExternalLink, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, ArrowLeft, Award, Briefcase, Heart, Rocket, TrendingUp, Trophy, ShoppingCart, LayoutGrid, List, Bookmark, BookmarkCheck, Shield, Clock, Star } = lucide;
 
         const CONVEX_URL = "https://terrific-bloodhound-927.convex.cloud";
         const convexClient = new Convex.ConvexHttpClient(CONVEX_URL);
@@ -384,10 +384,113 @@
             );
         };
 
+        // === CLOSING SOON CAROUSEL — slow continuous creep ===
+        const ClosingSoonCarousel = ({ grants, savedIds, onToggleSave }) => {
+            const trackRef = React.useRef(null);
+            const [isPaused, setIsPaused] = useState(false);
+
+            const closingSoon = useMemo(() => {
+                const now = new Date();
+                now.setHours(0, 0, 0, 0);
+                return grants
+                    .filter(g => {
+                        if (!g.deadline || g.deadline === 'Rolling' || g.deadline.toLowerCase() === 'rolling') return false;
+                        const dl = new Date(g.deadline);
+                        if (isNaN(dl.getTime())) return false;
+                        const days = Math.ceil((dl - now) / (1000 * 60 * 60 * 24));
+                        return days > 0 && days <= 90;
+                    })
+                    .sort((a, b) => new Date(a.deadline) - new Date(b.deadline))
+                    .slice(0, 10);
+            }, [grants]);
+
+            if (closingSoon.length === 0) return null;
+
+            // Double the items for infinite loop illusion
+            const items = [...closingSoon, ...closingSoon];
+            const cardW = 312; // 300px card + 12px gap
+            const totalW = closingSoon.length * cardW;
+            const duration = closingSoon.length * 6; // 6s per card = slow creep
+
+            return (
+                <div className="bg-gradient-to-r from-red-50 via-orange-50 to-amber-50 border-b border-hub-border">
+                    <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                        <div className="flex items-center justify-between mb-3">
+                            <div className="flex items-center gap-2">
+                                <span className="relative flex h-3 w-3">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                                </span>
+                                <h2 className="font-serif text-lg font-semibold text-hub-text">Closing Soon</h2>
+                                <span className="text-xs text-hub-muted">— don't miss these</span>
+                            </div>
+                        </div>
+                        <style>{`
+                            @keyframes carousel-creep {
+                                0% { transform: translateX(0); }
+                                100% { transform: translateX(-${totalW}px); }
+                            }
+                            .carousel-track {
+                                animation: carousel-creep ${duration}s linear infinite;
+                            }
+                            .carousel-track:hover {
+                                animation-play-state: paused;
+                            }
+                        `}</style>
+                        <div className="overflow-hidden">
+                            <div
+                                ref={trackRef}
+                                className="carousel-track flex gap-3"
+                                style={{ width: `${items.length * cardW}px` }}
+                            >
+                                {items.map((opp, idx) => {
+                                    const config = TYPE_CONFIG[opp.opportunityType] || TYPE_CONFIG.grant;
+                                    const Icon = config.icon;
+                                    const now = new Date(); now.setHours(0,0,0,0);
+                                    const dl = new Date(opp.deadline);
+                                    const days = Math.ceil((dl - now) / (1000*60*60*24));
+                                    const amount = opp.framingLabel
+                                        || formatAmount(opp.perAwardMin || opp.amountMin || opp.minAmount, opp.perAwardMax || opp.amountMax || opp.maxAmount);
+                                    const urgency = days <= 7 ? 'bg-red-100 text-red-700 border-red-200'
+                                        : days <= 30 ? 'bg-orange-100 text-orange-700 border-orange-200'
+                                        : 'bg-amber-100 text-amber-700 border-amber-200';
+                                    return (
+                                        <div
+                                            key={`${opp._id || opp.name}-${idx}`}
+                                            className="flex-none w-[300px] bg-white rounded-xl border border-gray-200 hover:shadow-md transition-shadow p-4 cursor-pointer"
+                                            style={{ borderLeftWidth: '3px', borderLeftColor: config.color }}
+                                        >
+                                            <div className="flex items-center justify-between mb-2">
+                                                <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ backgroundColor: config.color }}>
+                                                    <Icon size={10} />
+                                                    {config.label}
+                                                </span>
+                                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${urgency}`}>
+                                                    {days <= 1 ? 'TOMORROW' : days <= 7 ? `${days} DAYS LEFT` : `${days}d left`}
+                                                </span>
+                                            </div>
+                                            <h4 className="font-semibold text-sm text-hub-text leading-snug mb-1 line-clamp-2">{opp.name}</h4>
+                                            <p className="text-xs text-hub-muted mb-2">{opp.funder}</p>
+                                            {amount && <span className="text-xs font-bold text-hub-grant">{amount}</span>}
+                                            {(opp.achievabilityTips || []).length > 0 && (
+                                                <p className="text-[10px] text-emerald-600 font-medium mt-1.5 line-clamp-1">→ {opp.achievabilityTips[0]}</p>
+                                            )}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
         const OpportunityCard = ({ opp, saved, onToggleSave }) => {
+            const [expanded, setExpanded] = useState(false);
             const config = TYPE_CONFIG[opp.opportunityType] || TYPE_CONFIG.grant;
             const Icon = config.icon;
-            const amount = formatAmount(opp.amountMin || opp.minAmount, opp.amountMax || opp.maxAmount);
+            const amount = opp.framingLabel
+                || formatAmount(opp.perAwardMin || opp.amountMin || opp.minAmount, opp.perAwardMax || opp.amountMax || opp.maxAmount);
             const statusNorm = (opp.status === 'Open Now' || opp.status === 'Open') ? 'Open' : opp.status;
             const oppId = opp._id || opp.name;
 
@@ -470,38 +573,109 @@
                             )}
                         </div>
 
-                        {/* Stage tags */}
-                        <div className="flex gap-2 mb-3">
+                        {/* Stage tags + support flags */}
+                        <div className="flex flex-wrap gap-2 mb-3">
                             {opp.supportsStartup && <span className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted bg-gray-100 px-2 py-0.5 rounded">Startup</span>}
                             {opp.supportsGrowth && <span className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted bg-gray-100 px-2 py-0.5 rounded">Growth</span>}
                             {opp.supportsScale && <span className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted bg-gray-100 px-2 py-0.5 rounded">Scale</span>}
+                            {(opp.supportFlags || []).map(flag => (
+                                <span key={flag} className="text-[10px] uppercase tracking-wider font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">
+                                    {flag.replace('-', ' ')}
+                                </span>
+                            ))}
                         </div>
 
-                        {/* Access Support badge */}
-                        <div className="mb-4">
-                            <AccessSupportBadge funder={opp.funder} opportunityType={opp.opportunityType} />
-                        </div>
+                        {/* First achievability tip (always visible) */}
+                        {opp.achievabilityTips && opp.achievabilityTips.length > 0 && (
+                            <p className="text-xs font-medium text-emerald-700 flex items-start gap-1.5 mb-3">
+                                <span className="text-emerald-500 mt-0.5">→</span>
+                                {opp.achievabilityTips[0]}
+                            </p>
+                        )}
 
-                        {/* CTA */}
-                        {opp.website && opp.website !== '#' ? (
-                            <a
-                                href={opp.website}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90 text-white mt-auto"
-                                style={{ backgroundColor: config.color }}
-                            >
-                                View Details
-                                <ExternalLink size={14} />
-                            </a>
-                        ) : (
-                            <div
-                                className="flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium mt-auto text-white opacity-60"
-                                style={{ backgroundColor: config.color }}
-                            >
-                                Details Coming Soon
+                        {/* Expanded detail panel */}
+                        {expanded && (
+                            <div className="border-t border-gray-100 pt-3 mb-3 space-y-3 animate-in slide-in-from-top-2">
+                                {/* Full description */}
+                                <p className="text-sm text-hub-text leading-relaxed">{opp.description}</p>
+
+                                {/* Eligibility */}
+                                {opp.eligibility && (
+                                    <div>
+                                        <p className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted mb-1">Eligibility</p>
+                                        <p className="text-sm text-hub-text">{opp.eligibility}</p>
+                                    </div>
+                                )}
+
+                                {/* Per-award amounts (if different from display) */}
+                                {opp.perAwardMin && opp.perAwardMax && opp.framingLabel && (
+                                    <div>
+                                        <p className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted mb-1">Typical Award</p>
+                                        <p className="text-sm font-semibold text-hub-grant">
+                                            {formatAmount(opp.perAwardMin, opp.perAwardMax)}
+                                        </p>
+                                    </div>
+                                )}
+
+                                {/* All achievability tips */}
+                                {opp.achievabilityTips && opp.achievabilityTips.length > 1 && (
+                                    <div>
+                                        <p className="text-[10px] uppercase tracking-wider font-semibold text-hub-muted mb-1.5">How to Win This</p>
+                                        <div className="space-y-1.5">
+                                            {opp.achievabilityTips.map((tip, i) => (
+                                                <p key={i} className="text-xs font-medium text-emerald-700 flex items-start gap-1.5">
+                                                    <span className="text-emerald-500 mt-0.5">→</span>
+                                                    {tip}
+                                                </p>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+
+                                {/* Regions */}
+                                <div className="flex flex-wrap gap-1">
+                                    {(opp.regions || []).map(r => (
+                                        <span key={r} className="text-[10px] px-2 py-0.5 rounded bg-blue-50 text-blue-700 font-medium">{r}</span>
+                                    ))}
+                                </div>
+
+                                {/* Access Support */}
+                                <AccessSupportBadge funder={opp.funder} opportunityType={opp.opportunityType} />
                             </div>
                         )}
+
+                        {/* Expand/Collapse + CTA row */}
+                        <div className="flex gap-2 mt-auto">
+                            <button
+                                onClick={() => setExpanded(!expanded)}
+                                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-lg text-sm font-medium transition-all bg-gray-100 hover:bg-gray-200 text-hub-text"
+                            >
+                                {expanded ? 'Less' : 'More'}
+                                {expanded
+                                    ? React.createElement(ChevronUp, { size: 14 })
+                                    : React.createElement(ChevronDown, { size: 14 })
+                                }
+                            </button>
+                            {opp.website && opp.website !== '#' ? (
+                                <a
+                                    href={opp.website}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium transition-all hover:opacity-90 text-white"
+                                    style={{ backgroundColor: config.color }}
+                                >
+                                    Apply
+                                    <ExternalLink size={14} />
+                                </a>
+                            ) : (
+                                <div
+                                    className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium text-white opacity-60"
+                                    style={{ backgroundColor: config.color }}
+                                >
+                                    Coming Soon
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             );
@@ -528,10 +702,14 @@
                         const convexGrants = result.map(g => ({
                             ...g,
                             name: g.grantName || g.name || 'Unnamed Grant',
-                            // Use opportunityType from Convex if present, default to 'grant'
                             opportunityType: g.opportunityType || 'grant',
                             amountMin: g.amountMin || 0,
                             amountMax: g.amountMax || 0,
+                            perAwardMin: g.perAwardMin || null,
+                            perAwardMax: g.perAwardMax || null,
+                            framingLabel: g.framingLabel || null,
+                            supportFlags: g.supportFlags || [],
+                            achievabilityTips: g.achievabilityTips || [],
                             sectors: g.eligibleSectors || [],
                             regions: g.regions || [g.geographicFocus || 'UK-wide'],
                             status: g.status === 'Open Now' ? 'Open' : g.status,
@@ -735,6 +913,9 @@
                             </div>
                         </div>
                     </header>
+
+                    {/* Closing Soon Carousel */}
+                    <ClosingSoonCarousel grants={grants} savedIds={savedIds} onToggleSave={toggleSave} />
 
                     {/* Type pills bar */}
                     <div className="bg-white border-b border-hub-border">
