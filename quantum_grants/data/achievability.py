@@ -23,81 +23,107 @@ def generate_tips(record: dict[str, Any]) -> list[str]:
     # --- Procurement playbook ---
     if otype == "procurement":
         tips.append(
-            "Two routes: join a main contractor's supply chain, "
-            "or build an alliance and bid as lead"
+            "Join a bigger firm's supply chain "
+            "\u2014 you don't need to win the whole contract"
         )
         tips.append(
-            "These award much higher than grants "
-            "\u2014 solid yearly income if you build the relationship"
+            "This pays more than grants and comes back every year "
+            "if you do good work"
         )
         if any(k in funder for k in ["council", "authority", "nhs"]):
             tips.append(
-                "Know someone in the council? "
-                "Those relationships are your route in"
+                "Already know people at the council or NHS? "
+                "That's your way in \u2014 use those connections"
             )
         if any(k in desc for k in ["social", "health", "housing", "treasury"]):
             tips.append(
-                "Know inside workers in social housing, treasury, or health? "
-                "Those relationships are your edge"
+                "If you work in health, housing, or social care already, "
+                "you're ahead of most bidders"
             )
         if regions:
             region_str = regions[0] if isinstance(regions[0], str) else str(regions[0])
             tips.append(
-                f"Local knowledge wins \u2014 if you're active in {region_str}, "
-                "you already have an advantage"
+                f"Being based in {region_str} is a real advantage here "
+                "\u2014 they want local delivery"
             )
 
     # --- Contract scaling ---
     elif otype == "contract":
         tips.append(
-            "Build your team, scale fractionally, "
-            "deliver across multiple locations"
+            "Start small, hire as you grow "
+            "\u2014 you don't need a big team on day one"
         )
         if amt > 500_000:
             tips.append(
-                "Alliance opportunity \u2014 partner with charities, "
-                "schools, and clinics in your area"
+                "Too big alone? Team up with local charities or community groups "
+                "and bid together"
             )
         tips.append(
-            "Solid yearly income if you build good relationships "
-            "and bring the team"
+            "Contracts mean steady income, not one-off funding "
+            "\u2014 think long term"
         )
 
     # --- Accelerators ---
     elif otype == "accelerator":
-        tips.append("Includes structured support and mentoring")
+        tips.append(
+            "You get money plus free coaching and contacts "
+            "\u2014 two wins from one application"
+        )
         if record.get("supportsStartup"):
-            tips.append("Designed for early-stage organisations")
+            tips.append("Built for people just starting out \u2014 no track record needed")
 
     # --- Competitions ---
     elif otype == "competition":
-        tips.append("Innovation-focused \u2014 strong concept matters more than track record")
+        tips.append(
+            "Your idea matters more than your history "
+            "\u2014 new CICs can absolutely win these"
+        )
         if diff and diff >= 4:
-            tips.append("Competitive process \u2014 budget time for a strong application")
+            tips.append("Give yourself a week to write this one \u2014 it's competitive but worth it")
 
     # --- CSR ---
     elif otype == "csr":
-        tips.append("Corporate partner angle \u2014 align your pitch to their social value goals")
+        tips.append(
+            "Companies need to show social impact "
+            "\u2014 pitch how your CIC helps them tick that box"
+        )
 
     # --- Social investment ---
     elif otype == "social_investment":
-        tips.append("Blended funding \u2014 part grant, part loan. Understand the repayment terms")
+        tips.append(
+            "Part grant, part loan \u2014 read the terms carefully "
+            "so you know what you pay back"
+        )
+        tips.append(
+            "Good option if grants aren't enough "
+            "\u2014 the loan part is usually low interest"
+        )
 
     # --- Grant-specific (default) ---
     else:
-        if amt and amt > 150_000:
+        if amt and amt <= 10_000:
+            tips.append("Small pot, quick decision \u2014 apply this week")
+        elif amt and amt <= 25_000:
+            tips.append("Perfect size for one focused project \u2014 keep it simple")
+        elif amt and amt > 150_000:
             if "capital" in desc or "building" in desc or "refurb" in desc:
-                tips.append("Capital funding \u2014 for buildings, equipment, or major refurbishment")
+                tips.append("For buildings and equipment \u2014 not running costs")
             elif "heritage" in desc:
-                tips.append("Heritage funding \u2014 for cultural and historical projects")
+                tips.append("Heritage money \u2014 great if your work touches culture or history")
             elif "core" in desc:
-                tips.append("Core costs funding \u2014 covers salaries, rent, and running costs")
+                tips.append("Covers salaries, rent, and bills \u2014 the hardest funding to find")
+        if "partnership" in desc or "collaborat" in desc:
+            tips.append("They want partnerships \u2014 who could you team up with locally?")
+        if "evidence" in desc or "impact" in desc:
+            tips.append("Show your impact with real numbers \u2014 people helped, sessions run, lives changed")
 
     # --- Universal tips ---
     if diff is not None and diff <= 2:
-        tips.append("Lightweight application \u2014 worth a quick bid")
+        tips.append("Short form, quick turnaround \u2014 you could apply today")
+    elif diff is not None and diff == 3:
+        tips.append("Standard application \u2014 set aside a couple of hours")
     if record.get("supportsStartup"):
-        tips.append("New CICs welcome")
+        tips.append("Open to brand new CICs \u2014 no trading history needed")
 
     return tips[:3]
 
